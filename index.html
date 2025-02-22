@@ -64,10 +64,10 @@
                 const card = document.createElement("div");
                 card.className = "card";
                 card.innerHTML = `
-                    <strong>${entry.name} (${entry.year || "Unbekannt"})</strong>
+                    <strong>${entry.name} (${entry.year || "unknown"})</strong>
                     <em>"${entry.quote}"</em>
-                    <p>🌍 ${entry.language} | 🏳 ${entry.country || "Unbekannt"}</p>
-                    <p>📖 Source: ${entry.source || "Unbekannt"}</p>
+                    <p>🌍 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
+                    <p>📖 Source: ${entry.source || "unknown"}</p>
                 `;
                 container.appendChild(card);
             });
