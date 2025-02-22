@@ -3,27 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What is Activism</title>
+    <title>Aktivismus-Zitate</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .search-box { margin-bottom: 10px; }
+        .filters { margin-bottom: 20px; }
+        .card { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 8px; background: #f9f9f9; }
+        .card strong { display: block; margin-bottom: 5px; }
+    </style>
 </head>
 <body>
-    <h1>What is Activism</h1>
-    <ul id="quotes-list"></ul>
+    <h1>Aktivismus-Zitate</h1>
+    
+    <input type="text" id="search" class="search-box" placeholder="🔍 Suche nach Namen oder Zitat" onkeyup="filterQuotes()">
+    
+    <select id="languageFilter" class="filters" onchange="filterQuotes()">
+        <option value="">🌍 Sprache wählen</option>
+    </select>
+    
+    <select id="countryFilter" class="filters" onchange="filterQuotes()">
+        <option value="">🏳 Land wählen</option>
+    </select>
+    
+    <div id="quotes-container"></div>
 
     <script>
+        let quotesData = [];
+        
         async function loadYAML() {
-            const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/refs/heads/main/activism_quotes2.yaml'); // YAML-Datei laden
+            const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/refs/heads/main/activism_quotes2.yaml');
             const text = await response.text();
-            const data = jsyaml.load(text); // YAML in JSON umwandeln
+            quotesData = jsyaml.load(text);
+            populateFilters();
+            displayQuotes(quotesData);
+        }
+        
+        function populateFilters() {
+            const languages = [...new Set(quotesData.map(q => q.language).filter(Boolean))];
+            const countries = [...new Set(quotesData.map(q => q.country).filter(Boolean))];
             
-            const list = document.getElementById("quotes-list");
-            data.forEach(entry => {
-                const listItem = document.createElement("li");
-                listItem.innerHTML = `<strong>${entry.name}</strong>: "${entry.quote}"`;
-                list.appendChild(listItem);
+            const langSelect = document.getElementById("languageFilter");
+            languages.forEach(lang => {
+                let option = new Option(lang, lang);
+                langSelect.add(option);
+            });
+            
+            const countrySelect = document.getElementById("countryFilter");
+            countries.forEach(country => {
+                let option = new Option(country, country);
+                countrySelect.add(option);
             });
         }
-
+        
+        function displayQuotes(data) {
+            const container = document.getElementById("quotes-container");
+            container.innerHTML = "";
+            
+            data.forEach(entry => {
+                const card = document.createElement("div");
+                card.className = "card";
+                card.innerHTML = `
+                    <strong>${entry.name} (${entry.year || "Unbekannt"})</strong>
+                    <em>"${entry.quote}"</em>
+                    <p>🌍 ${entry.language} | 🏳 ${entry.country || "Unbekannt"}</p>
+                    <p>📖 Quelle: ${entry.source || "Unbekannt"}</p>
+                `;
+                container.appendChild(card);
+            });
+        }
+        
+        function filterQuotes() {
+            let search = document.getElementById("search").value.toLowerCase();
+            let langFilter = document.getElementById("languageFilter").value;
+            let countryFilter = document.getElementById("countryFilter").value;
+            
+            let filteredData = quotesData.filter(entry =>
+                (entry.name.toLowerCase().includes(search) || entry.quote.toLowerCase().includes(search)) &&
+                (langFilter === "" || entry.language === langFilter) &&
+                (countryFilter === "" || entry.country === countryFilter)
+            );
+            
+            displayQuotes(filteredData);
+        }
+        
         loadYAML();
     </script>
 </body>
