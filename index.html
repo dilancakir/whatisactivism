@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktivismus-Zitate</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+    <h1>Aktivismus-Zitate</h1>
+    <ul id="quotes-list"></ul>
+
+    <script>
+        async function loadYAML() {
+            const response = await fetch('activism_quotes.yaml'); // YAML-Datei laden
+            const text = await response.text();
+            const data = jsyaml.load(text); // YAML in JSON umwandeln
+            
+            const list = document.getElementById("quotes-list");
+            data.forEach(entry => {
+                const listItem = document.createElement("li");
+                listItem.innerHTML = `<strong>${entry.name}</strong>: "${entry.quote}"`;
+                list.appendChild(listItem);
+            });
+        }
+
+        loadYAML();
+    </script>
+</body>
+</html>
