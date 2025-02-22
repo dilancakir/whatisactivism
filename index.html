@@ -14,16 +14,16 @@
     </style>
 </head>
 <body>
-    <h1>Aktivismus-Zitate</h1>
+    <h1>What is Activism</h1>
     
-    <input type="text" id="search" class="search-box" placeholder="🔍 Suche nach Namen oder Zitat" onkeyup="filterQuotes()">
+    <input type="text" id="search" class="search-box" placeholder="🔍 Search for names or quotes" onkeyup="filterQuotes()">
     
     <select id="languageFilter" class="filters" onchange="filterQuotes()">
-        <option value="">🌍 Sprache wählen</option>
+        <option value="">🌍 Select language</option>
     </select>
     
     <select id="countryFilter" class="filters" onchange="filterQuotes()">
-        <option value="">🏳 Land wählen</option>
+        <option value="">🏳 Select country</option>
     </select>
     
     <div id="quotes-container"></div>
@@ -67,7 +67,7 @@
                     <strong>${entry.name} (${entry.year || "Unbekannt"})</strong>
                     <em>"${entry.quote}"</em>
                     <p>🌍 ${entry.language} | 🏳 ${entry.country || "Unbekannt"}</p>
-                    <p>📖 Quelle: ${entry.source || "Unbekannt"}</p>
+                    <p>📖 Source: ${entry.source || "Unbekannt"}</p>
                 `;
                 container.appendChild(card);
             });
