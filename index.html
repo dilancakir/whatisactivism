@@ -90,6 +90,16 @@
             });
         }
 
+        async function fetchZoteroData(zoteroKey) {
+            const groupID = "5261383"; // Zotero Gruppen-ID
+            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}`);
+            
+            if (!response.ok) return "Nicht gefunden";
+            
+            const data = await response.json();
+            return data.data.title || "Kein Titel";
+        }
+
         function filterQuotes() {
             let search = document.getElementById("search").value.toLowerCase();
             let langFilter = document.getElementById("languageFilter").value;
@@ -103,6 +113,7 @@
 
             displayQuotes(filteredData);
         }
+
 
         loadYAML();
     </script>
