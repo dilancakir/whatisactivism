@@ -67,10 +67,22 @@
                     <strong>${entry.name} (${entry.year || "unknown"})</strong>
                     <em>"${entry.quote}"</em>
                     <p>🌍 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-                    <p>📖 Source: <span>${entry.bibliographical_info || "unknown"}</span></p>
                     <p>🚻 Gender: ${entry.gender || "unknown"}</p>
                     <p>🔗 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
                     <p>🌐 WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
+                    <p>📖 Source: <span id="source-${entry.id}">loading...</span></p>
+                    <script>
+                    async function fetchZoteroData(zoteroKey) {
+                    const response = await fetch(`https://api.zotero.org/users/YOUR_USER_ID/items/${zoteroKey}`);
+                    if (!response.ok) return "Nicht gefunden";
+                    const data = await response.json();
+                    return data.data.title || "Kein Titel";
+                    }
+
+                    fetchZoteroData(entry.zotero_key).then(title => {
+                    document.getElementById(`source-${entry.id}`).innerText = title;
+                    });
+                    </script>
                 `;
                 container.appendChild(card);
             });
