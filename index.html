@@ -81,37 +81,46 @@
                 container.appendChild(card);
 
                 // Zotero API Daten nachladen, falls key vorhanden
-                if (entry.zotero_key) {
-                    fetchZoteroData(entry.zotero_key).then(title => {
-                        document.getElementById(`source-${entry.id}`).innerText = title;
-                    });
-                }
-            });
-        }
+if (entry.zotero_key) {
+    fetchZoteroData(entry.zotero_key).then(sourceInfo => {
+        document.getElementById(`source-${entry.id}`).innerText = sourceInfo;
+    });
+}
 
-        async function fetchZoteroData(zoteroKey) {
-            const groupID = "5261383"; // Zotero Gruppen-ID
-            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}`);
-            
-            if (!response.ok) return "not found";
-            
-            const data = await response.json();
-            return data.data.title || "no title";
-        }
+async function fetchZoteroData(zoteroKey) {
+    const groupID = "5261383"; // Zotero Gruppen-ID
+    const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
+    
+    if (!response.ok) return "Quelle nicht gefunden";
 
-        function filterQuotes() {
-            let search = document.getElementById("search").value.toLowerCase();
-            let langFilter = document.getElementById("languageFilter").value;
-            let countryFilter = document.getElementById("countryFilter").value;
+    const data = await response.json();
 
-            let filteredData = quotesData.filter(entry =>
-                (entry.name.toLowerCase().includes(search) || entry.quote.toLowerCase().includes(search)) &&
-                (langFilter === "" || entry.language === langFilter) &&
-                (countryFilter === "" || entry.country === countryFilter)
-            );
+    if (data && data.data) {
+        let author = data.data.creators?.[0]?.lastName || "Unbekannter Autor";
+        let title = data.data.title || "Unbekannter Titel";
+        let year = data.data.date?.substring(0, 4) || "Unbekanntes Jahr";
+        let place = data.data.place || "Unbekannter Ort";
 
-            displayQuotes(filteredData);
-        }
+        return `${author}: "${title}". ${place}, ${year}`;
+    }
+
+    return "Quelle nicht gefunden";
+}
+
+function filterQuotes() {
+    let search = document.getElementById("search").value.toLowerCase();
+    let langFilter = document.getElementById("languageFilter").value;
+    let countryFilter = document.getElementById("countryFilter").value;
+
+    let filteredData = quotesData.filter(entry =>
+        (entry.name.toLowerCase().includes(search) || entry.quote.toLowerCase().includes(search)) &&
+        (langFilter === "" || entry.language === langFilter) &&
+        (countryFilter === "" || entry.country === countryFilter)
+    );
+
+    displayQuotes(filteredData);
+}
+
 
 
         loadYAML();
