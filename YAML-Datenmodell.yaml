@@ -1,10 +1,12 @@
-- id: ''
-  GND: ''
-  WikiID: ''
-  country: ''
-  zotero_key: ''
-  language: ''
-  person: []
-  year: ''
-  quote: ''
+- id:
+  GND:
+  WikiID:
+  country:
+  zotero_key:
+  language:
+  person:
+   - name:
+     gender:
+  year:
+  quote: 
   bibliographical_info: ''
