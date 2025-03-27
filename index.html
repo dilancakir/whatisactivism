@@ -65,12 +65,12 @@
             const data = await response.json();
 
             if (data && data.data) {
-                let author = data.data.creators?.[0]?.lastName || "author unknown";
+                let person = data.data.creators?.[0]?.lastName || "person unknown";
                 let title = data.data.title || "title unknown";
                 let year = data.data.date?.substring(0, 4) || "year unknown";
                 let place = data.data.place || "place unknown";
 
-                return `${author}: "${title}". ${place}, ${year}`;
+                return `${person}: "${title}". ${place}, ${year}`;
             }
 
             return "source unknown";
