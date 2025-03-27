@@ -56,26 +56,6 @@
             });
         }
 
-        async function fetchZoteroData(zoteroKey) {
-            const groupID = "5261383"; // Zotero Gruppen-ID
-            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
-            
-            if (!response.ok) return "source unknown";
-
-            const data = await response.json();
-
-            if (data && data.data) {
-                let person = data.data.creators?.[0]?.lastName || "person unknown";
-                let title = data.data.title || "title unknown";
-                let year = data.data.date?.substring(0, 4) || "year unknown";
-                let place = data.data.place || "place unknown";
-
-                return `${person}: "${title}". ${place}, ${year}`;
-            }
-
-            return "source unknown";
-        }
-
         function displayQuotes(data) {
             const container = document.getElementById("quotes-container");
             container.innerHTML = "";
@@ -83,23 +63,21 @@
             data.forEach(entry => {
                 const card = document.createElement("div");
                 card.className = "card";
+
+                // Autor*innen formatieren und Gender anzeigen
+                let authors = entry.person && entry.person.length 
+                    ? entry.person.map(p => `${p.name} (${p.gender || "unknown"})`).join(", ") 
+                    : "unknown";
+
                 card.innerHTML = `
-                    <strong>${entry.name} (${entry.year || "unknown"})</strong>
+                    <strong>${authors} (${entry.year || "unknown"})</strong>
                     <em>"${entry.quote}"</em>
                     <p>🌍 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-                    <p>🚻 Gender: ${entry.gender || "unknown"}</p>
                     <p>🔗 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
                     <p>🌐 WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
-                    <p>📖 Source: <span id="source-${entry.id}">loading...</span></p>
+                    <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
                 `;
                 container.appendChild(card);
-
-                // Zotero-Daten laden, falls vorhanden
-                if (entry.zotero_key) {
-                    fetchZoteroData(entry.zotero_key).then(sourceInfo => {
-                        document.getElementById(`source-${entry.id}`).innerText = sourceInfo;
-                    });
-                }
             });
         }
 
@@ -109,7 +87,7 @@
             let countryFilter = document.getElementById("countryFilter").value;
 
             let filteredData = quotesData.filter(entry =>
-                (entry.name.toLowerCase().includes(search) || entry.quote.toLowerCase().includes(search)) &&
+                (entry.person.some(p => p.name.toLowerCase().includes(search)) || entry.quote.toLowerCase().includes(search)) &&
                 (langFilter === "" || entry.language === langFilter) &&
                 (countryFilter === "" || entry.country === countryFilter)
             );
