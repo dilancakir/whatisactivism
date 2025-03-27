@@ -70,7 +70,10 @@
                 let year = data.data.date?.substring(0, 4) || "year unknown";
                 let place = data.data.place || "place unknown";
 
-                return `${person}: "${title}". ${place}, ${year}`;
+                return {
+                    text: `${person}: "${title}". ${place}, ${year}`,
+                    url: `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`
+                };
             }
 
             return "source unknown";
@@ -96,14 +99,18 @@
                     <p>🔗 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
                     <p>🌐 WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
                     <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
-                    <p>📚 Source: <span id="source-${entry.id}">loading...</span></p>
+                    <p>📚 Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
                 `;
                 container.appendChild(card);
 
                 // Zotero-Daten laden, falls vorhanden
                 if (entry.zotero_key) {
                     fetchZoteroData(entry.zotero_key).then(sourceInfo => {
-                        document.getElementById(`source-${entry.id}`).innerText = sourceInfo;
+                        if (sourceInfo !== "source unknown") {
+                            document.getElementById(`zotero-link-${entry.id}`).innerHTML = `<a href="${sourceInfo.url}" target="_blank">${sourceInfo.text}</a>`;
+                        } else {
+                            document.getElementById(`zotero-link-${entry.id}`).innerText = sourceInfo;
+                        }
                     });
                 }
             });
