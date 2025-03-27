@@ -1042,6 +1042,6 @@
   person:
    - name: Schwerdtner, Ines
      gender: f
-  year: 2025
+  year: 2025.0
   quote: Aktivismus allein reicht nicht aus. Wer nachhaltig etwas verändern will, muss in eine Partei.
   bibliographical_info: '(last accessed 27.03.2025)'
