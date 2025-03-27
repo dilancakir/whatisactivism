@@ -4,11 +4,12 @@
     Aktivismus (05.09.2022), https://www.aufbau-verlage.de/aufbau/im-gespraech/die-weltverbesserer-knut-cordsen-ueber-das-jahrhundertphaenomen-aktivismus
     (last accessed am 30.10.2023).'
   country: Germany
-  zotero_key: 2BCNJ29A
-  gender: m
+  zotero_key: 2BCNJ29A  
   id: quote_1
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: ' „[…] die Geschichte des Aktivismus beginnt in Deutschland vor rund hundert
     Jahren – mit Leuten wie dem späteren Friedensnobelpreisträger <person>Carl von Ossietzky</person>
     oder dem heute nahezu vergessenen <person>Kurt Hiller</person>, die den Begriff »Aktivismus« in
@@ -22,10 +23,11 @@
     am 31.10.2023)'
   country: Germany
   zotero_key: 5GVZA22Z
-  gender: m
   id: quote_2
   language: German
-  name: Czollek, Max
+  person:
+   - name: Czollek, Max
+     gender: m
   quote: „Aktivismus ohne Denken ist orientierungslos. Aber Denken ohne Aktivismus
     wirkungslos.“
   year: 2023.0
@@ -36,10 +38,11 @@
     Wien 1985, S. 186.'
   country: Germany
   zotero_key: KSLTL588
-  gender: m
   id: quote_3
   language: German
-  name: Schnitzler, Arthur
+  person:
+   - name: Schnitzler, Arthur
+     gender: m
   quote: “Aktivisten Wirrköpferei”
   year: 1918.0
 - GND: 1118875141
@@ -48,10 +51,11 @@
     Kämpfe um Freiräume und Kategorien. Bielefeld 2016, S. 42.'
   country: Germany
   zotero_key: NKYYY89B
-  gender: f
   id: quote_4
   language: German
-  name: Ommert, Alexandra
+  person:
+   - name: Ommert, Alexandra
+     gender: f
   quote: „Aktivismus ist ebenfalls ein passender Begriff, um das Phänomen zu beschreiben,
     dass Aktivist_innen sich temporär zusammenfinden, um ein konkretes Projekt gemeinsam
     zu verfolgen oder eine Aktion zu planen.“
@@ -62,10 +66,11 @@
     Kämpfe um Freiräume und Kategorien. Bielefeld 2016, S. 47'
   country: Germany
   zotero_key: NKYYY89B
-  gender: f
   id: quote_5
   language: German
-  name: Ommert, Alexandra
+  person:
+   - name: Ommert, Alexandra
+     gender: f
   quote: „Ich möchte Aktivismus mit Bezug auf Elke Zobl als rhizomatisches Netzwerk
     (vgl. Zobl 2012) verstehen, das aus einer Vielzahl von Knotenpunkten besteht.“
   year: 2016.0
@@ -75,10 +80,11 @@
     Kämpfe um Freiräume und Kategorien. Bielefeld 2016, S. 41'
   country: Germany
   zotero_key: NKYYY89B
-  gender: f
   id: quote_6
   language: German
-  name: Ommert, Alexandra
+  person:
+   - name: Ommert, Alexandra
+     gender: f
   quote: „In der deutschsprachigen Literatur setzt  sich die Bezeichnung Aktivismus
     langsam durch. Als wissenschaftlicher Begriff ist Aktivismus jedoch wenig theoretisch
     diskutiert und bestimmt.“
@@ -90,10 +96,11 @@
     22.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_7
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „[…] a project thaht might be characterized as activist in the sense that
     it activates us to reimagine how culture might be a useful tool for societal equity.“
   year: 2019.0
@@ -104,10 +111,11 @@
     17.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_8
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: '„[…] activism does share a certain traits with populism: it must be agile,
     fast, and responsive, and promt people to action.“'
   year: 2019.0
@@ -118,10 +126,11 @@
     24.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_9
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „[…] to help people who are oppressed an discriminated against qualifies
     as a form – and one definition of – activism […].“
   year: 2019.0
@@ -132,10 +141,11 @@
     23.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_10
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „Activism makes a demand. It is not content to remain just activism. Activism
     wants to become something other than activism; it seeks to transform ideas, politics,
     society, life.“
@@ -147,10 +157,11 @@
     17.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_11
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „Activism, let’s admit, is a form of branding too.“
   year: 2019.0
 - GND: 1057278327
@@ -160,10 +171,11 @@
     17.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_12
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: '„Although maybe this is one way to think about any kind of activism: as
     an act of abandoning self-interest, even if only temporarily in the interest of others.“'
   year: 2019.0
@@ -174,10 +186,11 @@
     27.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_13
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „And we shouldn’t forget that there is just as much right-wing ‚activism‘
     as there is progressive activism“
   year: 2019.0
@@ -188,10 +201,11 @@
     22.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_14
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „But was I engaging in curatorial activism, or rather just trying to be a
     decent human being? Most likley it was the latter."
   year: 2019.0
@@ -202,10 +216,11 @@
     23.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_15
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „Does not art, writing, or curating that defines itself as activist dream
     of influencing the conditions of realpolitik? For art activism to be useful, it
     must become, in a sense, a form of realpolitik […], even as it performs resistance
@@ -218,10 +233,11 @@
     20.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_16
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: „I’m not suggesting that one must be utterly selfless to engage in activism,
     because it’s not possible for humans to be completely selfless. And art is not
     a profession for the selfless.“
@@ -233,10 +249,11 @@
     28.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_17
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: '„Is curating the best way to do activism? Sometimes yes, sometimes no, and
     sometimes it’s just unclear.“ '
   year: 2019.0
@@ -247,10 +264,11 @@
     17.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_18
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: '„It is easier to talk the talk of activism than to walk the walk of activism.“ '
   year: 2019.0
 - GND: 1057278327
@@ -260,10 +278,11 @@
     19.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_19
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: '„just voting for the better candidate can be a form of activism.“ '
   year: 2019.0
 - GND: 1057278327
@@ -273,10 +292,11 @@
     23.'
   country: USA
   zotero_key: EZBLC4RE
-  gender: m
   id: quote_20
   language: English
-  name: Decter, Joshua
+  person:
+   - name: Decter, Joshua
+     gender: m
   quote: “Pragmatically speaking, all forms of activism are an outgrowth of, or reaction
     to, mainstream politics; a shadow of the dominant modes of political organization,
     not a seperate sphere of politics.“
@@ -288,10 +308,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 536'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_21
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: „[…]das Zusammenspiel von Empowerment und subversiver Sprache führt somit
     dazu, dass afrodeutsche Gegenwartslyrik zu einer Form des literarischen Aktivismus
     wird.“
@@ -302,10 +323,11 @@
     keinen Opferstatus‘, in: DIE WELT (06.11.2023), https://www.welt.de/kultur/literarischewelt/article248166220/Nora-Pester-Juedisches-Leben-braucht-Sichtbarkeit-keinen-Opferstatus.html.'
   country: Germany
   zotero_key: NIMNMCYJ
-  gender: f
   id: quote_22
   language: German
-  name: Pester, Nora
+  person:
+   - name: Pester, Nora
+     gender: f
   quote: '"Begreift sich ein Verlag, der auf seiner Homepage von ''jüdischer Selbstermächtigung
     und Selbstverteidigung'' spricht, als aktivistisch? Pester gibt eine ambivalente
     Antwort: ''Wir sind keine Aktivisten.''"'
@@ -317,10 +339,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 539.'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_23
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: '"Afrodeutsche Lyrik als Ausdruck von Widerstand und Aktivismus steht in
     einer literarischen Tradition, die eng mit der Schwarzen Frauenbewegung in Deutschland
     verknüpft ist und sich gegen ein gesellschaftliches Schweigen richtet."'
@@ -332,10 +355,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 540.'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_24
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: „May Ayim[…] prägte wie kaum eine andere die afrodeutschen Literaturen wie
     auch den Aktivismus. Ayims literarisches Schaffen sowie ihr Aktivismus für die
     Schwarze Community in Deutschland verbindet eine intersektionale Perspektive,
@@ -352,10 +376,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 541.'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_25
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: '"Lorde plädiert daher für eine ''Transformation des Schweigens in Sprache
     und Handlung'' und macht die enge Verknüpfung von Sprache und Aktivismus sichtbar."'
   year: 2022.0
@@ -366,10 +391,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 542.'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_26
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: '"Der subversive Sprachgebrauch führt dazu, dass die Gedichte selbst zu einer
     Form des literarischen Aktivismus werden, der gesellschaftliche Veränderungen
     möglich macht."'
@@ -381,10 +407,11 @@
     in: German Studies Review 45/3 (Oktober 2022), pp. 535–555, here p. 552.'
   country: Germany
   zotero_key: W4WXC258
-  gender: f
   id: quote_27
   language: German
-  name: Oholi, Jeannette
+  person:
+   - name: Oholi, Jeannette
+     gender: f
   quote: '"Dadurch können die lyrischen Texte als literarischer Aktivismus gelesen
     werden: Die Schwarzen Stimmen bemächtigen sich ihrer eigenen Sprache und leisten
     Widerstand, indem sie neue Räume schaffen und sich darin zu vielschichtigen Subjekten
@@ -395,11 +422,12 @@
   bibliographical_info: 'Trüper, Henning: Aktivismus und Kulturgeschichte des Moralischen.
     In: ZfL BLOG (blog), 21. November 2023. https://www.zflprojekte.de/zfl-blog/2023/11/21/henning-trueper-aktivismus-und-kulturgeschichte-des-moralischen/.'
   country: Germany
-  zotero_key: DZEYA7FG
-  gender: m
+  zotero_key: DZEYA7FG 
   id: quote_28
   language: German
-  name: Trüper, Henning
+  person:
+   - name: Trüper, Henning
+     gender: m
   quote: „Meist wird als Aktivismus die emphatische Teilnahme an sozialen Bewegungen
     emanzipatorischer Art bezeichnet. Es geht dabei häufig um marginalisierte Gruppen
     und Anliegen. For­derungen nach Ermächtigung und Gleichberechtigung sowie die
@@ -411,10 +439,11 @@
     In: ZfL BLOG (blog), 21. November 2023. https://www.zflprojekte.de/zfl-blog/2023/11/21/henning-trueper-aktivismus-und-kulturgeschichte-des-moralischen/.'
   country: Germany
   zotero_key: DZEYA7FG
-  gender: m
   id: quote_29
   language: German
-  name: Trüper, Henning
+  person:
+   - name: Trüper, Henning
+     gender: m
   quote: '„›Aktivismus‹  wird heute kontextabhängig in vielen Bedeutungen verwendet:
     als deskrip­tive Bestimmung, positiver Identifikationsbegriff, Begriff der polemischen
     Abwertung oder Zielscheibe jargonkritischen Spotts.“'
@@ -425,10 +454,11 @@
     In: ZfL BLOG (blog), 21. November 2023. https://www.zflprojekte.de/zfl-blog/2023/11/21/henning-trueper-aktivismus-und-kulturgeschichte-des-moralischen/.'
   country: Germany
   zotero_key: DZEYA7FG
-  gender: m
   id: quote_30
   language: German
-  name: Trüper, Henning
+  person:
+   - name: Trüper, Henning
+     gender: m
   quote: Bedeutungskonstituierende Kriterien für ›Aktivismus‹ wären demnach erstens
     politische Partizipation jenseits einer bloß passiven, handlungsfernen Zustimmung
     oder Ablehnung sowie zweitens das Vorhandensein eines kollektiven Handlungsmusters,
@@ -450,10 +480,11 @@
     Ricarda Dick. Göttingen 2010, p. 184-198, here p. 189.'
   country: Germany
   zotero_key: B6SXD4JK
-  gender: m
   id: quote_31
   language: German
-  name: Hiller, Kurt
+  person:
+   - name: Hiller, Kurt
+     gender: m
   quote: '"Expressionist Benn war nicht nur kein Aktivist, er war ein leidenschaftlicher
     Feind des Aktivismus."'
   year: 1961.0
@@ -462,10 +493,11 @@
   bibliographical_info: 'Rothe, Wolfgang: Der Aktivismus 1915-1920. München 1969, Klappentext.'
   country: Germany
   zotero_key: PJNXKZAN
-  gender: m
   id: quote_32
   language: German
-  name: Rothe, Wolfgang
+  person:
+   - name: Rothe, Wolfgang
+     gender: m
   quote: „Als ‚Aktivismus‘ bezeichnet Kurt Hiller Ende 1914 eine radikale geistige
     Bewegung innerhalb der expressionistischen Autorengeneration. Bereits in  den
     letzten Vorkriegsjahren entstanden, gewann sie unter dem Eindruck der apokalyptischen
@@ -477,10 +509,11 @@
     München 1969, pp. 7-22, here p. 7.'
   country: Germany
   zotero_key: PJNXKZAN
-  gender: m
   id: quote_33
   language: German
-  name: Rothe, Wolfgang
+  person:
+   - name: Rothe, Wolfgang
+     gender: m
   quote: “ganz zu schweigen von Heinrich Mann, dem Erzvater des ‘Aktivismus’, dessen
     Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - als eine Art Initialzündung
     gelten darf (Hiller eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).”
@@ -492,10 +525,11 @@
     München 1969, pp. 7-22, here p. 10.'
   country: Germany
   zotero_key: PJNXKZAN
-  gender: m
   id: quote_34
   language: German
-  name: Rothe, Wolfgang
+  person:
+   - name: Rothe, Wolfgang
+     gender: m
   quote: “Tat - das Schlüsselwort des Aktivismus!”
   year: 1969.0
 - GND: 454546416
@@ -504,10 +538,11 @@
     München 1969, pp. 7-22, here p. 12.'
   country: Germany
   zotero_key: PJNXKZAN
-  gender: m
   id: quote_35
   language: German
-  name: Rothe, Wolfgang
+  person:
+   - name: Rothe, Wolfgang
+     gender: m
   quote: '"Der Begriff Aktivismus täuscht eine Geschlossenheit und Einheitlichkeit
     vor, welche die Sache selber nie besessen hat."'
   year: 1969.0
@@ -517,10 +552,11 @@
     München 1969, pp. 7-22, here p. 12.'
   country: Germany
   zotero_key: PJNXKZAN
-  gender: m
   id: quote_36
   language: German
-  name: Rothe, Wolfgang
+  person:
+   - name: Rothe, Wolfgang
+     gender: m
   quote: '"Terminologisch sauberer wäre es, statt von Aktivisten von Aktiven, Handelnden
     zu reden [...]."'
   year: 1969.0
@@ -530,10 +566,11 @@
     unsere Gesellschaft? Berlin 2022, p. 1.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_37
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Aktivisten demonstrieren, mobilisieren, emotionalisieren auf allen ihnen
     zur Verfügung stehenden Kanälen."'
   year: 2022.0
@@ -543,10 +580,11 @@
     unsere Gesellschaft? Berlin 2022, p. 2.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_38
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"War früher ''Intellektueller'' ein begehrtes Adelsprädikat, wird nun auch
     in Autorenkreisen die Nomenklatur ''Aktivist'' bevorzugt."'
   year: 2022.0
@@ -556,10 +594,11 @@
     Freie Akademie der Künste in Hamburg 14 (1965), pp. 202–211, here p. 209.'
   country: Germany
   zotero_key: LCW8HEWW
-  gender: m
   id: quote_39
   language: German
-  name: Sokel, Walter
+  person:
+   - name: Sokel, Walter
+     gender: m
   quote: '"''Nicht Seinslehre, sondern Sollphilosophie'' ist der Aktivismus, so heißt
     es bald danach bei Kurt Hiller."'
   year: 1965.0
@@ -569,10 +608,11 @@
     In: Zeitschrift für deutsche Philologie 91/4 (1972), pp. 481–497, here p. 481.'
   country: Germany
   zotero_key: 3GFXTIDY
-  gender: m
   id: quote_40
   language: German
-  name: Eykmann, Christoph
+  person:
+   - name: Eykmann, Christoph
+     gender: m
   quote: '"Eine Unterströmung des Expressionismus wie etwa Kurt Hillers Aktivismus,
     welcher einen Bund der Geistigen, eine zum politischen Führertum bestimmte „Logokratie",
     forderte, beeindruckte zwar durch die Konsequenz der gedanklichen Konzeption und
@@ -584,10 +624,11 @@
     unsere Gesellschaft? Berlin 2022, p. 12.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_41
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Doch der Status des Aktivisten hat sich in den vergangenen hundert Jahren
     fundamental verändert. Er sit von der Randfigur zur bestimmenden Sozialfigur geworden.
     [...] der zeitgenössische Aktivist [nimmt] eine zentrale Stellung innerhalb der
@@ -599,10 +640,11 @@
     unsere Gesellschaft? Berlin 2022, p. 9.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_42
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Der Siegeszug des Aktivismus ist mittlerweile so weit fortgeschritten,
     dass er vom Kapitalismus vereinnahmt wird'
   year: 2022.0
@@ -612,10 +654,11 @@
     unsere Gesellschaft? Berlin 2022, p. 10.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_43
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"[...] der Aktivismus sei nicht kompetetiv, ihm gehe es um ''Kollaboration
     und Kooperation''."'
   year: 2022.0
@@ -625,10 +668,11 @@
     unsere Gesellschaft? Berlin 2022, p. 11.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_44
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Die ''Aktivisti'', wie sich gerne selbst bezeichnen, verfügen nicht allein
     über ein enormes aufmerksamkeitsökonomisches Kapital, sie sind die Bewusstseinsgroßindustriellen
     unserer Tage. Dem philosophischen Zeitdiagnostiker Peter Sloterdijk mag derlei
@@ -645,10 +689,11 @@
     Schriften. Ed. by. Werner Boldt. Reinbek bei Hamburg 1994, p.'
   country: Germany
   zotero_key: C7NHECS6
-  gender: m
   id: quote_45
   language: German
-  name: Ossietzky, Carl von
+  person:
+   - name: Ossietzky, Carl von
+     gender: m
   quote: '"Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt
     die deutschte Öffentlichkeit das Schlagwort Aktivismus, begierig aufgegriffen
     von der literarischen Jugend. Was haben wir in dem Worte zu suchen? Sehnsucht
@@ -664,10 +709,11 @@
     Schriften. Ed. by. Werner Boldt. Reinbek bei Hamburg 1994, p. 88.'
   country: Germany
   zotero_key: C7NHECS6
-  gender: m
   id: quote_46
   language: German
-  name: Ossietzky, Carl von
+  person:
+   - name: Ossietzky, Carl von
+     gender: m
   quote: '"Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
     Passivismus ist Ruhe, beharrliches Abschließen."'
   year: 1918.0
@@ -677,10 +723,11 @@
     unsere Gesellschaft? Berlin 2022, p. 13.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_47
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Berufsaktivisten sind heute so selbstverständlich wie Berufspolitiker.
     [...] Aktivismus ist ein Full-Time-Job geworden."'
   year: 2022.0
@@ -690,10 +737,11 @@
     unsere Gesellschaft? Berlin 2022, p. 13.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_48
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Darüber hinaus begleitet den Aktivismus seit seinem Beginn der Verdacht
     des ''Scheinaktivismus'', wie das der hellsichtige Georg Lukás schon 1934 nannte.
     Der Scheinaktivismus unserer Tage heißt ''Slacktivism''."'
@@ -704,10 +752,11 @@
     unsere Gesellschaft? Berlin 2022, p. 16.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_49
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Walter Benjamin, alle andere als ein Reaktionär, sprach 1932 vom ''Irrtum
     des Aktivismus''."'
   year: 2022.0
@@ -717,10 +766,11 @@
     unsere Gesellschaft? Berlin 2022, p. 17.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_50
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Schon von Aristoteles hat uns Arthur Schopenhauer den Satz überliefert:
     ''Das Leben besteht in der Bewegung und hat sein Wesen in ihr.'' Bräuchte der
     Aktivismus einen Leitsatz, hier wäre er."'
@@ -731,10 +781,11 @@
     unsere Gesellschaft? Berlin 2022, p. 21.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_51
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Der Aktivismus ist ein manifester Bestandteil unserer Gesellschaft geworden.
     Er ist aus ihr gar nicht mehr wegzudenken. Paradoxerweise aber ist er selbst nichts,
     was auf Dauer gestellt sein kann. Denn seine Daseinsberechtigung erlischt, wenn
@@ -746,10 +797,11 @@
     unsere Gesellschaft? Berlin 2022, p. 24.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_52
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Dieser apokalyptische Gestus, dieser endzeitliche Zug ist dem Aktivismus
     seit Anbeginn eingeschrieben."'
   year: 2022.0
@@ -759,10 +811,11 @@
     unsere Gesellschaft? Berlin 2022, p. 25.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_53
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Der Aktivist tritt seit frühesten Tagen als Rigorist*in und Wahrheitsmonopolist*in
     auf. [...] Die ersten Aktivisten haben ganz offen von sich als den ''Aristoi''
     hesprochen und damit klar zu verstehen gegeben, dass sie sich für ''die Besten''
@@ -774,10 +827,11 @@
     p. 67-74. In: Kritische Schriften III, p. 18-19.'
   country: Austria
   zotero_key: YXAGE56N
-  gender: m
   id: quote_54
   language: German
-  name: Müller, Robert
+  person:
+   - name: Müller, Robert
+     gender: m
   quote: '"Die Aktivsiten [...] werden vermittels des starken, kunstvoll gehobenen
     Wortes durchdringen, und die politische Klangfarbe des Jahrhunderts bestimmen."'
   year: 1921.0
@@ -787,10 +841,11 @@
     unsere Gesellschaft? Berlin 2022, p. 39.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_55
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Es gibt mindestens so viele Aktivismen wie Apfelsorten."'
   year: 2022.0
 - GND: 1154414639
@@ -799,10 +854,11 @@
     unsere Gesellschaft? Berlin 2022, p. 43.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_56
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Auffällig übrigens, wie oft die Wörter Held und Aktivist bzw. ''Held*in''
     und ''Aktivist*in'' synonym verwendet werden."'
   year: 2022.0
@@ -812,10 +868,11 @@
     unsere Gesellschaft? Berlin 2022, p. 44.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_57
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Die Laktivistin setzt sich dafür ein, dass Mütter ihren Kindern in der
     Öffentlichkeit die Brust geben können und nicht aus Angst vor zu viel nackter
     Haut des Raumes verwiesen werden."'
@@ -826,20 +883,22 @@
     unsere Gesellschaft? Berlin 2022, p. 47.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_58
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"[...] Helden der Arbeit hießen in der DDR: Aktivisten."'
   year: 2022.0
 - GND: .nan
   WikiID: .nan
   bibliographical_info: 'In: New York Times (20.06.2013)'
   country: USA
-  gender: m
   id: quote_59
   language: English
-  name: Greenwald, Glenn
+  person:
+   - name: Greenwald, Glenn
+     gender: m
   quote: „Nicht alle Aktivisten sind Journalisten, aber alle richtigen Journalisten
     sind Aktivisten“
   zotero_key: E7W5DSYK
@@ -850,10 +909,11 @@
     unsere Gesellschaft? Berlin 2022, p. 67-68.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_60
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Wenn Kunst und Aktivismus miteinander verschmelzen, entsteht ''Artivismus''.
     [...] Artivismus ist schließlich Sozialarbeit, neudeutsch Care-Arbeit. Der Künstler
     als Kümmerer."'
@@ -864,10 +924,11 @@
     unsere Gesellschaft? Berlin 2022, p. 73.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_61
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Nun sind die Grünen schon historisch die Partei mit der größten Affinität
     zum Aktivismus."'
   year: 2022.0
@@ -877,10 +938,11 @@
     unsere Gesellschaft? Berlin 2022, p. 79.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_62
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Heutige Identitäre treten ganz selbstverständlich als Aktivisten in Erscheinung."'
   year: 2022.0
 - GND: 18577166
@@ -888,10 +950,11 @@
   bibliographical_info: .nan
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_63
   language: German
-  name: Mann, Thomas
+  person:
+   - name: Mann, Thomas
+     gender: m
   quote: '"Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland ''Aktivismus''
     nennt, nichts ist als die Übertragung eines bestimmten Kunstgeschmacks und -temperaments
     in Politische. Eine Kunstschule [''Expressionismus''] von heftig aktivischen Bedürfnissen,
@@ -905,10 +968,11 @@
     unsere Gesellschaft? Berlin 2022, p. 89.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_64
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"[...] Rudi Dutschke, die Galionsfigur des SDS-Aktivismus [...]."'
   year: 2022.0
 - GND: 1154414639
@@ -917,10 +981,11 @@
     unsere Gesellschaft? Berlin 2022, p. 97.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_65
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Überhaupt, der Aktivismus, den Adorno Aktionismus nannte, war ihm suspekt."'
   year: 2022.0
 - GND: 1154414639
@@ -929,10 +994,11 @@
     unsere Gesellschaft? Berlin 2022, p. 99-100.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_66
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Twitter, einst gepriesen als Forum der Gegenöffentlichkeit, ist ein Tummelplatz
     für Aktivisten."'
   year: 2022.0
@@ -942,10 +1008,11 @@
     unsere Gesellschaft? Berlin 2022, p. 111.'
   country: Germany
   zotero_key: 2BCNJ29A
-  gender: m
   id: quote_67
   language: German
-  name: Cordsen, Knut
+  person:
+   - name: Cordsen, Knut
+     gender: m
   quote: '"Vom individuellen Profit ihres Tuns reden Aktivisten weitaus seltener als
     vom ''gesamtgesellschaftlichen'' Benefit."'
   year: 2022.0
@@ -957,10 +1024,15 @@
     Mono 02. Zürich: intercom Verlag, 2024. https://doi.org/10.5281/zenodo.10953093.'
   country: Switzerland
   zotero_key: MVY6Y7N3
-  gender: m/w
   id: quote_68
   language: English
-  name: Monot, Pierre-Héli, David Bebnowski, und Sakina Shakil Gröppmaier
+  person:
+   - name: Monot, Pierre-Héli
+    gender: m
+  - name: Bebnowski, David
+    gender: m
+  - name: Shakil Gröppmaier, Sakina
+    gender: f
   quote: '"This volume takes “activism” to be the most recent evolution of what has
     always constituted politics as seen from the perspective of the politically dominated."'
   year: 2024.0
@@ -973,14 +1045,19 @@
     here p. 11'
   country: Switzerland
   zotero_key: MVY6Y7N3
-  gender: m/w
   id: quote_69
   language: English
-  name: Monot, Pierre-Héli, David Bebnowski, und Sakina Shakil Gröppmaier
+  person:
+   - name: Monot, Pierre-Héli
+    gender: m
+  - name: Bebnowski, David
+    gender: m
+  - name: Shakil Gröppmaier, Sakina
+    gender: f
   quote: '"First of all, “activist writing” is a stand-in category. It refers to an
     array of literary forms and social practices that political, protest-driven, non-institutional
     agents use to further their causes. This approach, which emphasizes the agency
-    of authors, has largely become unfashionable in scholarship on political change
+    of person, has largely become unfashionable in scholarship on political change
     and activism."'
   year: 2024.0
 - GND: .nan
@@ -992,10 +1069,15 @@
     here p. 11'
   country: Switzerland
   zotero_key: MVY6Y7N3
-  gender: m/w
   id: quote_70
   language: English
-  name: Monot, Pierre-Héli, David Bebnowski, und Sakina Shakil Gröppmaier
+  person:
+   - name: Monot, Pierre-Héli
+    gender: m
+  - name: Bebnowski, David
+    gender: m
+  - name: Shakil Gröppmaier, Sakina
+    gender: f
   quote: '"Thus, activist writing is a deliberate puncturing of the fabric of institutionalized
     politics and social life. It is an effort to demand change, to reclaim ground
     and steer into unknown but auspicious territory. It is the space where political
@@ -1011,10 +1093,15 @@
     here p. 11'
   country: Switzerland
   zotero_key: MVY6Y7N3
-  gender: m/w
   id: quote_71
   language: English
-  name: Monot, Pierre-Héli, David Bebnowski, und Sakina Shakil Gröppmaier
+  person:
+   - name: Monot, Pierre-Héli
+    gender: m
+  - name: Bebnowski, David
+    gender: m
+  - name: Shakil Gröppmaier, Sakina
+    gender: w
   quote: '"Activists are communicators and writing is the practice with which they
     most clearly and concisely communicate their intentions and demands."'
   year: 2024.0
@@ -1027,10 +1114,11 @@
     98, Nr. 4 (1. Dezember 2024): 727–737. https://doi.org/10.1007/s41245-024-00263-8.'
   country: Germany
   zotero_key: 397K3P5E
-  gender: m
   id: quote_72
   language: German
-  name: Weiß, Volker
+  person:
+   - name: Weiß, Volker
+     gender: m
   quote: '"Und noch einmal zurück zur Frage nach Journalismus und Aktivismus: Wenn
     wir die Medien der anderen Seite anschauen, sind das durchgehend aktivistische
     Medien, ohne Ausnahme. Der Anspruch, keine Haltung zu haben, neutral zu sein,
@@ -1048,10 +1136,11 @@
     98, Nr. 4 (1. Dezember 2024): 727–737. https://doi.org/10.1007/s41245-024-00263-8.'
   country: Germany
   zotero_key: 397K3P5E
-  gender: m
   id: quote_73
   language: German
-  name: Lepper, Marcel
+  person:
+   - name: Lepper, Marcel
+     gender: m
   quote: '"Ja, der Aktivismus ist [in der Wissenschaft] gegenwärtig ein großes Thema.
     [...] Die Grundidee, dass Wissenschaft unpolitisch sei, ist bereits instrumentell
     und funktionalisierbar. Die Politisierung ist immer schon da."'
