@@ -1052,38 +1052,34 @@
   zotero_key: NQ4NG26R
   language: German
   person:
-   - name: Sina, Kai
-     gender: m
+    - name: Sina, Kai
+      gender: m
   year: 2024
-  quote: 
-  quote: |
-  [Der Begriff Aktivismus], der nachdem Ersten Weltkrieg
-  zu einer Modevokabel insbesondere linker politischer
-  Intellektueller geworden war.
+  quote: "Begriff [Aktivismus], der nachdem Ersten Weltkrieg zu einer Modevokabel insbesondere linker politischer Intellektueller geworden war."
   bibliographical_info: 'p. 16'
-  - id: quote_76
+- id: quote_76
   GND: 1024169928
   WikiID: Q95265865
   country: Germany
   zotero_key: NQ4NG26R
   language: German
   person:
-   - name: Sina, Kai
-     gender: m
+    - name: Sina, Kai
+      gender: m
   year: 2024
   quote: |
-  Vielmehr eröffnet die Rede ein Spektrum an Merkmalen und Eigenschaften,
-  das <person>[Thomas] Manns</person> Aktivismus seit den mittleren
-  Zwanzigerjahren in unterschiedliche Akzentuierungen und Facetten prägt.
-  Eingedenk dieser Einschränkungen meint 'aktivistisch' erstens, dass es einen
-  konkreten Anlass für das politische Einschreiten gibt (im beispielhaften Fall die
-  Reichstagswahl vom September 1930 mit dem alarmierenden Stimmenzuwachs der NSDAP);
-  dass Thomas Mann zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
-  teils auf Polemik zurückgreift (etwa wenn er den Nationalsozialisten einen politischen
-  'Groteskstil mit Heilsarmee-Allüren, Massenkrampf, Budengeläut' bescheinigt);
-  dass er drittens auf der Grundlage einer klaren moralischen Unterscheidung argumentiert
-  (eine Verletzung des 'Menschenanstands' erkennt er im politischen Rechtsruck); und
-  dass er viertens zielgerichtet vorgeht, also wirksamen Einfluss auf den Prozess der
-  öffentlichen Meinungsbildung nehmen will (was ja bereits durch die Gattungszuordnung
-  seiner Rede 'Appell' deutlich gemacht wird).
+    Vielmehr eröffnet die Rede ein Spektrum an Merkmalen und Eigenschaften,
+    das <person>[Thomas] Manns</person> Aktivismus seit den mittleren
+    Zwanzigerjahren in unterschiedliche Akzentuierungen und Facetten prägt.
+    Eingedenk dieser Einschränkungen meint 'aktivistisch' erstens, dass es einen
+    konkreten Anlass für das politische Einschreiten gibt (im beispielhaften Fall die
+    Reichstagswahl vom September 1930 mit dem alarmierenden Stimmenzuwachs der NSDAP);
+    dass Thomas Mann zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
+    teils auf Polemik zurückgreift (etwa wenn er den Nationalsozialisten einen politischen
+    'Groteskstil mit Heilsarmee-Allüren, Massenkrampf, Budengeläut' bescheinigt);
+    dass er drittens auf der Grundlage einer klaren moralischen Unterscheidung argumentiert
+    (eine Verletzung des 'Menschenanstands' erkennt er im politischen Rechtsruck); und
+    dass er viertens zielgerichtet vorgeht, also wirksamen Einfluss auf den Prozess der
+    öffentlichen Meinungsbildung nehmen will (was ja bereits durch die Gattungszuordnung
+    seiner Rede 'Appell' deutlich gemacht wird).
   bibliographical_info: 'p. 18'
