@@ -9,28 +9,32 @@
     <style>
         body {
             font-family: 'IBM Plex Mono', monospace;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #ffffff;
+            color: #222;
             padding: 20px;
         }
         .container {
             max-width: 800px;
             margin: auto;
         }
+        .filter-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
         .filters, .search-box {
-            display: block;
-            width: 100%;
+            flex: 1;
             padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #bbb;
             border-radius: 6px;
+            background: #f8f8f8;
         }
         .card {
-            background: white;
+            background: #fff;
             border-radius: 10px;
             padding: 15px;
             margin: 10px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s ease-in-out;
         }
         .card:hover {
@@ -45,16 +49,19 @@
 </head>
 <body>
     <div class="container">
-        <h2>Activism Quote Collection</h2>
+        <h2>What is Activism?</h2>
         <p>A curated collection of quotes on activism from various historical and contemporary voices.</p>
         <p>Project idea: <a href="https://dilancakir.github.io/" target="_blank">Dîlan Canan Çakir</a></p>
-        <input type="text" id="search" class="search-box" placeholder="🔍 Search for names or quotes" onkeyup="filterQuotes()">
-        <select id="languageFilter" class="filters" onchange="filterQuotes()">
-            <option value="">🌍 Select language</option>
-        </select>
-        <select id="countryFilter" class="filters" onchange="filterQuotes()">
-            <option value="">🏳 Select country</option>
-        </select>
+        <p>Data: <a href="https://github.com/dilancakir/whatisactivism" target="_blank">here</a></p>
+        <div class="filter-container">
+            <input type="text" id="search" class="search-box" placeholder="Search for names or quotes" onkeyup="filterQuotes()">
+            <select id="languageFilter" class="filters" onchange="filterQuotes()">
+                <option value="">Select language</option>
+            </select>
+            <select id="countryFilter" class="filters" onchange="filterQuotes()">
+                <option value="">Select country</option>
+            </select>
+        </div>
         <div id="quotes-container"></div>
     </div>
 
@@ -108,11 +115,11 @@
                 card.innerHTML = `
                     <strong>${authors} (${entry.year || "unknown"})</strong>
                     <em>"${entry.quote}"</em>
-                    <p>🌍 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-                    <p>🔗 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
-                    <p>🌐 WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
-                    <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
-                    <p>📚 Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
+                    <p>Language: ${entry.language} | Country: ${entry.country || "unknown"}</p>
+                    <p>GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
+                    <p>WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
+                    <p>Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
+                    <p>Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
                 `;
                 container.appendChild(card);
                 if (entry.zotero_key) {
