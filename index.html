@@ -113,6 +113,14 @@
                 document.getElementById(`zotero-link-${entryId}`).textContent = "source unknown";
             }
         }
+         function filterQuotes() {
+            const searchQuery = document.getElementById("search").value.toLowerCase();
+            const filteredData = quotesData.filter(entry => 
+                entry.quote.toLowerCase().includes(searchQuery) ||
+                (entry.person && entry.person.some(p => p.name.toLowerCase().includes(searchQuery)))
+            );
+            displayQuotes(filteredData);
+        }
 
         function displayQuotes(data) {
             const container = document.getElementById("quotes-container");
