@@ -95,34 +95,20 @@
             displayQuotes(quotesData);
         }
 
-        function filterQuotes() {
-            let searchValue = document.getElementById("search").value.toLowerCase();
-            let filteredData = quotesData.filter(q => 
-                q.quote.toLowerCase().includes(searchValue) || 
-                (q.person && q.person.some(p => p.name.toLowerCase().includes(searchValue)))
-            );
-            displayQuotes(filteredData);
-        }
-
-        function populateFilters() {
-            const languages = [...new Set(quotesData.map(q => q.language).filter(Boolean))];
-            const countries = [...new Set(quotesData.map(q => q.country).filter(Boolean))];
+        async function fetchZoteroData(zoteroKey) {
+            const groupID = "5261383";
+            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
             
-            const langSelect = document.getElementById("languageFilter");
-            languages.forEach(lang => langSelect.add(new Option(lang, lang)));
-            
-            const countrySelect = document.getElementById("countryFilter");
-            countries.forEach(country => countrySelect.add(new Option(country, country)));
-        }
+            if (!response.ok) return "source unknown";
 
-        function sortQuotes() {
-            const sortBy = document.getElementById("sortQuotes").value;
-            if (sortBy === "alphabet") {
-                quotesData.sort((a, b) => (a.person[0]?.name || "").localeCompare(b.person[0]?.name || ""));
-            } else if (sortBy === "year") {
-                quotesData.sort((a, b) => (a.year || 0) - (b.year || 0));
+            const data = await response.json();
+            if (data && data.data) {
+                return {
+                    text: `${data.data.creators?.[0]?.lastName || "Unknown"}: \"${data.data.title || "Unknown Title"}\" (${data.data.date?.substring(0, 4) || "Unknown Year"})`,
+                    url: `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`
+                };
             }
-            displayQuotes(quotesData);
+            return "source unknown";
         }
 
         function displayQuotes(data) {
@@ -147,6 +133,12 @@
                     <p> <img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png" alt="Zotero Logo" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
                 `;
                 container.appendChild(card);
+
+                if (entry.zotero_key) {
+                    fetchZoteroData(entry.zotero_key).then(sourceInfo => {
+                        document.getElementById(`zotero-link-${entry.id}`).innerHTML = `<a href="${sourceInfo.url}" target="_blank">${sourceInfo.text}</a>`;
+                    });
+                }
             });
         }
 
