@@ -88,28 +88,28 @@
         let quotesData = [];
 
         async function loadYAML() {
-            const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/refs/heads/main/activism_quotes2.yaml');
-            const text = await response.text();
-            quotesData = jsyaml.load(text);
-            populateFilters();
-            displayQuotes(quotesData);
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/main/activism_quotes2.yaml');
+                const text = await response.text();
+                quotesData = jsyaml.load(text) || [];
+                displayQuotes(quotesData);
+            } catch (error) {
+                console.error("Error loading YAML file:", error);
+            }
         }
 
         async function fetchZoteroData(zoteroKey, entryId) {
             const groupID = "5261383";
-            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
-            
-            if (!response.ok) {
-                document.getElementById(`zotero-link-${entryId}`).textContent = "source unknown";
-                return;
-            }
-
-            const data = await response.json();
-            if (data && data.data) {
-                const text = `${data.data.creators?.[0]?.lastName || "Unknown"}: "${data.data.title || "Unknown Title"}" (${data.data.date?.substring(0, 4) || "Unknown Year"})`;
-                const url = `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`;
-                document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href="${url}" target="_blank">${text}</a>`;
-            } else {
+            try {
+                const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
+                if (!response.ok) throw new Error("Zotero data not found");
+                const data = await response.json();
+                if (data && data.data) {
+                    const text = `${data.data.creators?.[0]?.lastName || "Unknown"}: \"${data.data.title || "Unknown Title"}\" (${data.data.date?.substring(0, 4) || "Unknown Year"})`;
+                    const url = `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`;
+                    document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href="${url}" target="_blank">${text}</a>`;
+                }
+            } catch (error) {
                 document.getElementById(`zotero-link-${entryId}`).textContent = "source unknown";
             }
         }
