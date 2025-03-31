@@ -95,20 +95,23 @@
             displayQuotes(quotesData);
         }
 
-        async function fetchZoteroData(zoteroKey) {
+        async function fetchZoteroData(zoteroKey, entryId) {
             const groupID = "5261383";
             const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
             
-            if (!response.ok) return "source unknown";
+            if (!response.ok) {
+                document.getElementById(`zotero-link-${entryId}`).textContent = "source unknown";
+                return;
+            }
 
             const data = await response.json();
             if (data && data.data) {
-                return {
-                    text: `${data.data.creators?.[0]?.lastName || "Unknown"}: \"${data.data.title || "Unknown Title"}\" (${data.data.date?.substring(0, 4) || "Unknown Year"})`,
-                    url: `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`
-                };
+                const text = `${data.data.creators?.[0]?.lastName || "Unknown"}: "${data.data.title || "Unknown Title"}" (${data.data.date?.substring(0, 4) || "Unknown Year"})`;
+                const url = `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`;
+                document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href="${url}" target="_blank">${text}</a>`;
+            } else {
+                document.getElementById(`zotero-link-${entryId}`).textContent = "source unknown";
             }
-            return "source unknown";
         }
 
         function displayQuotes(data) {
@@ -135,9 +138,7 @@
                 container.appendChild(card);
 
                 if (entry.zotero_key) {
-                    fetchZoteroData(entry.zotero_key).then(sourceInfo => {
-                        document.getElementById(`zotero-link-${entry.id}`).innerHTML = `<a href="${sourceInfo.url}" target="_blank">${sourceInfo.text}</a>`;
-                    });
+                    fetchZoteroData(entry.zotero_key, entry.id);
                 }
             });
         }
