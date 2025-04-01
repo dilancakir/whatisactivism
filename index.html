@@ -145,8 +145,23 @@
                 container.appendChild(card);
                 if (entry.zoteroId) fetchZoteroData(entry.id, entry.zoteroId);
             });
+        }        
+    async function fetchZoteroData(entryId, zoteroId) {
+        try {
+            const response = await fetch(`https://api.zotero.org/items/${zoteroId}?format=json`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            const data = await response.json();
+            const title = data.data.title || "Unknown Source";
+            const zoteroLink = `https://www.zotero.org/groups/5261383/items/${zoteroId}`;
+            
+            document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href='${zoteroLink}' target='_blank'>${title}</a>`;
+        } catch (error) {
+            console.error("Error fetching Zotero data:", error);
+            document.getElementById(`zotero-link-${entryId}`).textContent = "Error loading Zotero data";
         }
-
+    }
         loadYAML();
     </script>
 </body>
