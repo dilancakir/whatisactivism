@@ -87,16 +87,16 @@
         </div>
         <div class="filter-container">
             <input type="text" id="search" class="search-box" placeholder="🔍 Search for names or quotes" onkeyup="filterQuotes()">
-            <select id="languageFilter" class="filters" onchange="filterQuotes()">
+            <select id="language" class="filters" onchange="filterQuotes()">
                 <option value="">🌐 Select language</option>
             </select>
-            <select id="countryFilter" class="filters" onchange="filterQuotes()">
+            <select id="country" class="filters" onchange="filterQuotes()">
                 <option value="">🏳 Select country</option>
             </select>
             <select id="sortQuotes" class="sort-options" onchange="sortQuotes()">
                 <option value="">🔀 Sort by</option>
                 <option value="alphabet">A-Z</option>
-                <option value="year">Year</option>
+                <option value="year">year</option>
             </select>
         </div>
         <p id="quote-count" style="text-align:center; font-size:0.9rem; color:#666;"></p>
