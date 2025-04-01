@@ -53,10 +53,10 @@
         .card {
             background: #fff;
             border-radius: 8px;
-            padding: 10px;
+            padding: 8px;
             margin: 10px 0;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         .card strong {
             display: block;
@@ -135,7 +135,7 @@
 
                 card.innerHTML = `
                     <strong>${authors} (${entry.year || "unknown"})</strong>
-                    <em>"${entry.quote}"</em>
+                    <em style="font-size: 0.85rem;">"${entry.quote}"</em>
                     <p>🌐 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
                     <p>🧾 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
                     <p>⛓️ WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
