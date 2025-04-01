@@ -143,6 +143,7 @@
                     <p><img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png" alt="Zotero Logo" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
                 `;
                 container.appendChild(card);
+                if (entry.zoteroId) fetchZoteroData(entry.id, entry.zoteroId);
             });
         }
 
