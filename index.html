@@ -95,7 +95,7 @@
             </select>
             <select id="sortQuotes" class="sort-options" onchange="sortQuotes()">
                 <option value="">🔀 Sort by</option>
-                <option value="alphabet">A-Z</option>
+                <option value="alphabet">Person A-Z</option>
                 <option value="year">year</option>
             </select>
         </div>
@@ -111,12 +111,31 @@
             const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/main/activism_quotes2.yaml');
             const text = await response.text();
             quotesData = jsyaml.load(text) || [];
+            populateFilters();
             displayQuotes(quotesData);
             document.getElementById("quote-count").textContent = `Database currently contains ${quotesData.length} quotes.`;
         } catch (error) {
             console.error("Error loading YAML file:", error);
         }
     }
+    function populateFilters() {
+    const languageSelect = document.getElementById("language");
+    const countrySelect = document.getElementById("country");
+    
+    const languages = new Set();
+    const countries = new Set();
+    
+    quotesData.forEach(entry => {
+        if (entry.language) languages.add(entry.language);
+        if (entry.country) countries.add(entry.country);
+    });
+    
+    languageSelect.innerHTML = '<option value="">🌐 Select language</option>' + 
+        Array.from(languages).map(lang => `<option value="${lang}">${lang}</option>`).join('');
+    
+    countrySelect.innerHTML = '<option value="">🏳 Select country</option>' + 
+        Array.from(countries).map(cntry => `<option value="${cntry}">${cntry}</option>`).join('');
+}    
 
     // Filter-Funktion
     function filterQuotes() {
@@ -207,6 +226,5 @@
     loadYAML();
 </script>
 
-    </script>
 </body>
 </html>
