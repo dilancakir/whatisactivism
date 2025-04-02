@@ -95,7 +95,7 @@
             </select>
             <select id="sortQuotes" class="sort-options" onchange="sortQuotes()">
                 <option value="">🔀 Sort by</option>
-                <option value="alphabet">Person A-Z</option>
+                <option value="alphabet">A-Z</option>
                 <option value="year">year</option>
             </select>
         </div>
@@ -112,39 +112,10 @@
             const text = await response.text();
             quotesData = jsyaml.load(text) || [];
             displayQuotes(quotesData);
-            populateFilters();
             document.getElementById("quote-count").textContent = `Database currently contains ${quotesData.length} quotes.`;
         } catch (error) {
             console.error("Error loading YAML file:", error);
         }
-    }
-        }
-
-    function populateFilters() {
-        const languageSelect = document.getElementById("language");
-        const countrySelect = document.getElementById("country");
-        
-        const languages = new Set();
-        const countries = new Set();
-        
-        quotesData.forEach(entry => {
-            if (entry.language) languages.add(entry.language);
-            if (entry.country) countries.add(entry.country);
-        });
-        
-        languages.forEach(lang => {
-            const option = document.createElement("option");
-            option.value = lang;
-            option.textContent = lang;
-            languageSelect.appendChild(option);
-        });
-        
-        countries.forEach(country => {
-            const option = document.createElement("option");
-            option.value = country;
-            option.textContent = country;
-            countrySelect.appendChild(option);
-        });
     }
 
     // Filter-Funktion
@@ -185,7 +156,6 @@
                 return yearA - yearB;
             });
         }
-        
 
         displayQuotes(sortedData);
     }
