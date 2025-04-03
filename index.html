@@ -195,8 +195,8 @@
                 <strong>${authors} (${entry.year || "unknown"})</strong>
                 <em style="font-size: 0.85rem;">"${entry.quote}"</em>
                 <p>🌐 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-                <p>🧾 GND: <a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a></p>
-                <p>⛓️ WikiData: <a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a></p>
+                <p>🧾 GND: ${Array.isArray(entry.GND) ? entry.GND.map(id => `<a href="https://d-nb.info/gnd/${id}" target="_blank">${id}</a>`).join(", "): `<a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND || "N/A"}</a>`}</p>
+                <p>⛓️ WikiData: ${Array.isArray(entry.WikiID) ? entry.WikiID.map(id => `<a href="https://www.wikidata.org/wiki/${id}" target="_blank">${id}</a>`).join(", "): `<a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID || "N/A"}</a>`}</p>
                 <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
                 <p><img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png" alt="Zotero Logo" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
             `;
