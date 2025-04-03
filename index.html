@@ -206,7 +206,7 @@
     }
 
     async function fetchZoteroData(entryId, zoteroId) {
-        const groupID = "5261383";  // Deine Zotero-Gruppen-ID
+        const groupID = "5261383";  // Zotero-Gruppen-ID
         try {
             const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroId}?format=json`);
             if (!response.ok) {
