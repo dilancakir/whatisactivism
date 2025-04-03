@@ -809,17 +809,20 @@
   quote: '[...] Helden der Arbeit hießen in der DDR: Aktivisten.'
   bibliographical_info: 'p. 47.'
 - id: quote_59
-  GND: .nan
-  WikiID: .nan
+  GND: 1051343569
+  WikiID: Q5568842
   country: USA
   language: English
   person:
   - name: Greenwald, Glenn
     gender: m
-  zotero_key: E7W5DSYK
+  zotero_key: XH767ZNA
   year: 2013.0
-  quote: Nicht alle Aktivisten sind Journalisten, aber alle richtigen Journalisten
-    sind Aktivisten
+  quote: |
+  It isn’t that the fact that someone is an activist is irrelevant, 
+  it’s just that it does not necessarily mean they are the opposite of a journalist.
+  [...] All activists are not journalists, but all real journalists are activists. 
+  Journalism has a value, a purpose — to serve as a check on power.
   bibliographical_info: .nan
 - id: quote_60
   GND: 1154414639
