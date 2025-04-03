@@ -928,7 +928,10 @@
     vom 'gesamtgesellschaftlichen' Benefit.
   bibliographical_info: 'p. 111.'
 - id: quote_68
-  GND: .nan
+  GND:
+   - 1104737027
+   - 1068475269
+   - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
@@ -945,7 +948,10 @@
     always constituted politics as seen from the perspective of the politically dominated.
   bibliographical_info: 'p. 9'
 - id: quote_69
-  GND: .nan
+  GND:
+   - 1104737027
+   - 1068475269
+   - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
@@ -965,7 +971,10 @@
     and activism.
   bibliographical_info: 'p. 11'
 - id: quote_70
-  GND: .nan
+  GND:
+   - 1104737027
+   - 1068475269
+   - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
@@ -985,7 +994,10 @@
     opportunity to observe the moment when power is challenged
   bibliographical_info: 'p. 11'
 - id: quote_71
-  GND: .nan
+  GND:
+   - 1104737027
+   - 1068475269
+   - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
