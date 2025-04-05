@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics - What is Activism</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <style>
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: #ffffff;
+            color: #222;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ccc;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        .header p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        #back-btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #back-btn-container button {
+            padding: 8px 16px;
+            background-color: #aaa;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #back-btn-container button:hover {
+            background-color: #888;
+        }
+        .person-info {
+            margin-top: 30px;
+        }
+        .person-info div {
+            margin-bottom: 10px;
+        }
+        .person-info label {
+            font-weight: bold;
+        }
+        #statistics {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Statistics - What is Activism</h1>
+            <p>The following data was collected through a SPARQL query on Wikidata. QPARQL queries were used to retrieve information such as birthdate, gender, occupation, and place of birth for each person from the quote entries.</p>
+            <p>Project by: <a href="https://dilancakir.github.io/" target="_blank">Dîlan Canan Çakir</a> | 
+                <a href="https://github.com/dilancakir/whatisactivism" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 16px; height: 16px; margin-right: 6px;">
+                    Data Source
+                </a>
+            </p>
+        </div>
+        <div id="back-btn-container">
+            <button id="back-btn" onclick="window.location.href='index.html'">Back to Quotes</button>
+        </div>
+        <p style="text-align: center;"><a style="margin-right: 6px;">⏳Statistics coming soon!</a></p>
+    </div>
+
+    
