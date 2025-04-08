@@ -8,7 +8,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: '[…] die Geschichte des Aktivismus beginnt in Deutschland vor rund hundert
+  quote: >
+    '[…] die Geschichte des Aktivismus beginnt in Deutschland vor rund hundert
     Jahren – mit Leuten wie dem späteren Friedensnobelpreisträger <person>Carl von
     Ossietzky</person> oder dem heute nahezu vergessenen <person>Kurt Hiller</person>,
     die den Begriff »Aktivismus« in Umlauf brachten.'
@@ -23,7 +24,8 @@
   - name: Czollek, Max
     gender: m
   year: 2023.0
-  quote: Aktivismus ohne Denken ist orientierungslos. Aber Denken ohne Aktivismus
+  quote: >
+    Aktivismus ohne Denken ist orientierungslos. Aber Denken ohne Aktivismus
     wirkungslos.
   bibliographical_info: '(last accessed 31.10.2023)'
 - id: quote_3
@@ -36,7 +38,8 @@
   - name: Schnitzler, Arthur
     gender: m
   year: 1918.0
-  quote: Aktivisten Wirrköpferei
+  quote: >
+    Aktivisten Wirrköpferei
   bibliographical_info: 'p. 186.'
 - id: quote_4
   GND: 1118875141
@@ -48,7 +51,8 @@
   - name: Ommert, Alexandra
     gender: f
   year: 2016.0
-  quote: Aktivismus ist ebenfalls ein passender Begriff, um das Phänomen zu beschreiben,
+  quote: >
+    Aktivismus ist ebenfalls ein passender Begriff, um das Phänomen zu beschreiben,
     dass Aktivist_innen sich temporär zusammenfinden, um ein konkretes Projekt gemeinsam
     zu verfolgen oder eine Aktion zu planen.
   bibliographical_info: 'p. 42.'
@@ -62,7 +66,8 @@
   - name: Ommert, Alexandra
     gender: f
   year: 2016.0
-  quote: Ich möchte Aktivismus mit Bezug auf Elke Zobl als rhizomatisches Netzwerk
+  quote: >
+    Ich möchte Aktivismus mit Bezug auf Elke Zobl als rhizomatisches Netzwerk
     (vgl. Zobl 2012) verstehen, das aus einer Vielzahl von Knotenpunkten besteht.
   bibliographical_info: 'p. 47'
 - id: quote_6
@@ -75,7 +80,8 @@
   - name: Ommert, Alexandra
     gender: f
   year: 2016.0
-  quote: In der deutschsprachigen Literatur setzt  sich die Bezeichnung Aktivismus
+  quote: >
+    In der deutschsprachigen Literatur setzt  sich die Bezeichnung Aktivismus
     langsam durch. Als wissenschaftlicher Begriff ist Aktivismus jedoch wenig theoretisch
     diskutiert und bestimmt.
   bibliographical_info: 'p. 41'
@@ -89,7 +95,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: '[…] a project thaht might be characterized as activist in the sense that
+  quote: >
+    '[…] a project thaht might be characterized as activist in the sense that
     it activates us to reimagine how culture might be a useful tool for societal equity.'
   bibliographical_info: 'p. 22.'
 - id: quote_8
@@ -102,7 +109,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: '[…] activism does share a certain traits with populism: it must be agile,
+  quote: > 
+    '[…] activism does share a certain traits with populism: it must be agile,
     fast, and responsive, and promt people to action.'
   bibliographical_info: 'p. 17.'
 - id: quote_9
@@ -115,7 +123,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: '[…] to help people who are oppressed an discriminated against qualifies
+  quote: >
+    '[…] to help people who are oppressed an discriminated against qualifies
     as a form – and one definition of – activism […].'
   bibliographical_info: 'p. 24.'
 - id: quote_10
@@ -128,7 +137,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: Activism makes a demand. It is not content to remain just activism. Activism
+  quote: >
+    Activism makes a demand. It is not content to remain just activism. Activism
     wants to become something other than activism; it seeks to transform ideas, politics,
     society, life.
   bibliographical_info: 'p. 23.'
@@ -142,7 +152,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: Activism, let’s admit, is a form of branding too.
+  quote: >
+    Activism, let’s admit, is a form of branding too.
   bibliographical_info: 'p. 17.'
 - id: quote_12
   GND: 1057278327
@@ -154,7 +165,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: 'Although maybe this is one way to think about any kind of activism: as an
+  quote: >
+    'Although maybe this is one way to think about any kind of activism: as an
     act of abandoning self-interest, even if only temporarily in the interest of others.'
   bibliographical_info: 'p. 17.'
 - id: quote_13
@@ -167,7 +179,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: And we shouldn’t forget that there is just as much right-wing ‚activism‘
+  quote: >
+    And we shouldn’t forget that there is just as much right-wing ‚activism‘
     as there is progressive activism
   bibliographical_info: 'p. 27.'
 - id: quote_14
@@ -180,7 +193,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: But was I engaging in curatorial activism, or rather just trying to be a
+  quote: >
+    But was I engaging in curatorial activism, or rather just trying to be a
     decent human being? Most likley it was the latter.
   bibliographical_info: 'p. 22.'
 - id: quote_15
@@ -193,7 +207,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: Does not art, writing, or curating that defines itself as activist dream
+  quote: >
+    Does not art, writing, or curating that defines itself as activist dream
     of influencing the conditions of realpolitik? For art activism to be useful, it
     must become, in a sense, a form of realpolitik […], even as it performs resistance
     to realpolitik.
@@ -208,7 +223,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: I’m not suggesting that one must be utterly selfless to engage in activism,
+  quote: >
+    I’m not suggesting that one must be utterly selfless to engage in activism,
     because it’s not possible for humans to be completely selfless. And art is not
     a profession for the selfless.
   bibliographical_info: 'p. 20.'
@@ -222,7 +238,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: Is curating the best way to do activism? Sometimes yes, sometimes no, and
+  quote: >
+    Is curating the best way to do activism? Sometimes yes, sometimes no, and
     sometimes it’s just unclear.
   bibliographical_info: 'p. 28.'
 - id: quote_18
@@ -235,7 +252,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: It is easier to talk the talk of activism than to walk the walk of activism.
+  quote: >
+    It is easier to talk the talk of activism than to walk the walk of activism.
   bibliographical_info: 'p. 17.'
 - id: quote_19
   GND: 1057278327
@@ -247,7 +265,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: just voting for the better candidate can be a form of activism.
+  quote: > 
+    Just voting for the better candidate can be a form of activism.
   bibliographical_info: 'p. 19.'
 - id: quote_20
   GND: 1057278327
@@ -259,7 +278,8 @@
   - name: Decter, Joshua
     gender: m
   year: 2019.0
-  quote: Pragmatically speaking, all forms of activism are an outgrowth of, or reaction
+  quote: >
+    Pragmatically speaking, all forms of activism are an outgrowth of, or reaction
     to, mainstream politics; a shadow of the dominant modes of political organization,
     not a seperate sphere of politics.
   bibliographical_info: 'p. 23.'
@@ -273,7 +293,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: '[…]das Zusammenspiel von Empowerment und subversiver Sprache führt somit
+  quote: >
+    '[…]das Zusammenspiel von Empowerment und subversiver Sprache führt somit
     dazu, dass afrodeutsche Gegenwartslyrik zu einer Form des literarischen Aktivismus
     wird.'
   bibliographical_info: 'p. 536'
@@ -287,7 +308,8 @@
   - name: Pester, Nora
     gender: f
   year: 2023.0
-  quote: 'Begreift sich ein Verlag, der auf seiner Homepage von ''jüdischer Selbstermächtigung
+  quote: >
+    'Begreift sich ein Verlag, der auf seiner Homepage von ''jüdischer Selbstermächtigung
     und Selbstverteidigung'' spricht, als aktivistisch? Pester gibt eine ambivalente
     Antwort: ''Wir sind keine Aktivisten.'
   bibliographical_info: .nan
@@ -301,7 +323,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: Afrodeutsche Lyrik als Ausdruck von Widerstand und Aktivismus steht in einer
+  quote: >
+    Afrodeutsche Lyrik als Ausdruck von Widerstand und Aktivismus steht in einer
     literarischen Tradition, die eng mit der Schwarzen Frauenbewegung in Deutschland
     verknüpft ist und sich gegen ein gesellschaftliches Schweigen richtet.
   bibliographical_info: 'p. 539.'
@@ -315,7 +338,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: May Ayim[…] prägte wie kaum eine andere die afrodeutschen Literaturen wie
+  quote: >
+    May Ayim[…] prägte wie kaum eine andere die afrodeutschen Literaturen wie
     auch den Aktivismus. Ayims literarisches Schaffen sowie ihr Aktivismus für die
     Schwarze Community in Deutschland verbindet eine intersektionale Perspektive,
     die Mehrfachdiskriminierungen benennt und institutionellen Rassismus in Deutschland
@@ -334,7 +358,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: Lorde plädiert daher für eine 'Transformation des Schweigens in Sprache und
+  quote: >
+    Lorde plädiert daher für eine 'Transformation des Schweigens in Sprache und
     Handlung' und macht die enge Verknüpfung von Sprache und Aktivismus sichtbar.
   bibliographical_info: 'p. 541.'
 - id: quote_26
@@ -347,7 +372,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: Der subversive Sprachgebrauch führt dazu, dass die Gedichte selbst zu einer
+  quote: >
+    Der subversive Sprachgebrauch führt dazu, dass die Gedichte selbst zu einer
     Form des literarischen Aktivismus werden, der gesellschaftliche Veränderungen
     möglich macht.
   bibliographical_info: 'p. 542.'
@@ -361,7 +387,8 @@
   - name: Oholi, Jeannette
     gender: f
   year: 2022.0
-  quote: 'Dadurch können die lyrischen Texte als literarischer Aktivismus gelesen
+  quote: >
+    'Dadurch können die lyrischen Texte als literarischer Aktivismus gelesen
     werden: Die Schwarzen Stimmen bemächtigen sich ihrer eigenen Sprache und leisten
     Widerstand, indem sie neue Räume schaffen und sich darin zu vielschichtigen Subjekten
     entwickeln.'
@@ -376,7 +403,8 @@
   - name: Trüper, Henning
     gender: m
   year: 2023.0
-  quote: Meist wird als Aktivismus die emphatische Teilnahme an sozialen Bewegungen
+  quote: >
+    Meist wird als Aktivismus die emphatische Teilnahme an sozialen Bewegungen
     emanzipatorischer Art bezeichnet. Es geht dabei häufig um marginalisierte Gruppen
     und Anliegen. For­derungen nach Ermächtigung und Gleichberechtigung sowie die
     Herausstellung besonderer Schutzbedürftigkeit stehen im Zentrum.
@@ -391,7 +419,8 @@
   - name: Trüper, Henning
     gender: m
   year: 2023.0
-  quote: '›Aktivismus‹  wird heute kontextabhängig in vielen Bedeutungen verwendet:
+  quote: >
+    '›Aktivismus‹  wird heute kontextabhängig in vielen Bedeutungen verwendet:
     als deskrip­tive Bestimmung, positiver Identifikationsbegriff, Begriff der polemischen
     Abwertung oder Zielscheibe jargonkritischen Spotts.'
   bibliographical_info: .nan
@@ -405,7 +434,8 @@
   - name: Trüper, Henning
     gender: m
   year: 2023.0
-  quote: Bedeutungskonstituierende Kriterien für ›Aktivismus‹ wären demnach erstens
+  quote: >
+    Bedeutungskonstituierende Kriterien für ›Aktivismus‹ wären demnach erstens
     politische Partizipation jenseits einer bloß passiven, handlungsfernen Zustimmung
     oder Ablehnung sowie zweitens das Vorhandensein eines kollektiven Handlungsmusters,
     das im Hinblick auf Rechte und deren Beschränkungen lesbar ist. Der Begriff setzt
@@ -429,7 +459,8 @@
   - name: Hiller, Kurt
     gender: m
   year: 1961.0
-  quote: Expressionist Benn war nicht nur kein Aktivist, er war ein leidenschaftlicher
+  quote: >
+    Expressionist Benn war nicht nur kein Aktivist, er war ein leidenschaftlicher
     Feind des Aktivismus.
   bibliographical_info: 'p. 189.'
 - id: quote_32
@@ -442,7 +473,8 @@
   - name: Rothe, Wolfgang
     gender: m
   year: 1969.0
-  quote: Als ‚Aktivismus‘ bezeichnet Kurt Hiller Ende 1914 eine radikale geistige
+  quote: >
+    Als ‚Aktivismus‘ bezeichnet Kurt Hiller Ende 1914 eine radikale geistige
     Bewegung innerhalb der expressionistischen Autorengeneration. Bereits in  den
     letzten Vorkriegsjahren entstanden, gewann sie unter dem Eindruck der apokalyptischen
     Schrecken des ‚Großen Krieges‘ ihre äußerste Entschiedenheit.
@@ -457,7 +489,8 @@
   - name: Rothe, Wolfgang
     gender: m
   year: 1969.0
-  quote: ganz zu schweigen von Heinrich Mann, dem Erzvater des ‘Aktivismus’, dessen
+  quote: >
+    ganz zu schweigen von Heinrich Mann, dem Erzvater des ‘Aktivismus’, dessen
     Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - als eine Art Initialzündung
     gelten darf (Hiller eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).”
     S. 7
@@ -472,7 +505,8 @@
   - name: Rothe, Wolfgang
     gender: m
   year: 1969.0
-  quote: Tat - das Schlüsselwort des Aktivismus!
+  quote: >
+    Tat - das Schlüsselwort des Aktivismus!
   bibliographical_info: 'p. 10.'
 - id: quote_35
   GND: 454546416
@@ -484,7 +518,8 @@
   - name: Rothe, Wolfgang
     gender: m
   year: 1969.0
-  quote: Der Begriff Aktivismus täuscht eine Geschlossenheit und Einheitlichkeit vor,
+  quote: >
+    Der Begriff Aktivismus täuscht eine Geschlossenheit und Einheitlichkeit vor,
     welche die Sache selber nie besessen hat.
   bibliographical_info: 'p. 12.'
 - id: quote_36
@@ -497,7 +532,8 @@
   - name: Rothe, Wolfgang
     gender: m
   year: 1969.0
-  quote: Terminologisch sauberer wäre es, statt von Aktivisten von Aktiven, Handelnden
+  quote: >
+    Terminologisch sauberer wäre es, statt von Aktivisten von Aktiven, Handelnden
     zu reden [...].
   bibliographical_info: 'p. 12.'
 - id: quote_37
@@ -510,7 +546,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Aktivisten demonstrieren, mobilisieren, emotionalisieren auf allen ihnen
+  quote: >
+    Aktivisten demonstrieren, mobilisieren, emotionalisieren auf allen ihnen
     zur Verfügung stehenden Kanälen.
   bibliographical_info: 'p. 1.'
 - id: quote_38
@@ -523,7 +560,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: War früher 'Intellektueller' ein begehrtes Adelsprädikat, wird nun auch in
+  quote: >
+    War früher 'Intellektueller' ein begehrtes Adelsprädikat, wird nun auch in
     Autorenkreisen die Nomenklatur 'Aktivist' bevorzugt.
   bibliographical_info: 'p. 2.'
 - id: quote_39
@@ -536,7 +574,8 @@
   - name: Sokel, Walter
     gender: m
   year: 1965.0
-  quote: Nicht Seinslehre, sondern Sollphilosophie' ist der Aktivismus, so heißt es
+  quote: >
+    Nicht Seinslehre, sondern Sollphilosophie' ist der Aktivismus, so heißt es
     bald danach bei Kurt Hiller.
   bibliographical_info: 'p. 209.'
 - id: quote_40
@@ -549,7 +588,8 @@
   - name: Eykmann, Christoph
     gender: m
   year: 1972.0
-  quote: Eine Unterströmung des Expressionismus wie etwa Kurt Hillers Aktivismus,
+  quote: >
+    Eine Unterströmung des Expressionismus wie etwa Kurt Hillers Aktivismus,
     welcher einen Bund der Geistigen, eine zum politischen Führertum bestimmte „Logokratie",
     forderte, beeindruckte zwar durch die Konsequenz der gedanklichen Konzeption und
     die Lauterkeit ihres Ethos, blieb aber politisch unwirksam.
@@ -564,7 +604,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Doch der Status des Aktivisten hat sich in den vergangenen hundert Jahren
+  quote: >
+    Doch der Status des Aktivisten hat sich in den vergangenen hundert Jahren
     fundamental verändert. Er sit von der Randfigur zur bestimmenden Sozialfigur geworden.
     [...] der zeitgenössische Aktivist [nimmt] eine zentrale Stellung innerhalb der
     Gesellschaft ein.
@@ -579,7 +620,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Der Siegeszug des Aktivismus ist mittlerweile so weit fortgeschritten, dass
+  quote: >
+    Der Siegeszug des Aktivismus ist mittlerweile so weit fortgeschritten, dass
     er vom Kapitalismus vereinnahmt wird
   bibliographical_info: 'p. 9.'
 - id: quote_43
@@ -592,7 +634,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: '[...] der Aktivismus sei nicht kompetetiv, ihm gehe es um ''Kollaboration
+  quote: >
+    '[...] der Aktivismus sei nicht kompetetiv, ihm gehe es um ''Kollaboration
     und Kooperation''.'
   bibliographical_info: 'p. 10.'
 - id: quote_44
@@ -605,7 +648,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: 'Die ''Aktivisti'', wie sich gerne selbst bezeichnen, verfügen nicht allein
+  quote: >
+    'Die ''Aktivisti'', wie sich gerne selbst bezeichnen, verfügen nicht allein
     über ein enormes aufmerksamkeitsökonomisches Kapital, sie sind die Bewusstseinsgroßindustriellen
     unserer Tage. Dem philosophischen Zeitdiagnostiker Peter Sloterdijk mag derlei
     schon 2001 gedämmert haben. Er ließ damals mit der Bemerkung aufhorchen: ''Man
@@ -625,7 +669,8 @@
   - name: Ossietzky, Carl von
     gender: m
   year: 1918.0
-  quote: Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt die
+  quote: >
+    Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt die
     deutschte Öffentlichkeit das Schlagwort Aktivismus, begierig aufgegriffen von
     der literarischen Jugend. Was haben wir in dem Worte zu suchen? Sehnsucht nach
     Taten, Wille zu wirken, Tagespolitik mit geistiger Kraft zu durchsetzen, Abkehr
@@ -644,7 +689,8 @@
   - name: Ossietzky, Carl von
     gender: m
   year: 1918.0
-  quote: Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
+  quote: >
+    Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
     Passivismus ist Ruhe, beharrliches Abschließen.
   bibliographical_info: 'p. 88.'
 - id: quote_47
@@ -657,7 +703,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Berufsaktivisten sind heute so selbstverständlich wie Berufspolitiker. [...]
+  quote: >
+    Berufsaktivisten sind heute so selbstverständlich wie Berufspolitiker. [...]
     Aktivismus ist ein Full-Time-Job geworden.
   bibliographical_info: 'p. 13.'
 - id: quote_48
@@ -670,7 +717,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Darüber hinaus begleitet den Aktivismus seit seinem Beginn der Verdacht des
+  quote: >
+    Darüber hinaus begleitet den Aktivismus seit seinem Beginn der Verdacht des
     'Scheinaktivismus', wie das der hellsichtige Georg Lukás schon 1934 nannte. Der
     Scheinaktivismus unserer Tage heißt 'Slacktivism'.
   bibliographical_info: 'p. 13.'
@@ -684,7 +732,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Walter Benjamin, alles andere als ein Reaktionär, sprach 1932 vom 'Irrtum
+  quote: >
+    Walter Benjamin, alles andere als ein Reaktionär, sprach 1932 vom 'Irrtum
     des Aktivismus'.
   bibliographical_info: 'p. 16.'
 - id: quote_50
@@ -697,7 +746,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: 'Schon von Aristoteles hat uns Arthur Schopenhauer den Satz überliefert:
+  quote: >
+    'Schon von Aristoteles hat uns Arthur Schopenhauer den Satz überliefert:
     ''Das Leben besteht in der Bewegung und hat sein Wesen in ihr.'' Bräuchte der
     Aktivismus einen Leitsatz, hier wäre er.'
   bibliographical_info: 'p. 17.'
@@ -711,7 +761,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Der Aktivismus ist ein manifester Bestandteil unserer Gesellschaft geworden.
+  quote: >
+    Der Aktivismus ist ein manifester Bestandteil unserer Gesellschaft geworden.
     Er ist aus ihr gar nicht mehr wegzudenken. Paradoxerweise aber ist er selbst nichts,
     was auf Dauer gestellt sein kann. Denn seine Daseinsberechtigung erlischt, wenn
     er erreicht hat, wofür er gestritten hat.
@@ -726,7 +777,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Dieser apokalyptische Gestus, dieser endzeitliche Zug ist dem Aktivismus
+  quote: >
+    Dieser apokalyptische Gestus, dieser endzeitliche Zug ist dem Aktivismus
     seit Anbeginn eingeschrieben.
   bibliographical_info: 'p. 24.'
 - id: quote_53
@@ -739,7 +791,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Der Aktivist tritt seit frühesten Tagen als Rigorist*in und Wahrheitsmonopolist*in
+  quote: >
+    Der Aktivist tritt seit frühesten Tagen als Rigorist*in und Wahrheitsmonopolist*in
     auf. [...] Die ersten Aktivisten haben ganz offen von sich als den 'Aristoi' hesprochen
     und damit klar zu verstehen gegeben, dass sie sich für 'die Besten' hielten. [...]
     Die relative Humorferne des Aktivismus ist so alt wie seine Geschichte.
@@ -754,7 +807,8 @@
   - name: Müller, Robert
     gender: m
   year: 1921.0
-  quote: Die Aktivsiten [...] werden vermittels des starken, kunstvoll gehobenen Wortes
+  quote: >
+    Die Aktivsiten [...] werden vermittels des starken, kunstvoll gehobenen Wortes
     durchdringen, und die politische Klangfarbe des Jahrhunderts bestimmen.
   bibliographical_info: 'p. 18-19.'
 - id: quote_55
@@ -767,7 +821,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Es gibt mindestens so viele Aktivismen wie Apfelsorten.
+  quote: >
+    Es gibt mindestens so viele Aktivismen wie Apfelsorten.
   bibliographical_info: 'p. 39.'
 - id: quote_56
   GND: 1154414639
@@ -779,7 +834,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Auffällig übrigens, wie oft die Wörter Held und Aktivist bzw. 'Held*in' und
+  quote: >
+    Auffällig übrigens, wie oft die Wörter Held und Aktivist bzw. 'Held*in' und
     'Aktivist*in' synonym verwendet werden.
   bibliographical_info: 'p. 43.'
 - id: quote_57
@@ -792,7 +848,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Die Laktivistin setzt sich dafür ein, dass Mütter ihren Kindern in der Öffentlichkeit
+  quote: >
+    Die Laktivistin setzt sich dafür ein, dass Mütter ihren Kindern in der Öffentlichkeit
     die Brust geben können und nicht aus Angst vor zu viel nackter Haut des Raumes
     verwiesen werden.
   bibliographical_info: 'p. 44.'
@@ -806,7 +863,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: '[...] Helden der Arbeit hießen in der DDR: Aktivisten.'
+  quote: >
+    '[...] Helden der Arbeit hießen in der DDR: Aktivisten.'
   bibliographical_info: 'p. 47.'
 - id: quote_59
   GND: 1051343569
@@ -818,7 +876,7 @@
       gender: m
   zotero_key: XH767ZNA
   year: 2013.0
-  quote: |
+  quote: >
     It isn’t that the fact that someone is an activist is irrelevant, 
     it’s just that it does not necessarily mean they are the opposite of a journalist.
     All activists are not journalists, but all real journalists are activists. 
@@ -834,7 +892,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Wenn Kunst und Aktivismus miteinander verschmelzen, entsteht 'Artivismus'.
+  quote: >
+    Wenn Kunst und Aktivismus miteinander verschmelzen, entsteht 'Artivismus'.
     [...] Artivismus ist schließlich Sozialarbeit, neudeutsch Care-Arbeit. Der Künstler
     als Kümmerer.
   bibliographical_info: 'p. 67-68.'
@@ -848,7 +907,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Nun sind die Grünen schon historisch die Partei mit der größten Affinität
+  quote: >
+    Nun sind die Grünen schon historisch die Partei mit der größten Affinität
     zum Aktivismus.
   bibliographical_info: 'p. 73.'
 - id: quote_62
@@ -861,7 +921,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Heutige Identitäre treten ganz selbstverständlich als Aktivisten in Erscheinung.
+  quote: >
+    Heutige Identitäre treten ganz selbstverständlich als Aktivisten in Erscheinung.
   bibliographical_info: 'p. 79.'
 - id: quote_63
   GND: 18577166
@@ -873,7 +934,8 @@
   - name: Mann, Thomas
     gender: m
   year: .nan
-  quote: Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland 'Aktivismus'
+  quote: >
+    Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland 'Aktivismus'
     nennt, nichts ist als die Übertragung eines bestimmten Kunstgeschmacks und -temperaments
     in Politische. Eine Kunstschule ['Expressionismus'] von heftig aktivischen Bedürfnissen,
     der Ruhe, der Betrachtung, dem epischen Behagen, der Sachlichkeit und Heiterkeit
@@ -890,7 +952,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: '[...] Rudi Dutschke, die Galionsfigur des SDS-Aktivismus [...].'
+  quote: >
+    '[...] Rudi Dutschke, die Galionsfigur des SDS-Aktivismus [...].'
   bibliographical_info: 'p. 89.'
 - id: quote_65
   GND: 1154414639
@@ -902,7 +965,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Überhaupt, der Aktivismus, den Adorno Aktionismus nannte, war ihm suspekt.
+  quote: >
+    Überhaupt, der Aktivismus, den Adorno Aktionismus nannte, war ihm suspekt.
   bibliographical_info: 'p. 97.'
 - id: quote_66
   GND: 1154414639
@@ -914,7 +978,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Twitter, einst gepriesen als Forum der Gegenöffentlichkeit, ist ein Tummelplatz
+  quote: >
+    Twitter, einst gepriesen als Forum der Gegenöffentlichkeit, ist ein Tummelplatz
     für Aktivisten.
   bibliographical_info: 'p. 99-100.'
 - id: quote_67
@@ -927,7 +992,8 @@
   - name: Cordsen, Knut
     gender: m
   year: 2022.0
-  quote: Vom individuellen Profit ihres Tuns reden Aktivisten weitaus seltener als
+  quote: >
+    Vom individuellen Profit ihres Tuns reden Aktivisten weitaus seltener als
     vom 'gesamtgesellschaftlichen' Benefit.
   bibliographical_info: 'p. 111.'
 - id: quote_68
@@ -947,7 +1013,8 @@
   - name: Shakil Gröppmaier, Sakina
     gender: f
   year: 2024.0
-  quote: This volume takes “activism” to be the most recent evolution of what has
+  quote: >
+    This volume takes “activism” to be the most recent evolution of what has
     always constituted politics as seen from the perspective of the politically dominated.
   bibliographical_info: 'p. 9'
 - id: quote_69
@@ -967,7 +1034,8 @@
   - name: Shakil Gröppmaier, Sakina
     gender: f
   year: 2024.0
-  quote: First of all, “activist writing” is a stand-in category. It refers to an
+  quote: >
+    First of all, “activist writing” is a stand-in category. It refers to an
     array of literary forms and social practices that political, protest-driven, non-institutional
     agents use to further their causes. This approach, which emphasizes the agency
     of person, has largely become unfashionable in scholarship on political change
@@ -990,7 +1058,8 @@
   - name: Shakil Gröppmaier, Sakina
     gender: f
   year: 2024.0
-  quote: Thus, activist writing is a deliberate puncturing of the fabric of institutionalized
+  quote: >
+    Thus, activist writing is a deliberate puncturing of the fabric of institutionalized
     politics and social life. It is an effort to demand change, to reclaim ground
     and steer into unknown but auspicious territory. It is the space where political
     agency seeks to undo political paralysis. Studying activist writing offers an
@@ -1013,7 +1082,8 @@
   - name: Shakil Gröppmaier, Sakina
     gender: w
   year: 2024.0
-  quote: Activists are communicators and writing is the practice with which they most
+  quote: >
+    Activists are communicators and writing is the practice with which they most
     clearly and concisely communicate their intentions and demands.
   bibliographical_info: 'p. 11'
 - id: quote_72
@@ -1026,7 +1096,8 @@
   - name: Weiß, Volker
     gender: m
   year: 2024.0
-  quote: 'Und noch einmal zurück zur Frage nach Journalismus und Aktivismus: Wenn
+  quote: >
+    'Und noch einmal zurück zur Frage nach Journalismus und Aktivismus: Wenn
     wir die Medien der anderen Seite anschauen, sind das durchgehend aktivistische
     Medien, ohne Ausnahme. Der Anspruch, keine Haltung zu haben, neutral zu sein,
     nicht aktiv zu sein – der wird komischerweise immer nur an uns herangetragen.
@@ -1044,7 +1115,8 @@
   - name: Lepper, Marcel
     gender: m
   year: 2024.0
-  quote: Ja, der Aktivismus ist [in der Wissenschaft] gegenwärtig ein großes Thema.
+  quote: >
+    Ja, der Aktivismus ist [in der Wissenschaft] gegenwärtig ein großes Thema.
     [...] Die Grundidee, dass Wissenschaft unpolitisch sei, ist bereits instrumentell
     und funktionalisierbar. Die Politisierung ist immer schon da.
   bibliographical_info: 'p. 730'
@@ -1058,7 +1130,8 @@
    - name: Schwerdtner, Ines
      gender: f
   year: 2025.0
-  quote: Aktivismus allein reicht nicht aus. Wer nachhaltig etwas verändern will, muss in eine Partei.
+  quote: >
+    Aktivismus allein reicht nicht aus. Wer nachhaltig etwas verändern will, muss in eine Partei.
   bibliographical_info: '(last accessed 27.03.2025)'
 - id: quote_75
   GND: 1024169928
@@ -1069,8 +1142,9 @@
   person:
     - name: Sina, Kai
       gender: m
-  year: 2024
-  quote: "Begriff [Aktivismus], der nach dem Ersten Weltkrieg zu einer Modevokabel insbesondere linker politischer Intellektueller geworden war."
+  year: 2024.0
+  quote: >
+    "Begriff [Aktivismus], der nach dem Ersten Weltkrieg zu einer Modevokabel insbesondere linker politischer Intellektueller geworden war."
   bibliographical_info: 'p. 16'
 - id: quote_76
   GND: 1024169928
@@ -1081,8 +1155,8 @@
   person:
     - name: Sina, Kai
       gender: m
-  year: 2024
-  quote: |
+  year: 2024.0
+  quote: >
     Vielmehr eröffnet die Rede ein Spektrum an Merkmalen und Eigenschaften,
     das <person>[Thomas] Manns</person> Aktivismus seit den mittleren
     Zwanzigerjahren in unterschiedliche Akzentuierungen und Facetten prägt.
@@ -1107,8 +1181,8 @@
   person:
     - name: Çakir, Dîlan Canan
       gender: f
-  year: 2024
-  quote: |
+  year: 2024.0
+  quote: >
     Aktivistische Handlungen und Literatur sind selbstverständlich älter als der Wortgebrauch von Aktivismus,
     der verstärkt im frühen 20. Jahrhundert auftaucht. Als Aktivismus wird in der Regel unabhängig von
     bestimmten Inhalten das aktive Handeln begriffen. Diesem Handeln wird nicht selten die Theorie entgegengehalten,
@@ -1128,8 +1202,8 @@
   person:
     - name: Lützenkirchen, Harald
       gender: m
-  year: 2001
-  quote: |
+  year: 2001.0
+  quote: >
     Dies war mehr als Expressionismus, dies war Aktivismus. Kurt Hiller und seine Schriftsteilerkollegen 
     Rudolf Kayser und Alfred Wolfenstein ersannen dieses Schlagwort im Herbst 1914, kurz vor Ausbruch des 1. 
     Weltkriegs. Hiller selbst definierte den Unterschied dergestalt, daß er den Expressionismus als eine Ausdrucksart 
@@ -1146,7 +1220,7 @@
   person:
     - name: Grumbach, Detlef 
       gender: m
-  year: 2023
+  year: 2023.0
   quote: >
     [Christian Geissler] gewann Kontakte zur Friedensbewegung, zu den Verfolgten des Nationalsozialismus 
     und auch in die DDR. All dies trug dazu bei, dass er sich neben der künstlerischen Arbeit zum politischen 
@@ -1165,7 +1239,7 @@
   person:
     - name: Bendel, Oliver
       gender: m
-  year: 2021
+  year: 2021.0
   quote: >
     Ein Aktivist oder eine Aktivistin (engl. »activist«) setzt sich für ein soziales, ökologisches oder politisches Ziel wie Beendigung von Kriegshandlungen, Eindämmung des Klimawandels und Abschaffung der Massentierhaltung oder der Überwachung ein, etwa mit Hilfe von Informationsbroschüren, Manifesten, Petitionen und Demonstrationen sowie des Engagements in den sozialen Medien. Der Aktivismus kann individueller Art sein oder im Rahmen von Nichtregierungsorganisationen (»non-governmental organizations«, NGOs) wie Amnesty International, Greenpeace oder Peta respektive von Bewegungen wie Fridays for Future (FFF) stattfinden. Er kann sich auf fremde oder eigene (auch persönliche) Verhältnisse richten.
   bibliographical_info: '(last accessed 08.04.2025)'
