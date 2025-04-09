@@ -27,7 +27,7 @@ The dataset is being built to document, compare, and analyze how activism is def
 | `language`                   | String            | Language of the quotation. |
 | `person`                     | List of Objects   | List of persons quoted. |
 | `person[].name`              | String            | Name of the person. |
-| `person[].gender`            | String            | Gender of the person. |
+| `person[].gender`            | String            | Gender of the person. m = male, f = female, nb = non-binary, u = unknown/unspecified |
 | `person[].gender_provenance`| String (optional) | Indicates how the gender value was obtained. See options below. |
 | `year`                       | Integer or String | Year of publication or of the source. |
 | `quote`                      | Multi-line Text   | Quotation or excerpt from the source. |
