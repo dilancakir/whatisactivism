@@ -12,7 +12,7 @@ Zotero: https://www.zotero.org/groups/5261383/what_is_activism/library
 | `id`                         | String            | Internal ID for the entry. |
 | `GND`                        | List of Strings   | GND identifier(s), from the Integrated Authority File (Gemeinsame Normdatei) used in German libraries. |
 | `WikiID`                     | List of Strings   | Wikidata ID(s) associated with the person. |
-| `country`                    | String            | Country of origin related to the person(s). |
+| `country`                    | String            | Country of origin related to the quoted publication. |
 | `zotero_key`                 | String            | Key for referencing the entry in Zotero (e.g., for automated citations). |
 | `language`                   | String            | Language of the quotation. |
 | `person`                     | List of Objects   | List of persons quoted. |
