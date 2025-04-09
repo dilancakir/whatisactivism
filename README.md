@@ -4,6 +4,18 @@ Website: https://dilancakir.github.io/whatisactivism/
 
 Zotero: https://www.zotero.org/groups/5261383/what_is_activism/library
 
+## About this project
+
+*A curated collection of quotes on activism from various historical and contemporary voices.*
+
+This repository is part of the research project **"Aktivismus und Literatur"**, a postdoctoral (Habilitation) project that explores the relationship between literature and activism across historical contexts. 
+The project is currently based at the research cluster of excellence  
+[**Temporal Communities – Doing Literature in a Global Perspective**](https://www.temporal-communities.de/)  
+at **Freie Universität Berlin**.
+
+The dataset is being built to document, compare, and analyze how activism is defined, narrated, and imagined in literary and para-literary texts. Each entry contains bibliographic metadata and excerpts from a primary sources, along with metadata fields to support further digital analysis.
+
+
 
 ## Field Documentation (YAML Structure)
 
