@@ -9,7 +9,7 @@ Zotero: https://www.zotero.org/groups/5261383/what_is_activism/library
 
 | Field name                    | Type              | Description |
 |------------------------------|-------------------|-------------|
-| `id`                         | String            | Internal ID or unique identifier for the entry. |
+| `id`                         | String            | Internal ID for the entry. |
 | `GND`                        | List of Strings   | GND identifier(s), from the Integrated Authority File (Gemeinsame Normdatei) used in German libraries. |
 | `WikiID`                     | List of Strings   | Wikidata ID(s) associated with the person. |
 | `country`                    | String            | Country of origin related to the person(s). |
