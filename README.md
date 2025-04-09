@@ -29,7 +29,7 @@ Zotero: https://www.zotero.org/groups/5261383/what_is_activism/library
 
 To ensure transparency, the `gender_provenance` field can be used to indicate where the gender information comes from. Recommended values:
 
-- `"assumed_from_name"` – inferred heuristically from the first name  
+- `"inferred"` – inferred heuristically from the first name  
 - `"wikidata"` – taken from a Wikidata entry  
 - `"gnd"` – taken from the GND authority file  
 - `"explicit"` – stated explicitly in the source  
