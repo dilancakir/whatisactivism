@@ -11,7 +11,7 @@ Zotero: https://www.zotero.org/groups/5261383/what_is_activism/library
 This repository is part of the research project **"Activism and Literature"**, a postdoctoral (Habilitation) project that explores the relationship between literature and activism across historical contexts. 
 The project is currently based at the research cluster of excellence [**Temporal Communities – Doing Literature in a Global Perspective**](https://www.temporal-communities.de/) at **Freie Universität Berlin**.
 
-The dataset is being built to document, compare, and analyze how activism is defined, narrated, and imagined in literary and para-literary texts. Each entry contains bibliographic metadata and excerpts from a primary sources, along with metadata fields to support further digital analysis.
+The dataset is being built to document, compare, and analyse how activism is defined, narrated, and imagined in literary and para-literary texts. Each entry contains bibliographic metadata and excerpts from a primary sources, along with metadata fields to support further digital analysis.
 
 
 
@@ -37,7 +37,7 @@ The dataset is being built to document, compare, and analyze how activism is def
 
 ### Notes on `gender_provenance`
 
-To ensure transparency, the `gender_provenance` field can be used to indicate where the gender information comes from. Recommended values:
+To ensure transparency, the `gender_provenance` field is used to indicate where the gender information comes from. Values:
 
 - `"inferred"` – inferred heuristically from the first name  
 - `"wikidata"` – taken from a Wikidata entry  
