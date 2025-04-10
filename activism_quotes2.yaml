@@ -11,8 +11,8 @@
   year: 2022.0
   quote: >
     '[…] die Geschichte des Aktivismus beginnt in Deutschland vor rund hundert
-    Jahren – mit Leuten wie dem späteren Friedensnobelpreisträger <person>Carl von
-    Ossietzky</person> oder dem heute nahezu vergessenen <person>Kurt Hiller</person>,
+    Jahren – mit Leuten wie dem späteren Friedensnobelpreisträger <a href="https://www.wikidata.org/wiki/Q76358" target="_blank">Carl von Ossietzky</a>
+    oder dem heute nahezu vergessenen <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>,
     die den Begriff »Aktivismus« in Umlauf brachten.'
   bibliographical_info: '(last accessed 30.10.2023).'
 - id: quote_2
@@ -363,7 +363,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    May Ayim[…] prägte wie kaum eine andere die afrodeutschen Literaturen wie
+    <a href="https://www.wikidata.org/wiki/Q106655" target="_blank">May Ayim</a>
+    […] prägte wie kaum eine andere die afrodeutschen Literaturen wie
     auch den Aktivismus. Ayims literarisches Schaffen sowie ihr Aktivismus für die
     Schwarze Community in Deutschland verbindet eine intersektionale Perspektive,
     die Mehrfachdiskriminierungen benennt und institutionellen Rassismus in Deutschland
@@ -384,7 +385,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    Lorde plädiert daher für eine 'Transformation des Schweigens in Sprache und
+    <a href="https://www.wikidata.org/wiki/Q463319" target="_blank">Lorde</a>
+    plädiert daher für eine 'Transformation des Schweigens in Sprache und
     Handlung' und macht die enge Verknüpfung von Sprache und Aktivismus sichtbar.
   bibliographical_info: 'p. 541.'
 - id: quote_26
@@ -491,8 +493,8 @@
     gender_provenece: inferred
   year: 1961.0
   quote: >
-    Expressionist Benn war nicht nur kein Aktivist, er war ein leidenschaftlicher
-    Feind des Aktivismus.
+    Expressionist <a href="https://www.wikidata.org/wiki/Q57277" target="_blank">Benn</a>
+    war nicht nur kein Aktivist, er war ein leidenschaftlicher Feind des Aktivismus.
   bibliographical_info: 'p. 189.'
 - id: quote_32
   GND: 454546416
@@ -506,9 +508,9 @@
     gender_provenece: inferred
   year: 1969.0
   quote: >
-    Als ‚Aktivismus‘ bezeichnet Kurt Hiller Ende 1914 eine radikale geistige
-    Bewegung innerhalb der expressionistischen Autorengeneration. Bereits in  den
-    letzten Vorkriegsjahren entstanden, gewann sie unter dem Eindruck der apokalyptischen
+    Als ‚Aktivismus‘ bezeichnet <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>
+    Ende 1914 eine radikale geistige Bewegung innerhalb der expressionistischen Autorengeneration. 
+    Bereits in  den letzten Vorkriegsjahren entstanden, gewann sie unter dem Eindruck der apokalyptischen
     Schrecken des ‚Großen Krieges‘ ihre äußerste Entschiedenheit.
   bibliographical_info: 'Klappentext.'
 - id: quote_33
@@ -523,10 +525,10 @@
     gender_provenece: inferred
   year: 1969.0
   quote: >
-    ganz zu schweigen von Heinrich Mann, dem Erzvater des ‘Aktivismus’, dessen
-    Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - als eine Art Initialzündung
-    gelten darf (Hiller eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).”
-    S. 7
+    ganz zu schweigen von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a>
+    , dem Erzvater des ‘Aktivismus’, dessen Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - 
+    als eine Art Initialzündung gelten darf (<a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a>
+    eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).
   bibliographical_info: 'p. 7.'
 - id: quote_34
   GND: 454546416
@@ -615,7 +617,7 @@
   year: 1965.0
   quote: >
     Nicht Seinslehre, sondern Sollphilosophie' ist der Aktivismus, so heißt es
-    bald danach bei Kurt Hiller.
+    bald danach bei <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>.
   bibliographical_info: 'p. 209.'
 - id: quote_40
   GND: .nan
@@ -629,8 +631,8 @@
     gender_provenece: inferred
   year: 1972.0
   quote: >
-    Eine Unterströmung des Expressionismus wie etwa Kurt Hillers Aktivismus,
-    welcher einen Bund der Geistigen, eine zum politischen Führertum bestimmte „Logokratie",
+    Eine Unterströmung des Expressionismus wie etwa <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hillers</a>
+    Aktivismus, welcher einen Bund der Geistigen, eine zum politischen Führertum bestimmte „Logokratie",
     forderte, beeindruckte zwar durch die Konsequenz der gedanklichen Konzeption und
     die Lauterkeit ihres Ethos, blieb aber politisch unwirksam.
   bibliographical_info: 'p. 481.'
@@ -767,8 +769,8 @@
   year: 2022.0
   quote: >
     Darüber hinaus begleitet den Aktivismus seit seinem Beginn der Verdacht des
-    'Scheinaktivismus', wie das der hellsichtige Georg Lukás schon 1934 nannte. Der
-    Scheinaktivismus unserer Tage heißt 'Slacktivism'.
+    'Scheinaktivismus', wie das der hellsichtige <a href="https://www.wikidata.org/wiki/Q151523" target="_blank">Georg Lukács</a>
+    schon 1934 nannte. Der Scheinaktivismus unserer Tage heißt 'Slacktivism'.
   bibliographical_info: 'p. 13.'
 - id: quote_49
   GND: 1154414639
@@ -782,8 +784,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    Walter Benjamin, alles andere als ein Reaktionär, sprach 1932 vom 'Irrtum
-    des Aktivismus'.
+    <a href="https://www.wikidata.org/wiki/Q61078" target="_blank">Walter Benjamin</a>, 
+    alles andere als ein Reaktionär, sprach 1932 vom 'Irrtum des Aktivismus'.
   bibliographical_info: 'p. 16.'
 - id: quote_50
   GND: 1154414639
@@ -797,7 +799,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    'Schon von Aristoteles hat uns Arthur Schopenhauer den Satz überliefert:
+    'Schon von <a href="https://www.wikidata.org/wiki/Q868" target="_blank">Aristoteles</a>
+     hat uns Arthur Schopenhauer den Satz überliefert:
     ''Das Leben besteht in der Bewegung und hat sein Wesen in ihr.'' Bräuchte der
     Aktivismus einen Leitsatz, hier wäre er.'
   bibliographical_info: 'p. 17.'
@@ -1017,7 +1020,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    '[...] Rudi Dutschke, die Galionsfigur des SDS-Aktivismus [...].'
+    '[...] <a href="https://www.wikidata.org/wiki/Q57218" target="_blank">Rudi Dutschke</a>
+    , die Galionsfigur des SDS-Aktivismus [...].'
   bibliographical_info: 'p. 89.'
 - id: quote_65
   GND: 1154414639
@@ -1031,7 +1035,8 @@
     gender_provenece: inferred
   year: 2022.0
   quote: >
-    Überhaupt, der Aktivismus, den Adorno Aktionismus nannte, war ihm suspekt.
+    Überhaupt, der Aktivismus, den <a href="https://www.wikidata.org/wiki/Q152388" target="_blank">Adorno</a>
+    Aktionismus nannte, war ihm suspekt.
   bibliographical_info: 'p. 97.'
 - id: quote_66
   GND: 1154414639
@@ -1243,12 +1248,12 @@
   year: 2024.0
   quote: >
     Vielmehr eröffnet die Rede ein Spektrum an Merkmalen und Eigenschaften,
-    das <person ref="https://www.wikidata.org/wiki/Q71390">[Thomas] Manns</person>
+    das <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">[Thomas] Manns</a>
     Aktivismus seit den mittleren Zwanzigerjahren in unterschiedliche Akzentuierungen und Facetten prägt.
     Eingedenk dieser Einschränkungen meint 'aktivistisch' erstens, dass es einen
     konkreten Anlass für das politische Einschreiten gibt (im beispielhaften Fall die
     Reichstagswahl vom September 1930 mit dem alarmierenden Stimmenzuwachs der NSDAP);
-    dass Thomas Mann zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
+    dass <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">Thomas Mann</a> zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
     teils auf Polemik zurückgreift (etwa wenn er den Nationalsozialisten einen politischen
     'Groteskstil mit Heilsarmee-Allüren, Massenkrampf, Budengeläut' bescheinigt);
     dass er drittens auf der Grundlage einer klaren moralischen Unterscheidung argumentiert
@@ -1291,9 +1296,13 @@
       gender_provenece: inferred
   year: 2001.0
   quote: >
-    Dies war mehr als Expressionismus, dies war Aktivismus. Kurt Hiller und seine Schriftsteilerkollegen 
-    Rudolf Kayser und Alfred Wolfenstein ersannen dieses Schlagwort im Herbst 1914, kurz vor Ausbruch des 1. 
-    Weltkriegs. Hiller selbst definierte den Unterschied dergestalt, daß er den Expressionismus als eine Ausdrucksart 
+    Dies war mehr als Expressionismus, dies war Aktivismus. <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a> 
+    und seine Schriftsteilerkollegen 
+    <a href="https://www.wikidata.org/wiki/Q2173136" target="_blank">Rudolf Kayser</a>
+     und <a href="https://www.wikidata.org/wiki/Q2646151" target="_blank">Alfred Wolfenstein</a> 
+     ersannen dieses Schlagwort im Herbst 1914, kurz vor Ausbruch des 1. 
+    Weltkriegs. <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a> 
+    selbst definierte den Unterschied dergestalt, daß er den Expressionismus als eine Ausdrucksart 
     empfand, den Aktivismus hingegen als eine Gesinnung, wobei beides in einer Person zusammenfallen konnte.
   bibliographical_info: 'p. 25'
 - id: quote_79
@@ -1310,11 +1319,12 @@
       gender_provenece: inferred
   year: 2023.0
   quote: >
-    [Christian Geissler] gewann Kontakte zur Friedensbewegung, zu den Verfolgten des Nationalsozialismus 
+    [<a href="https://www.wikidata.org/wiki/Q106613" target="_blank">Christian Geissler</a>] gewann Kontakte zur Friedensbewegung, zu den Verfolgten des Nationalsozialismus 
     und auch in die DDR. All dies trug dazu bei, dass er sich neben der künstlerischen Arbeit zum politischen 
     Aktivisten und in seiner Analyse der gesellschaftlichen Verhältnisse zum Marxisten entwickelte. In einem 
-    Gespräch mit Pieter Bassen resümiert Christian Geissler gut vierzig Jahre später: »Wenn man über das 
-    Moralische des Antifaschismus hinauswill in einen anwendbaren Antifaschismus, kommt man auf Marx.«
+    Gespräch mit Pieter Bassen resümiert <a href="https://www.wikidata.org/wiki/Q106613" target="_blank">Christian Geissler</a> 
+    gut vierzig Jahre später: »Wenn man über dasMoralische des Antifaschismus hinauswill in einen anwendbaren Antifaschismus, 
+    kommt man auf <a href="https://www.wikidata.org/wiki/Q9061" target="_blank">Marx</a>.«
   bibliographical_info: 'p. 309'
 - id: quote_80
   GND: 
@@ -1330,5 +1340,9 @@
       gender_provenece: inferred
   year: 2021.0
   quote: >
-    Ein Aktivist oder eine Aktivistin (engl. »activist«) setzt sich für ein soziales, ökologisches oder politisches Ziel wie Beendigung von Kriegshandlungen, Eindämmung des Klimawandels und Abschaffung der Massentierhaltung oder der Überwachung ein, etwa mit Hilfe von Informationsbroschüren, Manifesten, Petitionen und Demonstrationen sowie des Engagements in den sozialen Medien. Der Aktivismus kann individueller Art sein oder im Rahmen von Nichtregierungsorganisationen (»non-governmental organizations«, NGOs) wie Amnesty International, Greenpeace oder Peta respektive von Bewegungen wie Fridays for Future (FFF) stattfinden. Er kann sich auf fremde oder eigene (auch persönliche) Verhältnisse richten.
+    Ein Aktivist oder eine Aktivistin (engl. »activist«) setzt sich für ein soziales, ökologisches oder politisches Ziel wie Beendigung von Kriegshandlungen, 
+    Eindämmung des Klimawandels und Abschaffung der Massentierhaltung oder der Überwachung ein, etwa mit Hilfe von Informationsbroschüren, Manifesten, 
+    Petitionen und Demonstrationen sowie des Engagements in den sozialen Medien. Der Aktivismus kann individueller Art sein oder im Rahmen von Nichtregierungsorganisationen 
+    (»non-governmental organizations«, NGOs) wie Amnesty International, Greenpeace oder Peta respektive von Bewegungen wie Fridays for Future (FFF) stattfinden. 
+    Er kann sich auf fremde oder eigene (auch persönliche) Verhältnisse richten.
   bibliographical_info: '(last accessed 08.04.2025)'
