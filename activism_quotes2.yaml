@@ -1253,7 +1253,8 @@
     Eingedenk dieser Einschränkungen meint 'aktivistisch' erstens, dass es einen
     konkreten Anlass für das politische Einschreiten gibt (im beispielhaften Fall die
     Reichstagswahl vom September 1930 mit dem alarmierenden Stimmenzuwachs der NSDAP);
-    dass <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">Thomas Mann</a> zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
+    dass <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">Thomas Mann</a> 
+    zweitens auf einen für ihn ansonsten ungewöhnlich handfesten Ton,
     teils auf Polemik zurückgreift (etwa wenn er den Nationalsozialisten einen politischen
     'Groteskstil mit Heilsarmee-Allüren, Massenkrampf, Budengeläut' bescheinigt);
     dass er drittens auf der Grundlage einer klaren moralischen Unterscheidung argumentiert
@@ -1398,10 +1399,30 @@
    - name: Kim, David D.
      gender: m
      gender_provenece: inferred
-  year: 2022
+  year: 2022.0
   quote: >
     Von manchen Literaturwissenschaftler*innen wird jegliche Form von literaturwissenschaftlichem Aktivismus nicht nur deswegen abgelehnt, 
     weil sie droht, ihre vermeintlich wertfreien, objektiv wissenschaftlichen Erkenntnisse mit ideologisch verzerrten Urteilen zu korrumpieren, 
     sondern auch weil eine kritische Überprüfung fachwissenschaftlicher Forschungen aufgrund außeruniversitärer Wissensformen ihr soziales Privileg, 
     wenn nicht »ihr ganzes Daseyn«, in Frage stellt.
   bibliographical_info: 'p. 433'
+- id: quote_84
+  GND:
+   - 103427791
+  WikiID:
+   - Q1747753
+  country: Germany
+  zotero_key: X2KQ94FF
+  language: German
+  person:
+   - name: Şölçün, Sargut
+     gender: m
+     gender_provenece: inferred
+  year: 2011.0
+  quote: >
+    Während seiner Berliner Zeit ab 1910 machte <a href="https://www.wikidata.org/wiki/Q126904501" target="_blank">Wegner</a> Bekanntschaft mit den Aktivisten um Kurt Hiller,
+    die von der erneuernden Kraft des Geistes überzeugt waren und die Welt durch politisches Engagement
+    der Dichter einer radikalen Veränderung unterziehen wollten.
+    Diese Ziele entsprachen <a href="https://www.wikidata.org/wiki/Q126904501" target="_blank">Wegners</a> Aufbruchsstimmung, sein idealistischer Humanismus
+    formierte sich unter dem Einfluss des Neukantismus, der im Kreis der aktivistischen Literaten dominierte.
+  bibliographical_info: 'p. 42'
