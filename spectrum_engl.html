@@ -73,6 +73,7 @@
       text-align: center;
       margin-top: 10px;
       color: #333;
+      flex-wrap: wrap;
     }
 
     .label {
@@ -80,7 +81,11 @@
       padding: 0 4px;
     }
 
-    .label span {
+    .label-main {
+      font-weight: bold;
+    }
+
+    .label-sub {
       display: block;
       font-size: 0.7rem;
       color: #666;
@@ -143,13 +148,34 @@
     <div class="arrow" id="arrow">⟶ zunehmende Sichtbarkeit, Risikobereitschaft & Konfrontation</div>
 
     <div class="labels" id="labels">
-      <div class="label" data-en="Reflection" data-de="Reflexion"><span data-en="Inner work, analysis" data-de="Innere Arbeit, Analyse">Innere Arbeit, Analyse</span>Reflexion</div>
-      <div class="label" data-en="Text & Dialogue" data-de="Text & Diskurs"><span data-en="Essays, talks, social media" data-de="Essays, Vorträge, Social Media">Essays, Vorträge, Social Media</span>Text & Diskurs</div>
-      <div class="label" data-en="Mobilisation" data-de="Mobilisierung"><span data-en="Networks, community building" data-de="Netzwerke, Community-Aufbau">Netzwerke, Community-Aufbau</span>Mobilisierung</div>
-      <div class="label" data-en="Protest" data-de="Protest"><span data-en="Demonstrations, civil disobedience" data-de="Kundgebung, ziviler Ungehorsam">Kundgebung, ziviler Ungehorsam</span>Protest</div>
-      <div class="label" data-en="Action" data-de="Aktion"><span data-en="Occupations, symbolic disruption" data-de="Besetzung, kreative Störung">Besetzung, kreative Störung</span>Aktion</div>
-      <div class="label" data-en="Confrontation" data-de="Konfrontation"><span data-en="Blockades, physical presence" data-de="Blockade, physische Präsenz">Blockade, physische Präsenz</span>Konfrontation</div>
-      <div class="label" data-en="Violence" data-de="Gewalt"><span data-en="Sabotage, direct attacks" data-de="Sabotage, direkte Angriffe">Sabotage, direkte Angriffe</span>Gewalt</div>
+      <div class="label">
+        <div class="label-main" data-en="Reflection" data-de="Reflexion">Reflexion</div>
+        <span class="label-sub" data-en="Inner work, analysis" data-de="Innere Arbeit, Analyse">Innere Arbeit, Analyse</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Text & Dialogue" data-de="Text & Diskurs">Text & Diskurs</div>
+        <span class="label-sub" data-en="Essays, talks, social media" data-de="Essays, Vorträge, Social Media">Essays, Vorträge, Social Media</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Mobilisation" data-de="Mobilisierung">Mobilisierung</div>
+        <span class="label-sub" data-en="Networks, community building" data-de="Netzwerke, Community-Aufbau">Netzwerke, Community-Aufbau</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Protest" data-de="Protest">Protest</div>
+        <span class="label-sub" data-en="Demonstrations, civil disobedience" data-de="Kundgebung, ziviler Ungehorsam">Kundgebung, ziviler Ungehorsam</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Action" data-de="Aktion">Aktion</div>
+        <span class="label-sub" data-en="Occupations, symbolic disruption" data-de="Besetzung, kreative Störung">Besetzung, kreative Störung</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Confrontation" data-de="Konfrontation">Konfrontation</div>
+        <span class="label-sub" data-en="Blockades, physical presence" data-de="Blockade, physische Präsenz">Blockade, physische Präsenz</span>
+      </div>
+      <div class="label">
+        <div class="label-main" data-en="Violence" data-de="Gewalt">Gewalt</div>
+        <span class="label-sub" data-en="Sabotage, direct attacks" data-de="Sabotage, direkte Angriffe">Sabotage, direkte Angriffe</span>
+      </div>
     </div>
 
     <div class="context-row" id="context">
@@ -196,17 +222,35 @@
     function toggleLanguage() {
       currentLang = currentLang === 'de' ? 'en' : 'de';
 
-      document.querySelectorAll('[data-en]').forEach(el => {
-        el.innerText = el.getAttribute(`data-${currentLang}`);
-      });
-
-      // Titel & Untertitel
       document.getElementById('title').innerText = currentLang === 'de' ? 'Spektrum des Aktivismus' : 'Spectrum of Activism';
-      document.getElementById('subtitle').innerText = currentLang === 'de' ? 'Von innerer Reflexion bis zu äußerer Eskalation' : 'From Inner Reflection to External Escalation';
+      document.getElementById('subtitle').innerText = currentLang === 'de'
+        ? 'Von innerer Reflexion bis zu äußerer Eskalation'
+        : 'From Inner Reflection to External Escalation';
       document.getElementById('arrow').innerText = currentLang === 'de'
         ? '⟶ zunehmende Sichtbarkeit, Risikobereitschaft & Konfrontation'
         : '⟶ increasing visibility, risk, and confrontation';
+
+      document.querySelectorAll('.label-main').forEach(el => {
+        el.innerText = el.getAttribute(`data-${currentLang}`);
+      });
+      document.querySelectorAll('.label-sub').forEach(el => {
+        el.innerText = el.getAttribute(`data-${currentLang}`);
+      });
+
+      document.querySelectorAll('.context-row [data-en]').forEach(el => {
+        el.innerText = el.getAttribute(`data-${currentLang}`);
+      });
+
+      document.querySelector('.license-block span [data-en]').innerText =
+        document.querySelector('.license-block span [data-en]').getAttribute(`data-${currentLang}`);
+
       document.querySelector('#legend p strong').innerText = currentLang === 'de' ? 'Legende:' : 'Legend:';
+      document.querySelectorAll('#legend span[data-en]').forEach(el => {
+        el.innerText = el.getAttribute(`data-${currentLang}`);
+      });
+      document.querySelectorAll('#legend strong[data-en]').forEach(el => {
+        el.innerText = el.getAttribute(`data-${currentLang}`);
+      });
     }
   </script>
 </body>
