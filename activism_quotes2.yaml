@@ -1427,3 +1427,20 @@
     Diese Ziele entsprachen <a href="https://www.wikidata.org/wiki/Q126904501" target="_blank">Wegners</a> Aufbruchsstimmung, sein idealistischer Humanismus
     formierte sich unter dem Einfluss des Neukantismus, der im Kreis der aktivistischen Literaten dominierte.
   bibliographical_info: 'p. 42'
+- id: quote_85
+  GND:
+   - 14057624X
+  WikiID:
+   - Q67218495
+  country: UK
+  zotero_key: LNM9LZZ2
+  language: English
+  person:
+   - name: Colvin, Sarah
+     gender: f
+     gender_provenece: inferred
+  year: 2022.0
+  quote: >
+    Here I would like to build on <a href="https://www.wikidata.org/wiki/Q1252311" target="_blank">Fatima El-Tayeb’s</a> argument that poetry,  
+    »with its ability to ›give a name to the nameless,‹« became a tool of liberation for Black feminist activists in Europe.
+  bibliographical_info: 'p. 42'
