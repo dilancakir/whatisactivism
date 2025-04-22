@@ -1679,5 +1679,24 @@
     <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Lajos (Ludwig) Kassák</a> am 20. Februar 1919 
     in Budapest proklamiert, dessen Text Kassák wenig später in seiner Zeitschrift »MA« publizierte.
   bibliographical_info: 'p. 264'
+- id: quote_97
+  GND: 
+   - 135522269
+  WikiID:
+   - Q1281929
+  country: Germany
+  zotero_key: KKQ5IXG5
+  language: German
+  person:
+   - name: Şahin, Reyhan   
+     gender: f
+     gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Damals kannte ich Aktivismus oder politische Konzeptkunst nicht. 
+    Ich habe es einfach aus meiner Identität heraus gemacht. Mir waren zwar die politischen, feministischen, 
+    antirassistischen Absichten wichtig, aber ich konnte es nicht benennen. Auch Provokation hat bei meiner Ausdrucksform eine 
+    Rolle gespielt. Aber die Reaktionen haben mir gezeigt: Das hat nicht nur irritiert, sondern richtig Hass ausgelöst. Totale Polarisierung.
+  bibliographical_info: 'accessed 22.04.2025'
 
 
