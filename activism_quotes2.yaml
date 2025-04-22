@@ -1656,11 +1656,28 @@
     aktivistische Programmschrift von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a> begeisterte, vergaß bis 1942 
     seine einstige Begeisterung komplett. <a href="https://www.wikidata.org/wiki/Q78491" target="_blank">Zweig</a> hatte wenig bis gar nichts mit der
     Avantgarde zu tun: Die Kunstismen und ihre Produkte auf allen Gebieten der Kunst und der Literatur fasste er als extreme, 
-    vergängliche Modeerscheinungen auf. In     seinen großartigen Memoiren, seinem letzten Buch, dessen Manuskript er 1942,
+    vergängliche Modeerscheinungen auf. In seinen großartigen Memoiren, seinem letzten Buch, dessen Manuskript er 1942,
     unmittelbar vor seinem Selbstmord aus Brasilien auf dem Postweg nach Schweden brachte Die Welt von Gestern. Erinnerungen eines Europäers spielen die Begriffe
     »aktivistisch«, »Aktivismus« und »Aktivisten« allerdings eine Rolle. Erbenutzt den Ausdruck stets abwertend für ein mit politischer Theorie und Ideologie
     überladenes, experimentelles Schrifttum von Polit-Literaten.
   bibliographical_info: 'p. 263'
-
+- id: quote_96
+  GND: 
+   - .nan
+  WikiID:
+   - Q854723
+  country: Germany
+  zotero_key: G8YWPQCZ
+  language: German
+  person:
+   - name: Biró, Annamária   
+     gender: f
+     gender_provenece: inferred
+  year: 2018.0
+  quote: >
+    Formell wurde der ungarische Aktivismus nach dem Ersten Weltkrieg mit einem Vortrag von 
+    <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Lajos (Ludwig) Kassák</a> am 20. Februar 1919 
+    in Budapest proklamiert, dessen Text Kassák wenig später in seiner Zeitschrift »MA« publizierte.
+  bibliographical_info: 'p. 264'
 
 
