@@ -1636,7 +1636,31 @@
     Essay »Geist und Tat« (1910). Die führenden ›Aktivisten‹ waren <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a> und 
     <a href="https://www.wikidata.org/wiki/Q1874926" target="_blank">Ludwig Rubiner</a>.
   bibliographical_info: 'p. 17'
-
+- id: quote_95
+  GND: 
+   - .nan
+  WikiID:
+   - Q854723
+  country: Germany
+  zotero_key: G8YWPQCZ
+  language: German
+  person:
+   - name: Biró, Annamária   
+     gender: f
+     gender_provenece: inferred
+  year: 2018.0
+  quote: >
+    Der vor dem Ersten Weltkrieg entstandene deutsche Aktivismus ist heute nur noch wenig bekannt. Kein Wunder, denn selbst 
+    <a href="https://www.wikidata.org/wiki/Q78491" target="_blank">Stefan Zweig</a>, 
+    der sich 1911 noch für die
+    aktivistische Programmschrift von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a> begeisterte, vergaß bis 1942 
+    seine einstige Begeisterung komplett. <a href="https://www.wikidata.org/wiki/Q78491" target="_blank">Zweig</a> hatte wenig bis gar nichts mit der
+    Avantgarde zu tun: Die Kunstismen und ihre Produkte auf allen Gebieten der Kunst und der Literatur fasste er als extreme, 
+    vergängliche Modeerscheinungen auf. In     seinen großartigen Memoiren, seinem letzten Buch, dessen Manuskript er 1942,
+    unmittelbar vor seinem Selbstmord aus Brasilien auf dem Postweg nach Schweden brachte Die Welt von Gestern. Erinnerungen eines Europäers spielen die Begriffe
+    »aktivistisch«, »Aktivismus« und »Aktivisten« allerdings eine Rolle. Erbenutzt den Ausdruck stets abwertend für ein mit politischer Theorie und Ideologie
+    überladenes, experimentelles Schrifttum von Polit-Literaten.
+  bibliographical_info: 'p. 263'
 
 
 
