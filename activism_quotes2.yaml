@@ -993,21 +993,21 @@
   GND: 18577166
   WikiID: Q37030
   country: Germany
-  zotero_key: 2BCNJ29A
+  zotero_key: RRE6YS5R
   language: German
   person:
   - name: Mann, Thomas
     gender: m
     gender_provenece: inferred
-  year: .nan
+  year: 1922
   quote: >
-    Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland 'Aktivismus'
+    Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland »Aktivismus«
     nennt, nichts ist als die Übertragung eines bestimmten Kunstgeschmacks und -temperaments
-    in Politische. Eine Kunstschule ['Expressionismus'] von heftig aktivischen Bedürfnissen,
+    in Politische. Eine Kunstschule (»Expressionismus«) von heftig aktivischen Bedürfnissen,
     der Ruhe, der Betrachtung, dem epischen Behagen, der Sachlichkeit und Heiterkeit
     verächtlich abgeneigt, ganz auf das Rapide, Vehement-Bewegte, Graß-Ausdrucksvolle
-    gestellt, - verlangt eines Tages, daß 'die Geistige handle'.
-  bibliographical_info: .nan
+    gestellt, - verlangt eines Tages, daß »der Geistige« handle.
+  bibliographical_info: 'p.192'
 - id: quote_64
   GND: 1154414639
   WikiID: Q50521652
@@ -1721,7 +1721,7 @@
      ihren Standpunkt immer
      wieder verteidigen mussten, wurde in Abgrenzung zum Hiller'schen Aktivismus ihre 
      Philosophie überhaupt erst konkret. 
-  bibliographical_info: 'p. 19-20'
+  bibliographical_info: 'pp. 19-20'
 
 
 
