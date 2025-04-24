@@ -1324,7 +1324,7 @@
     und auch in die DDR. All dies trug dazu bei, dass er sich neben der künstlerischen Arbeit zum politischen 
     Aktivisten und in seiner Analyse der gesellschaftlichen Verhältnisse zum Marxisten entwickelte. In einem 
     Gespräch mit Pieter Bassen resümiert <a href="https://www.wikidata.org/wiki/Q106613" target="_blank">Christian Geissler</a> 
-    gut vierzig Jahre später: »Wenn man über dasMoralische des Antifaschismus hinauswill in einen anwendbaren Antifaschismus, 
+    gut vierzig Jahre später: »Wenn man über das Moralische des Antifaschismus hinauswill in einen anwendbaren Antifaschismus, 
     kommt man auf <a href="https://www.wikidata.org/wiki/Q9061" target="_blank">Marx</a>.«
   bibliographical_info: 'p. 309'
 - id: quote_80
@@ -1677,7 +1677,8 @@
   quote: >
     Formell wurde der ungarische Aktivismus nach dem Ersten Weltkrieg mit einem Vortrag von 
     <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Lajos (Ludwig) Kassák</a> am 20. Februar 1919 
-    in Budapest proklamiert, dessen Text Kassák wenig später in seiner Zeitschrift »MA« publizierte.
+    in Budapest proklamiert, dessen Text <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Kassák</a> 
+    wenig später in seiner Zeitschrift »MA« publizierte.
   bibliographical_info: 'p. 264'
 - id: quote_97
   GND: 
@@ -1698,5 +1699,26 @@
     antirassistischen Absichten wichtig, aber ich konnte es nicht benennen. Auch Provokation hat bei meiner Ausdrucksform eine 
     Rolle gespielt. Aber die Reaktionen haben mir gezeigt: Das hat nicht nur irritiert, sondern richtig Hass ausgelöst. Totale Polarisierung.
   bibliographical_info: '(last accessed 22.04.2025)'
+- id: quote_98
+  GND: 
+   - 114073198
+  WikiID:
+   - Q95245353
+  country: Germany
+  zotero_key: 4YYXMD8S
+  language: German
+  person:
+   - name: Schütt, Rüdiger   
+     gender: m
+     gender_provenece: inferred
+  year: 2009.0
+  quote: >
+     Während die breite Öffentlichkeit die Finisten ignorierte oder belächelte [...],
+     nahm Hiller sie ernst und begann eine instensive Debatte über Aktivismus/Finismus,
+     auf hohem intellektuellem Niveau. Indem Riegel und Rühmkorf ihren Standpunkt immer
+     wieder verteidigen mussten, wurde in Abgrenzung zum Hiller'schen Aktivismus ihre 
+     Philosophie überhaupt erst konkret. 
+  bibliographical_info: 'p. 19-20'
+
 
 
