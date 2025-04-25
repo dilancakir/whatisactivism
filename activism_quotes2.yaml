@@ -999,7 +999,7 @@
   - name: Mann, Thomas
     gender: m
     gender_provenece: inferred
-  year: 1922
+  year: 1922.0
   quote: >
     Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland »Aktivismus«
     nennt, nichts ist als die Übertragung eines bestimmten Kunstgeschmacks und -temperaments
