@@ -15,7 +15,7 @@ The dataset is being built to document, compare, and analyse how activism is def
 
 
 
-## Field Documentation [(YAML Structure)] (https://github.com/dilancakir/whatisactivism/blob/main/YAML%20blanke.yaml)
+## Field Documentation (YAML Structure)
 
 | Field name                    | Type              | Description |
 |------------------------------|-------------------|-------------|
