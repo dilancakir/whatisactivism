@@ -104,36 +104,41 @@
     Schrecken des ‚Großen Krieges‘ ihre äußerste Entschiedenheit.
   bibliographical_info: 'Klappentext'
 - id: quote_7
-  GND: 454546416
-  WikiID: .nan
+  GND: 118590391
+  WikiID: Q76358
   country: Germany
-  zotero_key: PJNXKZAN
+  zotero_key: C7NHECS6
   language: German
   person:
-  - name: Rothe, Wolfgang
+  - name: Ossietzky, Carl von
     gender: m
     gender_provenece: inferred
-  year: 1969.0
+  year: 1918.0
   quote: >
-    ganz zu schweigen von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a>
-    , dem Erzvater des ‘Aktivismus’, dessen Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - 
-    als eine Art Initialzündung gelten darf (<a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a>
-    eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).
-  bibliographical_info: 'p. 7'
+    Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt die
+    deutschte Öffentlichkeit das Schlagwort Aktivismus, begierig aufgegriffen von
+    der literarischen Jugend. Was haben wir in dem Worte zu suchen? Sehnsucht nach
+    Taten, Wille zu wirken, Tagespolitik mit geistiger Kraft zu durchsetzen, Abkehr
+    von intellektuellem Chinesentume. Das Losungswort einer neuen Jugend also. Einer
+    Jugend, die geisitig sein möchte und doch nicht isoliert. Die heraus möchte aus
+    dem Dunstkreise des Studierzimmers, der ästhetischen Koterie. Wenn das ein Zeichen
+    unserer Zeit ist, dann ist es gewiß kein schlechtes.
+  bibliographical_info: 'p.'
 - id: quote_8
-  GND: 454546416
-  WikiID: .nan
+  GND: 118590391
+  WikiID: Q76358
   country: Germany
-  zotero_key: PJNXKZAN
+  zotero_key: C7NHECS6
   language: German
   person:
-  - name: Rothe, Wolfgang
+  - name: Ossietzky, Carl von
     gender: m
     gender_provenece: inferred
-  year: 1969.0
+  year: 1918.0
   quote: >
-    Tat - das Schlüsselwort des Aktivismus!
-  bibliographical_info: 'p. 10'
+    Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
+    Passivismus ist Ruhe, beharrliches Abschließen.
+  bibliographical_info: 'p. 88'
 - id: quote_9
   GND: 454546416
   WikiID: .nan
@@ -283,41 +288,36 @@
     vieles dafür, dass der Aktivismus eine deutsche Wortprägung und Idee ist.'
   bibliographical_info: 'p. 11'
 - id: quote_18
-  GND: 118590391
-  WikiID: Q76358
+  GND: 454546416
+  WikiID: .nan
   country: Germany
-  zotero_key: C7NHECS6
+  zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Ossietzky, Carl von
+  - name: Rothe, Wolfgang
     gender: m
     gender_provenece: inferred
-  year: 1918.0
+  year: 1969.0
   quote: >
-    Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt die
-    deutschte Öffentlichkeit das Schlagwort Aktivismus, begierig aufgegriffen von
-    der literarischen Jugend. Was haben wir in dem Worte zu suchen? Sehnsucht nach
-    Taten, Wille zu wirken, Tagespolitik mit geistiger Kraft zu durchsetzen, Abkehr
-    von intellektuellem Chinesentume. Das Losungswort einer neuen Jugend also. Einer
-    Jugend, die geisitig sein möchte und doch nicht isoliert. Die heraus möchte aus
-    dem Dunstkreise des Studierzimmers, der ästhetischen Koterie. Wenn das ein Zeichen
-    unserer Zeit ist, dann ist es gewiß kein schlechtes.
-  bibliographical_info: 'p.'
+    ganz zu schweigen von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a>
+    , dem Erzvater des ‘Aktivismus’, dessen Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - 
+    als eine Art Initialzündung gelten darf (<a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a>
+    eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).
+  bibliographical_info: 'p. 7'  
 - id: quote_19
-  GND: 118590391
-  WikiID: Q76358
+  GND: 454546416
+  WikiID: .nan
   country: Germany
-  zotero_key: C7NHECS6
+  zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Ossietzky, Carl von
+  - name: Rothe, Wolfgang
     gender: m
     gender_provenece: inferred
-  year: 1918.0
+  year: 1969.0
   quote: >
-    Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
-    Passivismus ist Ruhe, beharrliches Abschließen.
-  bibliographical_info: 'p. 88'
+    Tat - das Schlüsselwort des Aktivismus!
+  bibliographical_info: 'p. 10'
 - id: quote_20
   GND: 1154414639
   WikiID: Q50521652
