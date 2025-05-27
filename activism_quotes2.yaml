@@ -5,16 +5,16 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     […] die Geschichte des Aktivismus beginnt in Deutschland vor rund hundert
     Jahren – mit Leuten wie dem späteren Friedensnobelpreisträger <a href="https://www.wikidata.org/wiki/Q76358" target="_blank">Carl von Ossietzky</a>
     oder dem heute nahezu vergessenen <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>,
     die den Begriff »Aktivismus« in Umlauf brachten.
-  bibliographical_info: '(last accessed 30.10.2023).'
+  bibliographical_info: "(last accessed 30.10.2023)."
 - id: quote_2
   GND: 104398352X
   WikiID: Q19959231
@@ -22,14 +22,14 @@
   zotero_key: 5GVZA22Z
   language: German
   person:
-  - name: Czollek, Max
-    gender: m
-    gender_provenece: inferred
+    - name: Czollek, Max
+      gender: m
+      gender_provenece: inferred
   year: 2023.0
   quote: >
     Aktivismus ohne Denken ist orientierungslos. Aber Denken ohne Aktivismus
     wirkungslos.
-  bibliographical_info: '(last accessed 31.10.2023)'
+  bibliographical_info: "(last accessed 31.10.2023)"
 - id: quote_3
   GND: 118609807
   WikiID: Q44331
@@ -37,13 +37,13 @@
   zotero_key: KSLTL588
   language: German
   person:
-  - name: Schnitzler, Arthur
-    gender: m
-    gender_provenece: inferred
+    - name: Schnitzler, Arthur
+      gender: m
+      gender_provenece: inferred
   year: 1918.0
   quote: >
     Aktivisten Wirrköpferei
-  bibliographical_info: 'p. 186'
+  bibliographical_info: "p. 186"
 - id: quote_4
   GND: 18577166
   WikiID: Q37030
@@ -51,9 +51,9 @@
   zotero_key: RRE6YS5R
   language: German
   person:
-  - name: Mann, Thomas
-    gender: m
-    gender_provenece: inferred
+    - name: Mann, Thomas
+      gender: m
+      gender_provenece: inferred
   year: 1922.0
   quote: >
     Unterdessen liegt es ja auf der Hand, daß, was sich in Deutschland »Aktivismus«
@@ -70,7 +70,7 @@
     dieser Herren Kollegen nun pazifistisch ist oder nicht, tut wenig zur Sache, - hier
     ist der Krieg! Sie sangen ihn in jeder Zeile, bevor er da war, und nie gab es
     ein besseres Beispiel dafür, wie wenig das Meinen das Sein verkündigt.
-  bibliographical_info: 'p. 192'
+  bibliographical_info: "p. 192"
 - id: quote_5
   GND: 118551132
   WikiID: Q66458
@@ -78,14 +78,14 @@
   zotero_key: B6SXD4JK
   language: German
   person:
-  - name: Hiller, Kurt
-    gender: m
-    gender_provenece: inferred
+    - name: Hiller, Kurt
+      gender: m
+      gender_provenece: inferred
   year: 1961.0
   quote: >
     Expressionist <a href="https://www.wikidata.org/wiki/Q57277" target="_blank">Benn</a>
     war nicht nur kein Aktivist, er war ein leidenschaftlicher Feind des Aktivismus.
-  bibliographical_info: 'p. 189'
+  bibliographical_info: "p. 189"
 - id: quote_6
   GND: 454546416
   WikiID: .nan
@@ -93,16 +93,16 @@
   zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Rothe, Wolfgang
-    gender: m
-    gender_provenece: inferred
+    - name: Rothe, Wolfgang
+      gender: m
+      gender_provenece: inferred
   year: 1969.0
   quote: >
     Als ‚Aktivismus‘ bezeichnet <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>
     Ende 1914 eine radikale geistige Bewegung innerhalb der expressionistischen Autorengeneration. 
     Bereits in  den letzten Vorkriegsjahren entstanden, gewann sie unter dem Eindruck der apokalyptischen
     Schrecken des ‚Großen Krieges‘ ihre äußerste Entschiedenheit.
-  bibliographical_info: 'Klappentext'
+  bibliographical_info: "Klappentext"
 - id: quote_7
   GND: 118590391
   WikiID: Q76358
@@ -110,9 +110,9 @@
   zotero_key: C7NHECS6
   language: German
   person:
-  - name: Ossietzky, Carl von
-    gender: m
-    gender_provenece: inferred
+    - name: Ossietzky, Carl von
+      gender: m
+      gender_provenece: inferred
   year: 1918.0
   quote: >
     Seit Jahresfrist oder - ich weiß wirklich nicht wie lange - durchzuckt die
@@ -123,7 +123,7 @@
     Jugend, die geistig sein möchte und doch nicht isoliert. Die heraus möchte aus
     dem Dunstkreise des Studierzimmers, der ästhetischen Koterie. Wenn das ein Zeichen
     unserer Zeit ist, dann ist es gewiß kein schlechtes.
-  bibliographical_info: 'p.'
+  bibliographical_info: "p."
 - id: quote_8
   GND: 118590391
   WikiID: Q76358
@@ -131,14 +131,14 @@
   zotero_key: C7NHECS6
   language: German
   person:
-  - name: Ossietzky, Carl von
-    gender: m
-    gender_provenece: inferred
+    - name: Ossietzky, Carl von
+      gender: m
+      gender_provenece: inferred
   year: 1918.0
   quote: >
     Aktivismus bedeutet Reichtum, seelischen Altruismus, Freude am Schenken.
     Passivismus ist Ruhe, beharrliches Abschließen.
-  bibliographical_info: 'p. 88'
+  bibliographical_info: "p. 88"
 - id: quote_9
   GND: 454546416
   WikiID: .nan
@@ -146,14 +146,14 @@
   zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Rothe, Wolfgang
-    gender: m
-    gender_provenece: inferred
+    - name: Rothe, Wolfgang
+      gender: m
+      gender_provenece: inferred
   year: 1969.0
   quote: >
     Der Begriff Aktivismus täuscht eine Geschlossenheit und Einheitlichkeit vor,
     welche die Sache selber nie besessen hat.
-  bibliographical_info: 'p. 12'
+  bibliographical_info: "p. 12"
 - id: quote_10
   GND: 454546416
   WikiID: .nan
@@ -161,14 +161,14 @@
   zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Rothe, Wolfgang
-    gender: m
-    gender_provenece: inferred
+    - name: Rothe, Wolfgang
+      gender: m
+      gender_provenece: inferred
   year: 1969.0
   quote: >
     Terminologisch sauberer wäre es, statt von Aktivisten von Aktiven, Handelnden
     zu reden [...].
-  bibliographical_info: 'p. 12'
+  bibliographical_info: "p. 12"
 - id: quote_11
   GND: 1154414639
   WikiID: Q50521652
@@ -176,14 +176,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Aktivisten demonstrieren, mobilisieren, emotionalisieren auf allen ihnen
     zur Verfügung stehenden Kanälen.
-  bibliographical_info: 'p. 1'
+  bibliographical_info: "p. 1"
 - id: quote_12
   GND: 1154414639
   WikiID: Q50521652
@@ -191,33 +191,33 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     War früher 'Intellektueller' ein begehrtes Adelsprädikat, wird nun auch in
     Autorenkreisen die Nomenklatur 'Aktivist' bevorzugt.
-  bibliographical_info: 'p. 2'
+  bibliographical_info: "p. 2"
 - id: quote_13
-  GND: 
-   - 1327987848
+  GND:
+    - 1327987848
   WikiID:
-   - Q134127282
+    - Q134127282
   country: Germany
   zotero_key: YDQPFE9M
   language: German
   person:
-   - name: Aras, Maryam   
-     gender: f
-     gender_provenece: inferred
+    - name: Aras, Maryam
+      gender: f
+      gender_provenece: inferred
   year: 2025.0
   quote: >
-     Mein Vater würde nie von Aktivismus sprechen. Oder denken. 
-     Wenn ich das Wort durch seine Augen lese, klingt es nach einem Hobby.
-     Politisch aktiv sein, politisch denken, ein politisch denkender Mensch sein,
-     ja. Im Grunde genommen bedeutet das für ihn Menschsein.
-  bibliographical_info: 'p. 13'
+    Mein Vater würde nie von Aktivismus sprechen. Oder denken. 
+    Wenn ich das Wort durch seine Augen lese, klingt es nach einem Hobby.
+    Politisch aktiv sein, politisch denken, ein politisch denkender Mensch sein,
+    ja. Im Grunde genommen bedeutet das für ihn Menschsein.
+  bibliographical_info: "p. 13"
 - id: quote_14
   GND: 1154414639
   WikiID: Q50521652
@@ -225,16 +225,16 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Doch der Status des Aktivisten hat sich in den vergangenen hundert Jahren
     fundamental verändert. Er ist von der Randfigur zur bestimmenden Sozialfigur geworden.
     [...] der zeitgenössische Aktivist [nimmt] eine zentrale Stellung innerhalb der
     Gesellschaft ein.
-  bibliographical_info: 'p. 12'
+  bibliographical_info: "p. 12"
 - id: quote_15
   GND: 1154414639
   WikiID: Q50521652
@@ -242,14 +242,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Der Siegeszug des Aktivismus ist mittlerweile so weit fortgeschritten, dass
     er vom Kapitalismus vereinnahmt wird
-  bibliographical_info: 'p. 9'
+  bibliographical_info: "p. 9"
 - id: quote_16
   GND: 1154414639
   WikiID: Q50521652
@@ -257,14 +257,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     [...] der Aktivismus sei nicht kompetetiv, ihm gehe es um »Kollaboration
     und Kooperation«.
-  bibliographical_info: 'p. 10'
+  bibliographical_info: "p. 10"
 - id: quote_17
   GND: 1154414639
   WikiID: Q50521652
@@ -272,9 +272,9 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Die »Aktivisti«, wie sich gerne selbst bezeichnen, verfügen nicht allein
@@ -286,7 +286,7 @@
     weitverbreiteten Pathos umstandslos eine »Weltära« taufen kann, währt indessen
     schon viel länger als gemeinhin angenommen. Über hundert Jahre schon, und es spricht
     vieles dafür, dass der Aktivismus eine deutsche Wortprägung und Idee ist.
-  bibliographical_info: 'p. 11'
+  bibliographical_info: "p. 11"
 - id: quote_18
   GND: 454546416
   WikiID: .nan
@@ -294,16 +294,16 @@
   zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Rothe, Wolfgang
-    gender: m
-    gender_provenece: inferred
+    - name: Rothe, Wolfgang
+      gender: m
+      gender_provenece: inferred
   year: 1969.0
   quote: >
     ganz zu schweigen von <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a>
     , dem Erzvater des ‘Aktivismus’, dessen Essay ‘Geist und Tat’ - 1910 in der ‘Neuen Rundschau’ - 
     als eine Art Initialzündung gelten darf (<a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a>
     eröffnet sein erstes Jahrbuch mit dem Nachdruck dieses Textes).
-  bibliographical_info: 'p. 7'  
+  bibliographical_info: "p. 7"
 - id: quote_19
   GND: 454546416
   WikiID: .nan
@@ -311,13 +311,13 @@
   zotero_key: PJNXKZAN
   language: German
   person:
-  - name: Rothe, Wolfgang
-    gender: m
-    gender_provenece: inferred
+    - name: Rothe, Wolfgang
+      gender: m
+      gender_provenece: inferred
   year: 1969.0
   quote: >
     Tat - das Schlüsselwort des Aktivismus!
-  bibliographical_info: 'p. 10'
+  bibliographical_info: "p. 10"
 - id: quote_20
   GND: 1154414639
   WikiID: Q50521652
@@ -325,14 +325,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Berufsaktivisten sind heute so selbstverständlich wie Berufspolitiker. [...]
     Aktivismus ist ein Full-Time-Job geworden.
-  bibliographical_info: 'p. 13'
+  bibliographical_info: "p. 13"
 - id: quote_21
   GND: 1154414639
   WikiID: Q50521652
@@ -340,15 +340,15 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Darüber hinaus begleitet den Aktivismus seit seinem Beginn der Verdacht des
     ›Scheinaktivismus‹, wie das der hellsichtige <a href="https://www.wikidata.org/wiki/Q151523" target="_blank">Georg Lukács</a>
     schon 1934 nannte. Der Scheinaktivismus unserer Tage heißt ›Slacktivism‹.
-  bibliographical_info: 'p. 13'
+  bibliographical_info: "p. 13"
 - id: quote_22
   GND: 1154414639
   WikiID: Q50521652
@@ -356,14 +356,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     <a href="https://www.wikidata.org/wiki/Q61078" target="_blank">Walter Benjamin</a>, 
     alles andere als ein Reaktionär, sprach 1932 vom ›Irrtum des Aktivismus‹.
-  bibliographical_info: 'p. 16'
+  bibliographical_info: "p. 16"
 - id: quote_23
   GND: 1154414639
   WikiID: Q50521652
@@ -371,16 +371,16 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Schon von <a href="https://www.wikidata.org/wiki/Q868" target="_blank">Aristoteles</a>
      hat uns <a href="https://www.wikidata.org/wiki/38193" target="_blank">Arthur Schopenhauer</a> den Satz überliefert:
     »Das Leben besteht in der Bewegung und hat sein Wesen in ihr.« Bräuchte der
     Aktivismus einen Leitsatz, hier wäre er.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_24
   GND: 1154414639
   WikiID: Q50521652
@@ -388,16 +388,16 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Der Aktivismus ist ein manifester Bestandteil unserer Gesellschaft geworden.
     Er ist aus ihr gar nicht mehr wegzudenken. Paradoxerweise aber ist er selbst nichts,
     was auf Dauer gestellt sein kann. Denn seine Daseinsberechtigung erlischt, wenn
     er erreicht hat, wofür er gestritten hat.
-  bibliographical_info: 'p. 21'
+  bibliographical_info: "p. 21"
 - id: quote_25
   GND: 1154414639
   WikiID: Q50521652
@@ -405,14 +405,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Dieser apokalyptische Gestus, dieser endzeitliche Zug ist dem Aktivismus
     seit Anbeginn eingeschrieben.
-  bibliographical_info: 'p. 24'
+  bibliographical_info: "p. 24"
 - id: quote_26
   GND: 1154414639
   WikiID: Q50521652
@@ -420,16 +420,16 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Der Aktivist tritt seit frühesten Tagen als Rigorist*in und Wahrheitsmonopolist*in
     auf. [...] Die ersten Aktivisten haben ganz offen von sich als den ›Aristoi‹ hesprochen
     und damit klar zu verstehen gegeben, dass sie sich für ›die Besten‹ hielten. [...]
     Die relative Humorferne des Aktivismus ist so alt wie seine Geschichte.
-  bibliographical_info: 'p. 25'
+  bibliographical_info: "p. 25"
 - id: quote_27
   GND: .nan
   WikiID: .nan
@@ -437,14 +437,14 @@
   zotero_key: YXAGE56N
   language: German
   person:
-  - name: Müller, Robert
-    gender: m
-    gender_provenece: inferred
+    - name: Müller, Robert
+      gender: m
+      gender_provenece: inferred
   year: 1921.0
   quote: >
     Die Aktivsiten [...] werden vermittels des starken, kunstvoll gehobenen Wortes
     durchdringen, und die politische Klangfarbe des Jahrhunderts bestimmen.
-  bibliographical_info: 'pp. 18-19'
+  bibliographical_info: "pp. 18-19"
 - id: quote_28
   GND: 1154414639
   WikiID: Q50521652
@@ -452,13 +452,13 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Es gibt mindestens so viele Aktivismen wie Apfelsorten.
-  bibliographical_info: 'p. 39'
+  bibliographical_info: "p. 39"
 - id: quote_29
   GND: 1154414639
   WikiID: Q50521652
@@ -466,14 +466,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Auffällig übrigens, wie oft die Wörter Held und Aktivist bzw. ›Held*in‹ und
     ›Aktivist*in‹ synonym verwendet werden.
-  bibliographical_info: 'p. 43'
+  bibliographical_info: "p. 43"
 - id: quote_30
   GND: 1154414639
   WikiID: Q50521652
@@ -481,15 +481,15 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Die Laktivistin setzt sich dafür ein, dass Mütter ihren Kindern in der Öffentlichkeit
     die Brust geben können und nicht aus Angst vor zu viel nackter Haut des Raumes
     verwiesen werden.
-  bibliographical_info: 'p. 44'
+  bibliographical_info: "p. 44"
 - id: quote_31
   GND: 1154414639
   WikiID: Q50521652
@@ -497,13 +497,13 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     [...] Helden der Arbeit hießen in der DDR: Aktivisten.
-  bibliographical_info: 'p. 47'
+  bibliographical_info: "p. 47"
 - id: quote_32
   GND: 1051343569
   WikiID: Q5568842
@@ -528,15 +528,15 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Wenn Kunst und Aktivismus miteinander verschmelzen, entsteht ›Artivismus‹.
     [...] Artivismus ist schließlich Sozialarbeit, neudeutsch Care-Arbeit. Der Künstler
     als Kümmerer.
-  bibliographical_info: 'pp. 67-68'
+  bibliographical_info: "pp. 67-68"
 - id: quote_34
   GND: 1154414639
   WikiID: Q50521652
@@ -544,14 +544,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Nun sind die Grünen schon historisch die Partei mit der größten Affinität
     zum Aktivismus.
-  bibliographical_info: 'p. 73'
+  bibliographical_info: "p. 73"
 - id: quote_35
   GND: 1154414639
   WikiID: Q50521652
@@ -559,30 +559,30 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Heutige Identitäre treten ganz selbstverständlich als Aktivisten in Erscheinung.
-  bibliographical_info: 'p. 79'
+  bibliographical_info: "p. 79"
 - id: quote_36
   GND:
-   - 14057624X
+    - 14057624X
   WikiID:
-   - Q67218495
+    - Q67218495
   country: UK
   zotero_key: LNM9LZZ2
   language: English
   person:
-   - name: Colvin, Sarah
-     gender: f
-     gender_provenece: inferred
+    - name: Colvin, Sarah
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Here I would like to build on <a href="https://www.wikidata.org/wiki/Q1252311" target="_blank">Fatima El-Tayeb’s</a> argument that poetry,  
     »with its ability to ›give a name to the nameless,‹« became a tool of liberation for Black feminist activists in Europe.
-  bibliographical_info: 'p. 83'
+  bibliographical_info: "p. 83"
 - id: quote_37
   GND: 1154414639
   WikiID: Q50521652
@@ -590,14 +590,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     [...] <a href="https://www.wikidata.org/wiki/Q57218" target="_blank">Rudi Dutschke</a>
     , die Galionsfigur des SDS-Aktivismus [...].
-  bibliographical_info: 'p. 89'
+  bibliographical_info: "p. 89"
 - id: quote_38
   GND: 1154414639
   WikiID: Q50521652
@@ -605,14 +605,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Überhaupt, der Aktivismus, den <a href="https://www.wikidata.org/wiki/Q152388" target="_blank">Adorno</a>
     Aktionismus nannte, war ihm suspekt.
-  bibliographical_info: 'p. 97'
+  bibliographical_info: "p. 97"
 - id: quote_39
   GND: 1154414639
   WikiID: Q50521652
@@ -620,14 +620,14 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Twitter, einst gepriesen als Forum der Gegenöffentlichkeit, ist ein Tummelplatz
     für Aktivisten.
-  bibliographical_info: 'pp. 99-100'
+  bibliographical_info: "pp. 99-100"
 - id: quote_40
   GND: 1154414639
   WikiID: Q50521652
@@ -635,57 +635,57 @@
   zotero_key: 2BCNJ29A
   language: German
   person:
-  - name: Cordsen, Knut
-    gender: m
-    gender_provenece: inferred
+    - name: Cordsen, Knut
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Vom individuellen Profit ihres Tuns reden Aktivisten weitaus seltener als
     vom ›gesamtgesellschaftlichen‹ Benefit.
-  bibliographical_info: 'p. 111'
+  bibliographical_info: "p. 111"
 - id: quote_41
   GND:
-   - 1104737027
-   - 1068475269
-   - 1346938016
+    - 1104737027
+    - 1068475269
+    - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
   language: English
   person:
-  - name: Monot, Pierre-Héli
-    gender: m
-    gender_provenece: inferred
-  - name: Bebnowski, David
-    gender: m
-    gender_provenece: inferred
-  - name: Shakil Gröppmaier, Sakina
-    gender: f
-    gender_provenece: inferred
+    - name: Monot, Pierre-Héli
+      gender: m
+      gender_provenece: inferred
+    - name: Bebnowski, David
+      gender: m
+      gender_provenece: inferred
+    - name: Shakil Gröppmaier, Sakina
+      gender: f
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     This volume takes “activism” to be the most recent evolution of what has
     always constituted politics as seen from the perspective of the politically dominated.
-  bibliographical_info: 'p. 9'
+  bibliographical_info: "p. 9"
 - id: quote_42
   GND:
-   - 1104737027
-   - 1068475269
-   - 1346938016
+    - 1104737027
+    - 1068475269
+    - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
   language: English
   person:
-  - name: Monot, Pierre-Héli
-    gender: m
-    gender_provenece: inferred
-  - name: Bebnowski, David
-    gender: m
-    gender_provenece: inferred
-  - name: Shakil Gröppmaier, Sakina
-    gender: f
-    gender_provenece: inferred
+    - name: Monot, Pierre-Héli
+      gender: m
+      gender_provenece: inferred
+    - name: Bebnowski, David
+      gender: m
+      gender_provenece: inferred
+    - name: Shakil Gröppmaier, Sakina
+      gender: f
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     First of all, “activist writing” is a stand-in category. It refers to an
@@ -693,26 +693,26 @@
     agents use to further their causes. This approach, which emphasizes the agency
     of person, has largely become unfashionable in scholarship on political change
     and activism.
-  bibliographical_info: 'p. 11'
+  bibliographical_info: "p. 11"
 - id: quote_43
   GND:
-   - 1104737027
-   - 1068475269
-   - 1346938016
+    - 1104737027
+    - 1068475269
+    - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
   language: English
   person:
-  - name: Monot, Pierre-Héli
-    gender: m
-    gender_provenece: inferred
-  - name: Bebnowski, David
-    gender: m
-    gender_provenece: inferred
-  - name: Shakil Gröppmaier, Sakina
-    gender: f
-    gender_provenece: inferred
+    - name: Monot, Pierre-Héli
+      gender: m
+      gender_provenece: inferred
+    - name: Bebnowski, David
+      gender: m
+      gender_provenece: inferred
+    - name: Shakil Gröppmaier, Sakina
+      gender: f
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     Thus, activist writing is a deliberate puncturing of the fabric of institutionalized
@@ -720,31 +720,31 @@
     and steer into unknown but auspicious territory. It is the space where political
     agency seeks to undo political paralysis. Studying activist writing offers an
     opportunity to observe the moment when power is challenged
-  bibliographical_info: 'p. 11'
+  bibliographical_info: "p. 11"
 - id: quote_44
   GND:
-   - 1104737027
-   - 1068475269
-   - 1346938016
+    - 1104737027
+    - 1068475269
+    - 1346938016
   WikiID: .nan
   country: Switzerland
   zotero_key: MVY6Y7N3
   language: English
   person:
-  - name: Monot, Pierre-Héli
-    gender: m
-    gender_provenece: inferred
-  - name: Bebnowski, David
-    gender: m
-    gender_provenece: inferred
-  - name: Shakil Gröppmaier, Sakina
-    gender: w
-    gender_provenece: inferred
+    - name: Monot, Pierre-Héli
+      gender: m
+      gender_provenece: inferred
+    - name: Bebnowski, David
+      gender: m
+      gender_provenece: inferred
+    - name: Shakil Gröppmaier, Sakina
+      gender: w
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     Activists are communicators and writing is the practice with which they most
     clearly and concisely communicate their intentions and demands.
-  bibliographical_info: 'p. 11'
+  bibliographical_info: "p. 11"
 - id: quote_45
   GND: .nan
   WikiID: .nan
@@ -752,9 +752,9 @@
   zotero_key: 397K3P5E
   language: German
   person:
-  - name: Weiß, Volker
-    gender: m
-    gender_provenece: inferred
+    - name: Weiß, Volker
+      gender: m
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     Und noch einmal zurück zur Frage nach Journalismus und Aktivismus: Wenn
@@ -764,7 +764,7 @@
     Werfen Sie mal einen Blick in die Junge Freiheit – das ist eine komplett aktivistische
     Zeitung. Kurz gesagt: Ich bin der Meinung, eine gute Berichterstattung braucht
     eine Haltung.
-  bibliographical_info: 'p. 732'
+  bibliographical_info: "p. 732"
 - id: quote_46
   GND: 13052560X
   WikiID: Q90300814
@@ -772,15 +772,15 @@
   zotero_key: 397K3P5E
   language: German
   person:
-  - name: Lepper, Marcel
-    gender: m
-    gender_provenece: inferred
+    - name: Lepper, Marcel
+      gender: m
+      gender_provenece: inferred
   year: 2024.0
   quote: >
     Ja, der Aktivismus ist [in der Wissenschaft] gegenwärtig ein großes Thema.
     [...] Die Grundidee, dass Wissenschaft unpolitisch sei, ist bereits instrumentell
     und funktionalisierbar. Die Politisierung ist immer schon da.
-  bibliographical_info: 'p. 730'
+  bibliographical_info: "p. 730"
 - id: quote_47
   GND: 1232072273
   WikiID: Q112428905
@@ -788,13 +788,13 @@
   zotero_key: EJNYG7ZS
   language: German
   person:
-   - name: Schwerdtner, Ines
-     gender: f
-     gender_provenece: inferred
+    - name: Schwerdtner, Ines
+      gender: f
+      gender_provenece: inferred
   year: 2025.0
   quote: >
     Aktivismus allein reicht nicht aus. Wer nachhaltig etwas verändern will, muss in eine Partei.
-  bibliographical_info: '(last accessed 27.03.2025)'
+  bibliographical_info: "(last accessed 27.03.2025)"
 - id: quote_48
   GND: 1024169928
   WikiID: Q95265865
@@ -808,7 +808,7 @@
   year: 2024.0
   quote: >
     Begriff [Aktivismus], der nach dem Ersten Weltkrieg zu einer Modevokabel insbesondere linker politischer Intellektueller geworden war.
-  bibliographical_info: 'p. 16'
+  bibliographical_info: "p. 16"
 - id: quote_49
   GND: 1024169928
   WikiID: Q95265865
@@ -837,7 +837,7 @@
     dass er viertens zielgerichtet vorgeht, also wirksamen Einfluss auf den Prozess der
     öffentlichen Meinungsbildung nehmen will (was ja bereits durch die Gattungszuordnung
     seiner Rede ›Appell‹ deutlich gemacht wird).
-  bibliographical_info: 'p. 18'
+  bibliographical_info: "p. 18"
 - id: quote_50
   GND: 1272448207
   WikiID: Q126594474
@@ -857,11 +857,11 @@
     auch Autor*innen das Denken und Theoretisieren nicht unbedingt als Gegensatz zum Aktivismus, sondern
     als eine Form desselben, unter anderem deshalb, weil sie ihre Theorien zu einer »aktive[n] gesellschaftliche[n]
     Führungsfunktion« anleiten soll.
-  bibliographical_info: 'p. 351'
+  bibliographical_info: "p. 351"
 - id: quote_51
-  GND: 
+  GND:
     - 1048759903
-  WikiID: 
+  WikiID:
     - Q133516838
   country: Germany
   zotero_key: CJYFD9DE
@@ -880,17 +880,17 @@
     Weltkriegs. <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a> 
     selbst definierte den Unterschied dergestalt, daß er den Expressionismus als eine Ausdrucksart 
     empfand, den Aktivismus hingegen als eine Gesinnung, wobei beides in einer Person zusammenfallen konnte.
-  bibliographical_info: 'p. 25'
+  bibliographical_info: "p. 25"
 - id: quote_52
-  GND: 
+  GND:
     - 115854886
-  WikiID: 
+  WikiID:
     - Q106169
   country: Germany
   zotero_key: 8ENGKXUS
   language: German
   person:
-    - name: Grumbach, Detlef 
+    - name: Grumbach, Detlef
       gender: m
       gender_provenece: inferred
   year: 2023.0
@@ -901,11 +901,11 @@
     Gespräch mit Pieter Bassen resümiert <a href="https://www.wikidata.org/wiki/Q106613" target="_blank">Christian Geissler</a> 
     gut vierzig Jahre später: »Wenn man über das Moralische des Antifaschismus hinauswill in einen anwendbaren Antifaschismus, 
     kommt man auf <a href="https://www.wikidata.org/wiki/Q9061" target="_blank">Marx</a>.«
-  bibliographical_info: 'p. 309'
+  bibliographical_info: "p. 309"
 - id: quote_53
-  GND: 
+  GND:
     - 129865389
-  WikiID: 
+  WikiID:
     - Q21033690
   country: Germany
   zotero_key: NXRRFRHT
@@ -921,19 +921,19 @@
     Petitionen und Demonstrationen sowie des Engagements in den sozialen Medien. Der Aktivismus kann individueller Art sein oder im Rahmen von Nichtregierungsorganisationen 
     (»non-governmental organizations«, NGOs) wie Amnesty International, Greenpeace oder Peta respektive von Bewegungen wie Fridays for Future (FFF) stattfinden. 
     Er kann sich auf fremde oder eigene (auch persönliche) Verhältnisse richten.
-  bibliographical_info: '(last accessed 08.04.2025)'
+  bibliographical_info: "(last accessed 08.04.2025)"
 - id: quote_54
   GND:
-   - 1227623070
+    - 1227623070
   WikiID:
-   - Q133848474
+    - Q133848474
   country: USA
   zotero_key: 6VQG5FAK
   language: German
   person:
-   - name: Kim, David D.
-     gender: m
-     gender_provenece: inferred
+    - name: Kim, David D.
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Wohl kaum ein anderer Roman der deutschsprachigen Gegenwartsliteratur hat ein doppeldeutigeres Bild der vielfach verzwickten Relation zwischen Kritik 
@@ -942,57 +942,57 @@
     literaturwissenschaftlichen Werkzeugkastens und scheint vielmehr ein Aktivist geworden zu sein. Der Grund dafür ist klar: Nachdem die 
     Leser*innen Richards politische Bekehrung über Hunderte Seiten lang mühsam miterlebt haben, sollen auch sie ihm nacheifern anstatt in der 
     literarischen Imagination gefangen zu bleiben.
-  bibliographical_info: 'p.431'
+  bibliographical_info: "p.431"
 - id: quote_55
   GND:
-   - 1227623070
+    - 1227623070
   WikiID:
-   - Q133848474
+    - Q133848474
   country: USA
   zotero_key: 6VQG5FAK
   language: German
   person:
-   - name: Kim, David D.
-     gender: m
-     gender_provenece: inferred
+    - name: Kim, David D.
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Zugleich möchte ich klarstellen, dass die Frustration, die Hoffnung, die Widerstandsfähigkeit, die Wissensfreiheit, 
     die Freude und auch die existentielle Angst, die künstlerisch-wissenschaftlich-aktivistische Zusammenarbeiten neuerdings motivieren, 
     sich <a href="https://www.wikidata.org/wiki/Q22670" target="_blank">Schillers</a> Hochmut und teleologischer Entwicklungsnarrative 
     der Menschheit dezidiert widersetzen.
-  bibliographical_info: 'p. 434'
+  bibliographical_info: "p. 434"
 - id: quote_56
   GND:
-   - 1227623070
+    - 1227623070
   WikiID:
-   - Q133848474
+    - Q133848474
   country: USA
   zotero_key: 6VQG5FAK
   language: German
   person:
-   - name: Kim, David D.
-     gender: m
-     gender_provenece: inferred
+    - name: Kim, David D.
+      gender: m
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Von manchen Literaturwissenschaftler*innen wird jegliche Form von literaturwissenschaftlichem Aktivismus nicht nur deswegen abgelehnt, 
     weil sie droht, ihre vermeintlich wertfreien, objektiv wissenschaftlichen Erkenntnisse mit ideologisch verzerrten Urteilen zu korrumpieren, 
     sondern auch weil eine kritische Überprüfung fachwissenschaftlicher Forschungen aufgrund außeruniversitärer Wissensformen ihr soziales Privileg, 
     wenn nicht »ihr ganzes Daseyn«, in Frage stellt.
-  bibliographical_info: 'p. 433'
+  bibliographical_info: "p. 433"
 - id: quote_57
   GND:
-   - 103427791
+    - 103427791
   WikiID:
-   - Q1747753
+    - Q1747753
   country: Germany
   zotero_key: X2KQ94FF
   language: German
   person:
-   - name: Şölçün, Sargut
-     gender: m
-     gender_provenece: inferred
+    - name: Şölçün, Sargut
+      gender: m
+      gender_provenece: inferred
   year: 2011.0
   quote: >
     Während seiner Berliner Zeit ab 1910 machte <a href="https://www.wikidata.org/wiki/Q126904501" target="_blank">Wegner</a> Bekanntschaft mit den Aktivisten um 
@@ -1001,136 +1001,136 @@
     der Dichter einer radikalen Veränderung unterziehen wollten.
     Diese Ziele entsprachen <a href="https://www.wikidata.org/wiki/Q126904501" target="_blank">Wegners</a> Aufbruchsstimmung, sein idealistischer Humanismus
     formierte sich unter dem Einfluss des Neukantismus, der im Kreis der aktivistischen Literaten dominierte.
-  bibliographical_info: 'p. 42'
+  bibliographical_info: "p. 42"
 - id: quote_58
   GND:
-   - .nan
+    - .nan
   WikiID:
-   - Q90118815
+    - Q90118815
   country: Sweden
   zotero_key: 54HVQBDP
   language: English
   person:
-   - name: Özkula, Suay Melisa
-     gender: f
-     gender_provenece: inferred
+    - name: Özkula, Suay Melisa
+      gender: f
+      gender_provenece: inferred
   year: 2021.0
   quote: >
     In  recent  decades,  digital  activism  has  received  a  lot  of  scholarly  and 
     journalistic attention. Even so, there remains no firm consensus on its precise 
-    definition  and  scope.  
-  bibliographical_info: 'p. 60'
+    definition  and  scope.
+  bibliographical_info: "p. 60"
 - id: quote_59
   GND:
-   - .nan
+    - .nan
   WikiID:
-   - Q90118815
+    - Q90118815
   country: Sweden
   zotero_key: 54HVQBDP
   language: English
   person:
-   - name: Özkula, Suay Melisa
-     gender: f
-     gender_provenece: inferred
+    - name: Özkula, Suay Melisa
+      gender: f
+      gender_provenece: inferred
   year: 2021.0
   quote: >
     In  broad  terms,  digital  activism  (D.A.)  refers  to  political  activism  on  the 
-    internet  or  political  movements  relying  on  it.  
-  bibliographical_info: 'p. 61'
+    internet  or  political  movements  relying  on  it.
+  bibliographical_info: "p. 61"
 - id: quote_60
   GND:
-   - .nan
+    - .nan
   WikiID:
-   - Q90118815
+    - Q90118815
   country: Sweden
   zotero_key: 54HVQBDP
   language: English
   person:
-   - name: Özkula, Suay Melisa
-     gender: f
-     gender_provenece: inferred
+    - name: Özkula, Suay Melisa
+      gender: f
+      gender_provenece: inferred
   year: 2021.0
   quote: >
-     Consequently, the terms clicktivism and slacktivism have been used derogatorily to describe a phlegmatic form of digitally enabled 
-     activism  that  is  rooted  in  low  commitment  [...]],  or,  in Shulman’s  [...]]  words, »low-quality,  
-     redundant,  and  generally insubstantial commenting by the public«. As such, digital activism remains a contentious 
-     subject and somewhat obscure with regards to its scope and societal effects, issues that inform its conceptualization. 
-     Following that premise, this paper will argue that digital activism is a 
-     hazy and, as such, immanently problematic, if not dysfunctional, concept. 
-     This  dysfunctionality  arises  from  it  typically  being  defined  as  digitally enabled  activism,  suggesting  
-     that  digitality  is  a  key  paradigm  change  in newer forms of activism.
-  bibliographical_info: 'p. 61'
+    Consequently, the terms clicktivism and slacktivism have been used derogatorily to describe a phlegmatic form of digitally enabled 
+    activism  that  is  rooted  in  low  commitment  [...]],  or,  in Shulman’s  [...]]  words, »low-quality,  
+    redundant,  and  generally insubstantial commenting by the public«. As such, digital activism remains a contentious 
+    subject and somewhat obscure with regards to its scope and societal effects, issues that inform its conceptualization. 
+    Following that premise, this paper will argue that digital activism is a 
+    hazy and, as such, immanently problematic, if not dysfunctional, concept. 
+    This  dysfunctionality  arises  from  it  typically  being  defined  as  digitally enabled  activism,  suggesting  
+    that  digitality  is  a  key  paradigm  change  in newer forms of activism.
+  bibliographical_info: "p. 61"
 - id: quote_61
   GND:
-   - 173148026
+    - 173148026
   WikiID:
-   - Q12338523
+    - Q12338523
   country: Germany
   zotero_key: XC7DWY7Y
   language: German
   person:
-   - name: Klausen, Søren Harnow 
-     gender: m
-     gender_provenece: inferred
+    - name: Klausen, Søren Harnow
+      gender: m
+      gender_provenece: inferred
   year: 2014.0
   quote: >
-     Der Aktivismus ist eine gleichermaßen anziehende und herausfordernde Gedankenfigur. Die Idee, das authentische Menschenleben zeichne sich
-     durch aktives, kompromissloses Handeln und tätige Selbstverwirklichung aus, fand in der europäischen Philosophie und Literatur zwischen 1800
-     und 1950 viele prägnante Ausdrücke, erfuhr aber auch stets Kritik und Modifikationen. [...] Der Aktivismus war eine weit verbreitete 
-     Geisteshaltung, die eine Vielzahl verschiedener Quellen aufwies und auch von Denkern und Autoren unabhängig voneinander entwickelt und vertreten wurde.
-  bibliographical_info: 'p. 374'
+    Der Aktivismus ist eine gleichermaßen anziehende und herausfordernde Gedankenfigur. Die Idee, das authentische Menschenleben zeichne sich
+    durch aktives, kompromissloses Handeln und tätige Selbstverwirklichung aus, fand in der europäischen Philosophie und Literatur zwischen 1800
+    und 1950 viele prägnante Ausdrücke, erfuhr aber auch stets Kritik und Modifikationen. [...] Der Aktivismus war eine weit verbreitete 
+    Geisteshaltung, die eine Vielzahl verschiedener Quellen aufwies und auch von Denkern und Autoren unabhängig voneinander entwickelt und vertreten wurde.
+  bibliographical_info: "p. 374"
 - id: quote_62
   GND:
-   - 173148026
+    - 173148026
   WikiID:
-   - Q12338523
+    - Q12338523
   country: Germany
   zotero_key: XC7DWY7Y
   language: German
   person:
-   - name: Klausen, Søren Harnow 
-     gender: m
-     gender_provenece: inferred
+    - name: Klausen, Søren Harnow
+      gender: m
+      gender_provenece: inferred
   year: 2014.0
   quote: >
-     Wie weit verbreitet aktivistisches Gedankengut in Nordeuropa gegen Ende des 19. Jahrhunderts war, und wie vielfältig seine Quellen 
-     und Weiterentwicklungen waren, zeigt z.B. die Tatsache, dass selbst <a href="https://www.wikidata.org/wiki/Q703531" target="_blank">Harald Høffding</a>
-     , der sonst als Widersacher von Brandes und <a href="https://www.wikidata.org/wiki/Q9358" target="_blank">Nietzsche</a> bekannt ist (und dessen Philosophie 
-     auch in Deutschland Wirkung ausübte) und als gemäßigter »Empirist« gilt, auch den Willen und noch allgemeiner die Wirksamkeit 
-     als psychologische und erkenntnistheoretische Grundphänomene begriff, wenngleich ohne radikale moralische Konsequenzen daraus zu ziehen.
-  bibliographical_info: 'p. 375'
+    Wie weit verbreitet aktivistisches Gedankengut in Nordeuropa gegen Ende des 19. Jahrhunderts war, und wie vielfältig seine Quellen 
+    und Weiterentwicklungen waren, zeigt z.B. die Tatsache, dass selbst <a href="https://www.wikidata.org/wiki/Q703531" target="_blank">Harald Høffding</a>
+    , der sonst als Widersacher von Brandes und <a href="https://www.wikidata.org/wiki/Q9358" target="_blank">Nietzsche</a> bekannt ist (und dessen Philosophie 
+    auch in Deutschland Wirkung ausübte) und als gemäßigter »Empirist« gilt, auch den Willen und noch allgemeiner die Wirksamkeit 
+    als psychologische und erkenntnistheoretische Grundphänomene begriff, wenngleich ohne radikale moralische Konsequenzen daraus zu ziehen.
+  bibliographical_info: "p. 375"
 - id: quote_63
   GND:
-   - .nan
+    - .nan
   WikiID:
-   - .nan
+    - .nan
   country: Germany
   zotero_key: IHH9TJEX
   language: German
   person:
-   - name: Schubert, Dietrich   
-     gender: m
-     gender_provenece: inferred
+    - name: Schubert, Dietrich
+      gender: m
+      gender_provenece: inferred
   year: 1976.0
   quote: >
     Der Aktivismus ist eine Phase in der deutschen Literatur und Geistesgeschichte, eine anfangs schmale, später 
     sich verbreiternde geistige Bewegung, die Politik und Kultur nicht getrennt sehen will, sondern beide umfaßt, deren Ziel die 
     Gestaltung der Gemeinschaft, die Gestaltung des Lebens und der Gesellschaft ist. <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hillers</a> 
     Schlagwort wird »Tätiger Geist«. Die Bewegung entwickelt sich ganz im Sinne von <a href="https://www.wikidata.org/wiki/Q9358" target="_blank">Nietzsches</a> 
-    Geschichtsverständnis dergestalt, daß Historie nur dann sinnvoll sei, wenn aus ihr der Impuls zur Lebensgestaltung komme. 
-  bibliographical_info: 'p. 25'
+    Geschichtsverständnis dergestalt, daß Historie nur dann sinnvoll sei, wenn aus ihr der Impuls zur Lebensgestaltung komme.
+  bibliographical_info: "p. 25"
 - id: quote_64
-  GND: 
-   - 120093642
+  GND:
+    - 120093642
   WikiID:
-   - Q2038672
+    - Q2038672
   country: Germany
   zotero_key: V4CD663U
   language: German
   person:
-   - name: Best, Otto F.   
-     gender: m
-     gender_provenece: inferred
+    - name: Best, Otto F.
+      gender: m
+      gender_provenece: inferred
   year: 2004.0
   quote: >
     Aktivismus, der: (zu aktiv= handelnd, tätig; Begriff erstmals im Umkreis der »Jahrbücher für tätigen Geist« Das Ziel [1916-24]) Bez. für Programm einer 
@@ -1140,19 +1140,19 @@
     der »Eth« gegen Ästhet, »Gedichtschreiber« gegen polit. Engagierten stellt; von relativ geringer Wirkung, 
     wohl wegen inneren Widerspruchs, da der Kunstwert von Dichtung sich in dem Maße verringert, wie ihr Gebrauchswert 
     erhöht werden soll; wird im allg. als Gegenströmung zum Expressionismus gesehen, die dessen vorwiegend ästhet. Ausdrucksart die polit.-soziale Gesinnung entgegenhält.
-  bibliographical_info: 'p. 20'
+  bibliographical_info: "p. 20"
 - id: quote_65
-  GND: 
-   - 118680013
+  GND:
+    - 118680013
   WikiID:
-   - Q2140661
+    - Q2140661
   country: Germany
   zotero_key: 9N5D76JB
   language: German
   person:
-   - name: Döhl, Richard    
-     gender: m
-     gender_provenece: inferred
+    - name: Döhl, Richard
+      gender: m
+      gender_provenece: inferred
   year: 2007.0
   quote: >
     Aktivismus, m., intellektuell-politische Bewegung, die parallel zum lit. Expressionismus und im Ggs. zu ihm 
@@ -1174,38 +1174,38 @@
     »Politischer Rat geistiger Arbeiter« gegründet. Das Ende des A. zeichnete sich ab mit der Selbstbeschränkung auf eine nur noch »kulturpolitische Bewegung« 
     (Aktivisten-Kongress 1919, Berlin); lediglich <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a> blieb in zahlreichen Schriften dem erklärten 
     »Ziel« einer konkreten Utopie des durch den Literaten befreiten Menschen in einer veränderten Welt treu.
-  bibliographical_info: 'p. 10'
+  bibliographical_info: "p. 10"
 - id: quote_66
-  GND: 
-   - Q1571442
+  GND:
+    - Q1571442
   WikiID:
-   - 123263018
+    - 123263018
   country: Germany
   zotero_key: XIVXUFGS
   language: German
   person:
-   - name: Meid, Volker    
-     gender: m
-     gender_provenece: inferred
+    - name: Meid, Volker
+      gender: m
+      gender_provenece: inferred
   year: 1999.0
   quote: >
     Aktivismus, Gegenströmung zum Expressionismus, die sich in den Jahrbüchern »Das Ziel« (1916-20) artikulierte, Literatur als Mittel zum Zweck verstand und sozialrevolutionäre, 
     pazifistische Ziele vertrat. Programmatische Bedeutung hatte <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Manns</a> 
     Essay »Geist und Tat« (1910). Die führenden ›Aktivisten‹ waren <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a> und 
     <a href="https://www.wikidata.org/wiki/Q1874926" target="_blank">Ludwig Rubiner</a>.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_67
-  GND: 
-   - .nan
+  GND:
+    - .nan
   WikiID:
-   - Q854723
+    - Q854723
   country: Germany
   zotero_key: G8YWPQCZ
   language: German
   person:
-   - name: Biró, Annamária   
-     gender: f
-     gender_provenece: inferred
+    - name: Biró, Annamária
+      gender: f
+      gender_provenece: inferred
   year: 2018.0
   quote: >
     Der vor dem Ersten Weltkrieg entstandene deutsche Aktivismus ist heute nur noch wenig bekannt. Kein Wunder, denn selbst 
@@ -1218,45 +1218,45 @@
     unmittelbar vor seinem Selbstmord aus Brasilien auf dem Postweg nach Schweden brachte Die Welt von Gestern. Erinnerungen eines Europäers spielen die Begriffe
     »aktivistisch«, »Aktivismus« und »Aktivisten« allerdings eine Rolle. Erbenutzt den Ausdruck stets abwertend für ein mit politischer Theorie und Ideologie
     überladenes, experimentelles Schrifttum von Polit-Literaten.
-  bibliographical_info: 'p. 263'
+  bibliographical_info: "p. 263"
 - id: quote_68
-  GND: 
-   - .nan
+  GND:
+    - .nan
   WikiID:
-   - Q854723
+    - Q854723
   country: Germany
   zotero_key: G8YWPQCZ
   language: German
   person:
-   - name: Biró, Annamária   
-     gender: f
-     gender_provenece: inferred
+    - name: Biró, Annamária
+      gender: f
+      gender_provenece: inferred
   year: 2018.0
   quote: >
     Formell wurde der ungarische Aktivismus nach dem Ersten Weltkrieg mit einem Vortrag von 
     <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Lajos (Ludwig) Kassák</a> am 20. Februar 1919 
     in Budapest proklamiert, dessen Text <a href="https://www.wikidata.org/wiki/Q736847" target="_blank">Kassák</a> 
     wenig später in seiner Zeitschrift »MA« publizierte.
-  bibliographical_info: 'p. 264'
+  bibliographical_info: "p. 264"
 - id: quote_69
-  GND: 
-   - 135522269
+  GND:
+    - 135522269
   WikiID:
-   - Q1281929
+    - Q1281929
   country: Germany
   zotero_key: KKQ5IXG5
   language: German
   person:
-   - name: Şahin, Reyhan   
-     gender: f
-     gender_provenece: inferred
+    - name: Şahin, Reyhan
+      gender: f
+      gender_provenece: inferred
   year: 2025.0
   quote: >
     Damals kannte ich Aktivismus oder politische Konzeptkunst nicht. 
     Ich habe es einfach aus meiner Identität heraus gemacht. Mir waren zwar die politischen, feministischen, 
     antirassistischen Absichten wichtig, aber ich konnte es nicht benennen. Auch Provokation hat bei meiner Ausdrucksform eine 
     Rolle gespielt. Aber die Reaktionen haben mir gezeigt: Das hat nicht nur irritiert, sondern richtig Hass ausgelöst. Totale Polarisierung.
-  bibliographical_info: '(last accessed 22.04.2025)'
+  bibliographical_info: "(last accessed 22.04.2025)"
 - id: quote_70
   GND: .nan
   WikiID: .nan
@@ -1264,14 +1264,14 @@
   zotero_key: LCW8HEWW
   language: German
   person:
-  - name: Sokel, Walter
-    gender: m
-    gender_provenece: inferred
+    - name: Sokel, Walter
+      gender: m
+      gender_provenece: inferred
   year: 1965.0
   quote: >
     Nicht Seinslehre, sondern Sollphilosophie ist der Aktivismus, so heißt es
     bald danach bei <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hiller</a>.
-  bibliographical_info: 'p. 209'
+  bibliographical_info: "p. 209"
 - id: quote_71
   GND: .nan
   WikiID: .nan
@@ -1279,16 +1279,16 @@
   zotero_key: 3GFXTIDY
   language: German
   person:
-  - name: Eykmann, Christoph
-    gender: m
-    gender_provenece: inferred
+    - name: Eykmann, Christoph
+      gender: m
+      gender_provenece: inferred
   year: 1972.0
   quote: >
     Eine Unterströmung des Expressionismus wie etwa <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Kurt Hillers</a>
     Aktivismus, welcher einen Bund der Geistigen, eine zum politischen Führertum bestimmte „Logokratie",
     forderte, beeindruckte zwar durch die Konsequenz der gedanklichen Konzeption und
     die Lauterkeit ihres Ethos, blieb aber politisch unwirksam.
-  bibliographical_info: 'p. 481'
+  bibliographical_info: "p. 481"
 - id: quote_72
   GND: 130236950
   WikiID: Q38946888
@@ -1296,9 +1296,9 @@
   zotero_key: NIMNMCYJ
   language: German
   person:
-  - name: Pester, Nora
-    gender: f
-    gender_provenece: inferred
+    - name: Pester, Nora
+      gender: f
+      gender_provenece: inferred
   year: 2023.0
   quote: >
     Begreift sich ein Verlag, der auf seiner Homepage von »jüdischer Selbstermächtigung
@@ -1312,14 +1312,14 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     […]das Zusammenspiel von Empowerment und subversiver Sprache führt somit
     dazu, dass afrodeutsche Gegenwartslyrik zu einer Form des literarischen Aktivismus wird.
-  bibliographical_info: 'p. 536'
+  bibliographical_info: "p. 536"
 - id: quote_74
   GND: 1340139073
   WikiID: Q133815075
@@ -1327,15 +1327,15 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Afrodeutsche Lyrik als Ausdruck von Widerstand und Aktivismus steht in einer
     literarischen Tradition, die eng mit der Schwarzen Frauenbewegung in Deutschland
     verknüpft ist und sich gegen ein gesellschaftliches Schweigen richtet.
-  bibliographical_info: 'p. 539'
+  bibliographical_info: "p. 539"
 - id: quote_75
   GND: 1340139073
   WikiID: Q133815075
@@ -1343,9 +1343,9 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     <a href="https://www.wikidata.org/wiki/Q106655" target="_blank">May Ayim</a>
@@ -1357,7 +1357,7 @@
     in Deutschland war durch Ayim und andere Aktivistinnen somit stark lyrisch geprägt
     und auch heute noch zeigen sich in Hinblick auf Widerstandsästhetiken, Aktivismus
     und Empowerment Verbindungen zu lyrischen Texten Schwarzer Dichterinnen der Gegenwart.
-  bibliographical_info: 'p. 540'
+  bibliographical_info: "p. 540"
 - id: quote_76
   GND: 1340139073
   WikiID: Q133815075
@@ -1365,15 +1365,15 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     <a href="https://www.wikidata.org/wiki/Q463319" target="_blank">Lorde</a>
     plädiert daher für eine ›Transformation des Schweigens in Sprache und
     Handlung‹ und macht die enge Verknüpfung von Sprache und Aktivismus sichtbar.
-  bibliographical_info: 'p. 541'
+  bibliographical_info: "p. 541"
 - id: quote_77
   GND: 1340139073
   WikiID: Q133815075
@@ -1381,15 +1381,15 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Der subversive Sprachgebrauch führt dazu, dass die Gedichte selbst zu einer
     Form des literarischen Aktivismus werden, der gesellschaftliche Veränderungen
     möglich macht.
-  bibliographical_info: 'p. 542'
+  bibliographical_info: "p. 542"
 - id: quote_78
   GND: 1340139073
   WikiID: Q133815075
@@ -1397,16 +1397,16 @@
   zotero_key: W4WXC258
   language: German
   person:
-  - name: Oholi, Jeannette
-    gender: f
-    gender_provenece: inferred
+    - name: Oholi, Jeannette
+      gender: f
+      gender_provenece: inferred
   year: 2022.0
   quote: >
     Dadurch können die lyrischen Texte als literarischer Aktivismus gelesen
     werden: Die Schwarzen Stimmen bemächtigen sich ihrer eigenen Sprache und leisten
     Widerstand, indem sie neue Räume schaffen und sich darin zu vielschichtigen Subjekten
     entwickeln.
-  bibliographical_info: 'p. 552'
+  bibliographical_info: "p. 552"
 - id: quote_79
   GND: 106006510X
   WikiID: Q113824055
@@ -1414,9 +1414,9 @@
   zotero_key: DZEYA7FG
   language: German
   person:
-  - name: Trüper, Henning
-    gender: m
-    gender_provenece: inferred
+    - name: Trüper, Henning
+      gender: m
+      gender_provenece: inferred
   year: 2023.0
   quote: >
     Meist wird als Aktivismus die emphatische Teilnahme an sozialen Bewegungen
@@ -1431,9 +1431,9 @@
   zotero_key: DZEYA7FG
   language: German
   person:
-  - name: Trüper, Henning
-    gender: m
-    gender_provenece: inferred
+    - name: Trüper, Henning
+      gender: m
+      gender_provenece: inferred
   year: 2023.0
   quote: >
     ›Aktivismus‹  wird heute kontextabhängig in vielen Bedeutungen verwendet:
@@ -1447,9 +1447,9 @@
   zotero_key: DZEYA7FG
   language: German
   person:
-  - name: Trüper, Henning
-    gender: m
-    gender_provenece: inferred
+    - name: Trüper, Henning
+      gender: m
+      gender_provenece: inferred
   year: 2023.0
   quote: >
     Bedeutungskonstituierende Kriterien für ›Aktivismus‹ wären demnach erstens
@@ -1467,27 +1467,27 @@
     anderer geht.
   bibliographical_info: .nan
 - id: quote_82
-  GND: 
-   - 114073198
+  GND:
+    - 114073198
   WikiID:
-   - Q95245353
+    - Q95245353
   country: Germany
   zotero_key: 4YYXMD8S
   language: German
   person:
-   - name: Schütt, Rüdiger   
-     gender: m
-     gender_provenece: inferred
+    - name: Schütt, Rüdiger
+      gender: m
+      gender_provenece: inferred
   year: 2009.0
   quote: >
-     Während die breite Öffentlichkeit die Finisten ignorierte oder belächelte [...],
-     nahm <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a> 
-     sie ernst und begann eine instensive Debatte über Aktivismus/Finismus,
-     auf hohem intellektuellem Niveau. Indem <a href="https://www.wikidata.org/wiki/Q1483939" target="_blank">Riegel</a> 
-     und <a href="https://www.wikidata.org/wiki/Q67921" target="_blank">Rühmkorf</a> 
-     ihren Standpunkt immer wieder verteidigen mussten, wurde in Abgrenzung zum 
-     <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller'schen</a> Aktivismus ihre Philosophie überhaupt erst konkret. 
-  bibliographical_info: 'pp. 19-20'
+    Während die breite Öffentlichkeit die Finisten ignorierte oder belächelte [...],
+    nahm <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller</a> 
+    sie ernst und begann eine instensive Debatte über Aktivismus/Finismus,
+    auf hohem intellektuellem Niveau. Indem <a href="https://www.wikidata.org/wiki/Q1483939" target="_blank">Riegel</a> 
+    und <a href="https://www.wikidata.org/wiki/Q67921" target="_blank">Rühmkorf</a> 
+    ihren Standpunkt immer wieder verteidigen mussten, wurde in Abgrenzung zum 
+    <a href="https://www.wikidata.org/wiki/Q66458" target="_blank">Hiller'schen</a> Aktivismus ihre Philosophie überhaupt erst konkret.
+  bibliographical_info: "pp. 19-20"
 - id: quote_83
   GND: 1057278327
   WikiID: .nan
@@ -1495,14 +1495,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     […] a project thaht might be characterized as activist in the sense that
     it activates us to reimagine how culture might be a useful tool for societal equity.
-  bibliographical_info: 'p. 22'
+  bibliographical_info: "p. 22"
 - id: quote_84
   GND: 1118875141
   WikiID: .nan
@@ -1510,15 +1510,15 @@
   zotero_key: NKYYY89B
   language: German
   person:
-  - name: Ommert, Alexandra
-    gender: f
-    gender_provenece: inferred
+    - name: Ommert, Alexandra
+      gender: f
+      gender_provenece: inferred
   year: 2016.0
   quote: >
     Aktivismus ist ebenfalls ein passender Begriff, um das Phänomen zu beschreiben,
     dass Aktivist_innen sich temporär zusammenfinden, um ein konkretes Projekt gemeinsam
     zu verfolgen oder eine Aktion zu planen.
-  bibliographical_info: 'p. 42'
+  bibliographical_info: "p. 42"
 - id: quote_85
   GND: 1118875141
   WikiID: .nan
@@ -1526,14 +1526,14 @@
   zotero_key: NKYYY89B
   language: German
   person:
-  - name: Ommert, Alexandra
-    gender: f
-    gender_provenece: inferred
+    - name: Ommert, Alexandra
+      gender: f
+      gender_provenece: inferred
   year: 2016.0
   quote: >
     Ich möchte Aktivismus mit Bezug auf Elke Zobl als rhizomatisches Netzwerk
     (vgl. Zobl 2012) verstehen, das aus einer Vielzahl von Knotenpunkten besteht.
-  bibliographical_info: 'p. 47'
+  bibliographical_info: "p. 47"
 - id: quote_86
   GND: 1118875141
   WikiID: .nan
@@ -1541,15 +1541,15 @@
   zotero_key: NKYYY89B
   language: German
   person:
-  - name: Ommert, Alexandra
-    gender: f
-    gender_provenece: inferred
+    - name: Ommert, Alexandra
+      gender: f
+      gender_provenece: inferred
   year: 2016.0
   quote: >
     In der deutschsprachigen Literatur setzt sich die Bezeichnung Aktivismus
     langsam durch. Als wissenschaftlicher Begriff ist Aktivismus jedoch wenig theoretisch
     diskutiert und bestimmt.
-  bibliographical_info: 'p. 41'
+  bibliographical_info: "p. 41"
 - id: quote_87
   GND: 1057278327
   WikiID: .nan
@@ -1557,14 +1557,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
-  quote: > 
+  quote: >
     […] activism does share a certain traits with populism: it must be agile,
     fast, and responsive, and promt people to action.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_88
   GND: 1057278327
   WikiID: .nan
@@ -1572,14 +1572,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     […] to help people who are oppressed an discriminated against qualifies
     as a form – and one definition of – activism […].
-  bibliographical_info: 'p. 24'
+  bibliographical_info: "p. 24"
 - id: quote_89
   GND: 1057278327
   WikiID: .nan
@@ -1587,15 +1587,15 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Activism makes a demand. It is not content to remain just activism. Activism
     wants to become something other than activism; it seeks to transform ideas, politics,
     society, life.
-  bibliographical_info: 'p. 23'
+  bibliographical_info: "p. 23"
 - id: quote_90
   GND: 1057278327
   WikiID: .nan
@@ -1603,13 +1603,13 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Activism, let’s admit, is a form of branding too.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_91
   GND: 1057278327
   WikiID: .nan
@@ -1617,14 +1617,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Although maybe this is one way to think about any kind of activism: as an
     act of abandoning self-interest, even if only temporarily in the interest of others.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_92
   GND: 1057278327
   WikiID: .nan
@@ -1632,14 +1632,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     And we shouldn’t forget that there is just as much right-wing ›activism‹
     as there is progressive activism
-  bibliographical_info: 'p. 27'
+  bibliographical_info: "p. 27"
 - id: quote_93
   GND: 1057278327
   WikiID: .nan
@@ -1647,14 +1647,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     But was I engaging in curatorial activism, or rather just trying to be a
     decent human being? Most likley it was the latter.
-  bibliographical_info: 'p. 22'
+  bibliographical_info: "p. 22"
 - id: quote_94
   GND: 1057278327
   WikiID: .nan
@@ -1662,16 +1662,16 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Does not art, writing, or curating that defines itself as activist dream
     of influencing the conditions of realpolitik? For art activism to be useful, it
     must become, in a sense, a form of realpolitik […], even as it performs resistance
     to realpolitik.
-  bibliographical_info: 'p. 23'
+  bibliographical_info: "p. 23"
 - id: quote_95
   GND: 1057278327
   WikiID: .nan
@@ -1679,15 +1679,15 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     I’m not suggesting that one must be utterly selfless to engage in activism,
     because it’s not possible for humans to be completely selfless. And art is not
     a profession for the selfless.
-  bibliographical_info: 'p. 20'
+  bibliographical_info: "p. 20"
 - id: quote_96
   GND: 1057278327
   WikiID: .nan
@@ -1695,14 +1695,14 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Is curating the best way to do activism? Sometimes yes, sometimes no, and
     sometimes it’s just unclear.
-  bibliographical_info: 'p. 28'
+  bibliographical_info: "p. 28"
 - id: quote_97
   GND: 1057278327
   WikiID: .nan
@@ -1710,13 +1710,13 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     It is easier to talk the talk of activism than to walk the walk of activism.
-  bibliographical_info: 'p. 17'
+  bibliographical_info: "p. 17"
 - id: quote_98
   GND: 1057278327
   WikiID: .nan
@@ -1724,13 +1724,13 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
-  quote: > 
+  quote: >
     Just voting for the better candidate can be a form of activism.
-  bibliographical_info: 'p. 19'
+  bibliographical_info: "p. 19"
 - id: quote_99
   GND: 1057278327
   WikiID: .nan
@@ -1738,16 +1738,27 @@
   zotero_key: EZBLC4RE
   language: English
   person:
-  - name: Decter, Joshua
-    gender: m
-    gender_provenece: inferred
+    - name: Decter, Joshua
+      gender: m
+      gender_provenece: inferred
   year: 2019.0
   quote: >
     Pragmatically speaking, all forms of activism are an outgrowth of, or reaction
     to, mainstream politics; a shadow of the dominant modes of political organization,
     not a seperate sphere of politics.
-  bibliographical_info: 'p. 23'
-
-
-
-
+  bibliographical_info: "p. 23"
+- id: quote_100
+  GND: 128533587
+  WikiID: Q503815
+  country: USA
+  zotero_key: YI2MXGFL
+  language: English
+  person:
+    - name: McKibben, Bill
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    But it's worth pointing out how odd it is that we even need climate activism.
+    After all, key to the story of global warming is that it came with a timely warning.
+  bibliographical_info: "foreword"
