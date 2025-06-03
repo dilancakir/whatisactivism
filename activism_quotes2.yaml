@@ -1762,3 +1762,19 @@
     But it's worth pointing out how odd it is that we even need climate activism.
     After all, key to the story of global warming is that it came with a timely warning.
   bibliographical_info: "foreword"
+- id: quote_101
+  GND: 123707471
+  WikiID: Q1594513
+  country: Germany
+  zotero_key: M2MRHK83
+  language: German
+  person:
+    - name: Geißler, Heike
+      gender: f
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Gut möglich, dass der Blaumacher den Arbeitgeber im Kern trifft, entzieht er sich doch der Kontrolle,
+    übt er doch Kritik, außerhalb der Arbeitskräfte. Er ist vielleicht (und manchmal, ohne es zu wissen)
+    ein Aktivist der Faulheit im Sinne Paul Lafargues, er formuliert das Recht auf Faulheit also implizit.
+  bibliographical_info: "p. 24"
