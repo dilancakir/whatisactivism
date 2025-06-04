@@ -1779,3 +1779,20 @@
     ein Aktivist der Faulheit im Sinne <a href="https://www.wikidata.org/wiki/Q317152" target="_blank">Paul Lafargues</a>, 
     er formuliert das Recht auf Faulheit also implizit.
   bibliographical_info: "p. 24"
+- id: quote_102
+  GND: 118544209
+  WikiID: Q76357
+  country: Germany
+  zotero_key: P8Y6W85L
+  language: German
+  person:
+    - name: Habermas, Jürgen
+      gender: m
+      gender_provenece: inferred
+  year: 1970.0
+  quote: >
+    Die ersten amerikanischen Untersuchungen über die studentischen Aktivisten
+    bestätigen, daß es sich überwiegend nicht um sozial aufsteigende, sondern
+    um die statusbegünstigten Teile der Studentenschaft handelt, die sich aus den
+    ökonomischen entlasteten Sozialschichten rekrutieren.
+  bibliographical_info: "p. 101"
