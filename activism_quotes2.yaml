@@ -1796,3 +1796,38 @@
     um die statusbegünstigten Teile der Studentenschaft handelt, die sich aus den
     ökonomischen entlasteten Sozialschichten rekrutieren.
   bibliographical_info: "p. 101"
+- id: quote_103
+  GND:
+    - 1075263344
+    - 1335878408
+    - 141728728
+  WikiID:
+    - Q130788947
+    - Q134965895
+    - Q104426519
+  country: Swiss
+  zotero_key: IHJ856SL
+  language: German
+  person:
+    - name: Germann, Pascal
+      gender: m
+      gender_provenece: inferred
+    - name: Held, Lukas
+      gender: m
+      gender_provenece: inferred
+    - name: Wulz, Monika
+      gender: f
+      gender_provenece: inferred
+  year: 2022.0
+  quote: >
+    Auf dieses eigenständige Aktivwerden von Wissenschaftler*innen bezieht sich der Begriff des 
+    scientific political activism. [...] In einem so breit verstandenen Sinn beschränkt sich scientific 
+    political activism nicht auf ein Engagement von Wissenschaftler*innen in sozialen Bewegungen [...] 
+    oder auf alternative Formen der Wissensproduktion, wie sie etwa im zeitgenössischen Begriff des „Gegenwissens“ 
+    zusammengefasst wurden (siehe insbesondere die Special Section in diesem Heft). Vielmehr fokussiert der Begriff 
+    auf unterschiedlichste Formen der gesellschaftspolitischen Intervention von Wissenschaftler*innen, innerhalb 
+    und außerhalb von politischen Strömungen, in herrschaftskritischer wie in herrschaftsstabilisierender Absicht, 
+    in Verbindung mit grassroots movements oder aus einer Establishment-Perspektive. Charakteristisch für den 
+    wissenschaftlichen politischen Aktivismus ist die Art und Weise, wie er gesellschaftspolitische Wirkungen zu entfalten sucht, 
+    nämlich unter Berufung auf wissenschaftliche Autorität sowie unter Einsatz von wissenschaftlichen Erkenntnissen, Theorien, Konzepten und Techniken.
+  bibliographical_info: "p. 437"
