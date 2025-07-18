@@ -1845,10 +1845,10 @@
       gender_provenece: inferred
   year: 2024.0
   quote: >
-    I want to focus on Medina’s more recent concept of ‘epistemic activism’, understood, 
+    I want to focus on <a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina’s</a> more recent concept of ‘epistemic activism’, understood, 
     as he puts it, as ‘subversive practices’ that ‘defy epistemic norms’ and seek 
     ‘to create epistemic friction with our sensibilities’ Public art, 
-    Medina suggests, can be a powerful form of epistemic activism.
+    <a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina</a> suggests, can be a powerful form of epistemic activism.
   bibliographical_info: "p. 3"
 - id: quote_105
   GND:
@@ -1911,7 +1911,7 @@
   quote: >
     Epistemic activism is therefore fundamentally aesthetic activism. It is important not to think of 
     aesthetics here as replacing, substituting or even foregrounding the epistemic. I would rather insist on 
-    understanding that Medina’s notion of the ‘epistemic’ comprises and emphasizes the role of aesthetics. When speaking of ‘aesth-ethic activism’, I first want to shift our attention to the particular 
+    understanding that <a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina’s</a> notion of the ‘epistemic’ comprises and emphasizes the role of aesthetics. When speaking of ‘aesth-ethic activism’, I first want to shift our attention to the particular 
     forms of activism that take place when subversive practices are specifically directed to disorganize our 
     senses, to destabilize the grammars that order our perception and to open/inaugurate sensible 
     regimes of sense.
@@ -1930,8 +1930,39 @@
       gender_provenece: inferred
   year: 2024.0
   quote: >
-    This is where Medina emphasizes art as epistemic activism. Art is paradigmatic in disturbing our 
+    This is where <a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina</a> emphasizes art as epistemic activism. Art is paradigmatic in disturbing our 
     sensibilities in epistemically ‘productive’ ways precisely because it goes to the core of our ‘epistemic 
-    sensibilities’. Artists as epistemic activists are here described by Medina as ‘guerrilla fighters for the 
+    sensibilities’. Artists as epistemic activists are here described by <a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina</a> as ‘guerrilla fighters for the 
     liberation of oppressed epistemic sensibilities and producers of epistemic friction between sensibilities’.
   bibliographical_info: "p. 6"
+- id: quote_109
+  GND:
+    - 1175532460
+  WikiID:
+    - Q103913382
+  country: USA
+  zotero_key: VUK6FBXP
+  language: English
+  person:
+    - name: Florvil, Tiffany N.
+      gender: f
+      gender_provenece: inferred
+  year: 2019.0
+  quote: >
+    This essay argues that <a href="https://www.wikidata.org/wiki/Q106655" target="_blank">Ayim</a> used her outrage about discrimination in and 
+    beyond Germany to shape her writing, diasporic identity, and activism. Her 
+    international engagements and organizational commitments enabled her 
+    to demand equality for individuals of color and to cultivate kinships with 
+    Afro-diasporic women such as Guadeloupean-born author <a href="https://www.wikidata.org/wiki/Maryse Condé" target="_blank">Maryse Condé</a> 
+    and <a href="https://www.wikidata.org/wiki/Q106655" target="_blank">Ayim’s</a> 
+    mentor, Caribbean American poet <a href="https://www.wikidata.org/wiki/Q463319" target="_blank">Audre Lorde</a>. These bonds 
+    offered a sense of belonging and emotional connection and served as forms 
+    of cultural survival in a society that simultaneously rejected and ignored 
+    Afro-Germanness. Foregrounding <a href="https://www.wikidata.org/wiki/Q106655" target="_blank">Ayim’s</a> global activism, I contend that it 
+    encouraged her to develop a transnational Afro-diasporic paradigm, provided 
+    her with a platform from which she achieved recognition for herself 
+    and Afro-Germans, and allowed her to be attuned to what Lorde termed 'connected differences.'
+  bibliographical_info: "p. 75"
+
+
+<a href="https://www.wikidata.org/wiki/Q6279480" target="_blank">Medina</a>
