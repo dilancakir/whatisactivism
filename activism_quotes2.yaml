@@ -1831,3 +1831,22 @@
     wissenschaftlichen politischen Aktivismus ist die Art und Weise, wie er gesellschaftspolitische Wirkungen zu entfalten sucht, 
     nämlich unter Berufung auf wissenschaftliche Autorität sowie unter Einsatz von wissenschaftlichen Erkenntnissen, Theorien, Konzepten und Techniken.
   bibliographical_info: "p. 437"
+- id: quote_104
+  GND:
+    - 133905829
+  WikiID:
+    - Q95205841
+  country: USA
+  zotero_key: NAAEYUWZ
+  language: English
+  person:
+    - name: Acosta López, María Del Rosario
+      gender: f
+      gender_provenece: inferred
+  year: 2024.0
+  quote: >
+    I want to focus on Medina’s more recent concept of ‘epistemic activism’, understood, 
+    as he puts it, as ‘subversive practices’ that ‘defy epistemic norms’ and seek 
+    ‘to create epistemic friction with our sensibilities’ Public art, 
+    Medina suggests, can be a powerful form of epistemic activism.
+  bibliographical_info: "p. 3"
