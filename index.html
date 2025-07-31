@@ -1,244 +1,278 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What is Activism</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'IBM Plex Mono', monospace;
-            background-color: #ffffff;
-            color: #222;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .header {
-            text-align: center;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #ccc;
-        }
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 5px;
-        }
-        .header p {
-            font-size: 0.9rem;
-            color: #666;
-        }
-        .filter-container {
-            display: flex;
-            gap: 10px;
-            margin: 20px 0;
-            align-items: center;
-        }
-        .search-box {
-            flex: 2;
-            padding: 10px;
-            border: 1px solid #bbb;
-            border-radius: 6px;
-            background: #f8f8f8;
-        }
-        .filters, .sort-options {
-            flex: 1;
-            padding: 8px;
-            border: 1px solid #bbb;
-            border-radius: 6px;
-            background: #f8f8f8;
-        }
-        .card {
-            background: #fff;
-            border-radius: 8px;
-            padding: 8px;
-            margin: 10px 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            font-size: 0.7rem;
-        }
-        .card strong {
-            display: block;
-            font-weight: 600;
-        }
-        .card p {
-            margin: 3px 0;
-            line-height: 1.4;
-        }
-        .card a {
-            text-decoration: none;
-            color: #0077cc;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>What is Activism</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'IBM Plex Mono', monospace;
+      background-color: #ffffff;
+      color: #222;
+      padding: 20px;
+    }
+    .container { max-width: 800px; margin: auto; }
+    .header { text-align: center; padding-bottom: 20px; border-bottom: 2px solid #ccc; }
+    .header h1 { font-size: 2.5rem; margin-bottom: 5px; }
+    .header p { font-size: 0.9rem; color: #666; }
+
+    .filter-container {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+      align-items: center;
+    }
+
+    .search-box, .filters, .sort-options {
+      padding: 8px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      background: #f8f8f8;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+    }
+
+    .search-box { flex: 2; }
+    .filters, .sort-options { flex: 1; }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 8px;
+      margin: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      font-size: 0.7rem;
+    }
+
+    .card strong { display: block; font-weight: 600; }
+    .card p { margin: 3px 0; line-height: 1.4; }
+    .card a { text-decoration: none; color: #0077cc; }
+
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .button-row button {
+      padding: 8px 12px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+    }
+
+    .featured-quote {
+      background: #fdf6e3;
+      padding: 16px;
+      border-left: 6px solid #d19f00;
+      border-radius: 6px;
+      margin: 30px auto 10px auto;
+      max-width: 800px;
+      font-size: 0.7rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .featured-quote p { margin: 4px 0; }
+    .share-button {
+      margin-top: 10px;
+      display: inline-block;
+      font-size: 0.7rem;
+      color: #0077cc;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .hidden { display: none; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>What is Activism?</h1>
-            <p>A curated collection of quotes on activism from various historical and contemporary voices.</p>
-            <p>Project by: <a href="https://dilancakir.github.io/" target="_blank">Dîlan Canan Çakir</a> | 
-    <a href="https://github.com/dilancakir/whatisactivism" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 16px; height: 16px; margin-right: 6px;">
-        Data Source
-    </a>
-</p>
-<div style="text-align: center; margin-top: 11px;">
-    <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-        <img 
-          alt="Creative Commons License" 
-          style="border-width:0; margin-top:0.7px; width:46px; height:17px;" 
-          src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" />
+<div class="container">
+  <div class="header">
+    <h1>What is Activism?</h1>
+    <p>A curated collection of quotes on activism from various historical and contemporary voices.</p>
+    <p>Project by: <a href="https://dilancakir.github.io/" target="_blank">Dîlan Canan Çakir</a> |
+      <a href="https://github.com/dilancakir/whatisactivism" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" style="width: 16px; height: 16px; margin-right: 6px;"> Data Source
       </a>
+    </p>
   </div>
-  
 
-        </div>
-        <div class="filter-container">
-            <input type="text" id="search" class="search-box" placeholder="🔍 Search for names or quotes" onkeyup="filterQuotes()">
-            <select id="language" class="filters" onchange="filterQuotes()">
-                <option value="">🌐 Select language</option>
-            </select>
-            <select id="country" class="filters" onchange="filterQuotes()">
-                <option value="">🏳 Select country</option>
-            </select>
-            <select id="sortQuotes" class="sort-options" onchange="sortQuotes()">
-                <option value="">🔀 Sort by</option>
-                <option value="year">year</option>
-                <option value="alphabet">Person A-Z</option>
-            </select>
-        </div>
-        <p id="quote-count" style="text-align:center; font-size:0.9rem; color:#666;"></p>
-        <div style="text-align: center;">
-            <button id="statistics-btn" onclick="window.location.href='statistics.html'">Statistics to the Data</button></div>
-        <div style="text-align: center;">
-            <p></p>
-            <button id="statistics-btn" onclick="window.location.href='spectrum_engl.html'">🧭Spectrum of Activism</button></div>
-        <div id="quotes-container"></div>
-    </div>
+  <div class="filter-container">
+    <input type="text" id="search" class="search-box" placeholder="🔍 search for names or quotes" onkeyup="filterQuotes()">
+    <select id="language" class="filters" onchange="filterQuotes()">
+      <option value="">🌐 select language</option>
+    </select>
+    <select id="country" class="filters" onchange="filterQuotes()">
+      <option value="">🏳 select country</option>
+    </select>
+    <select id="sortQuotes" class="sort-options" onchange="sortQuotes()">
+      <option value="">🔀 sort by</option>
+      <option value="year">year</option>
+      <option value="alphabet">Person A-Z</option>
+    </select>
+  </div>
 
-    <script>
-    let quotesData = [];
+  <p id="quote-count" style="text-align:center; font-size:0.9rem; color:#666;"></p>
 
-    async function loadYAML() {
-        try {
-            const response = await fetch('activism_quotes2.yaml'); //später wieder zurück änder zu: const response = await fetch('https://raw.githubusercontent.com/dilancakir/whatisactivism/main/activism_quotes2.yaml');
-            const text = await response.text();
-            quotesData = jsyaml.load(text) || [];
-            populateFilters();
-            displayQuotes(quotesData);
-            document.getElementById("quote-count").textContent = `Database currently contains ${quotesData.length} quotes.`;
-        } catch (error) {
-            console.error("Error loading YAML file:", error);
-        }
-    }
-    function populateFilters() {
-    const languageSelect = document.getElementById("language");
-    const countrySelect = document.getElementById("country");
-    
-    const languages = new Set();
-    const countries = new Set();
-    
-    quotesData.forEach(entry => {
-        if (entry.language) languages.add(entry.language);
-        if (entry.country) countries.add(entry.country);
+  <div class="button-row">
+    <button onclick="window.location.href='statistics.html'">statistics to the data</button>
+    <button onclick="window.location.href='spectrum_engl.html'">spectrum of activism</button>
+    <button onclick="showRandomQuote()">show random quote</button>
+  </div>
+
+  <div id="featured-quote" class="featured-quote hidden"></div>
+  <div id="quotes-container"></div>
+</div>
+
+<script>
+let quotesData = [];
+
+async function loadYAML() {
+  try {
+    const response = await fetch('activism_quotes2.yaml');
+    const text = await response.text();
+    quotesData = jsyaml.load(text) || [];
+    populateFilters();
+    displayQuotes(quotesData);
+    document.getElementById("quote-count").textContent = `Database currently contains ${quotesData.length} quotes.`;
+  } catch (error) {
+    console.error("Error loading YAML file:", error);
+  }
+}
+
+function populateFilters() {
+  const languageSelect = document.getElementById("language");
+  const countrySelect = document.getElementById("country");
+
+  const languages = new Set();
+  const countries = new Set();
+
+  quotesData.forEach(entry => {
+    if (entry.language) languages.add(entry.language);
+    if (entry.country) countries.add(entry.country);
+  });
+
+  languageSelect.innerHTML += Array.from(languages).map(lang => `<option value="${lang}">${lang}</option>`).join('');
+  countrySelect.innerHTML += Array.from(countries).map(c => `<option value="${c}">${c}</option>`).join('');
+}
+
+function filterQuotes() {
+  const search = document.getElementById("search").value.toLowerCase();
+  const lang = document.getElementById("language").value;
+  const country = document.getElementById("country").value;
+
+  const result = quotesData.filter(entry => {
+    const matchText = entry.quote.toLowerCase().includes(search) ||
+      (entry.person && entry.person.some(p => p.name.toLowerCase().includes(search)));
+    const matchLang = lang ? entry.language === lang : true;
+    const matchCountry = country ? entry.country === country : true;
+    return matchText && matchLang && matchCountry;
+  });
+
+  displayQuotes(result);
+}
+
+function sortQuotes() {
+  const sortBy = document.getElementById("sortQuotes").value;
+  let sorted = [...quotesData];
+
+  if (sortBy === "alphabet") {
+    sorted.sort((a, b) => {
+      const nameA = a.person?.[0]?.name || "";
+      const nameB = b.person?.[0]?.name || "";
+      return nameA.localeCompare(nameB);
     });
-    
-    languageSelect.innerHTML = '<option value="">🌐 Select language</option>' + 
-        Array.from(languages).map(lang => `<option value="${lang}">${lang}</option>`).join('');
-    
-    countrySelect.innerHTML = '<option value="">🏳 Select country</option>' + 
-        Array.from(countries).map(cntry => `<option value="${cntry}">${cntry}</option>`).join('');
-}    
+  } else if (sortBy === "year") {
+    sorted.sort((a, b) => (a.year || 0) - (b.year || 0));
+  }
 
-    // Filter-Funktion
-    function filterQuotes() {
-        const searchQuery = document.getElementById("search").value.toLowerCase();
-        const selectedLanguage = document.getElementById("language").value;
-        const selectedCountry = document.getElementById("country").value;
+  displayQuotes(sorted);
+}
 
-        const filteredData = quotesData.filter(entry => {
-            const matchesSearch = entry.quote.toLowerCase().includes(searchQuery) ||
-                (entry.person && entry.person.some(p => p.name.toLowerCase().includes(searchQuery)));
+function displayQuotes(data) {
+  const container = document.getElementById("quotes-container");
+  container.innerHTML = "";
 
-            const matchesLanguage = selectedLanguage ? entry.language === selectedLanguage : true;
-            const matchesCountry = selectedCountry ? entry.country === selectedCountry : true;
+  data.forEach(entry => {
+    const card = document.createElement("div");
+    card.className = "card";
+    let authors = entry.person?.map(p => `${p.name} (${p.gender || "?"})`).join(", ") ?? "unknown";
 
-            return matchesSearch && matchesLanguage && matchesCountry;
-        });
+    card.innerHTML = `
+      <strong>${authors} (${entry.year || "unknown"})</strong>
+      <em style="font-size: 0.85rem;">"${entry.quote}"</em>
+      <p>🌐 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
+      <p>🧾 GND: ${entry.GND ? `<a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND}</a>` : "N/A"}</p>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png"
+         style="width:16px;height:16px;vertical-align:middle;margin-right:5px;"> WikiData: ${entry.WikiID ? `<a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID}</a>` : "N/A"}</p>
+      <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
+      <p><img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png"
+         style="width:16px;height:16px;vertical-align:middle;margin-right:5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
+    `;
+    container.appendChild(card);
+    if (entry.zotero_key) fetchZoteroData(entry.id, entry.zotero_key);
+  });
+}
 
-        displayQuotes(filteredData);
-    }
+async function fetchZoteroData(entryId, zoteroKey) {
+  const groupID = "5261383";
+  try {
+    const res = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`);
+    const data = await res.json();
+    const title = data.data.title || "Zotero Item";
+    const link = `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`;
+    document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href="${link}" target="_blank">${title}</a>`;
+  } catch (e) {
+    document.getElementById(`zotero-link-${entryId}`).textContent = "Zotero Item";
+  }
+}
 
-    // Sortierfunktion
-    function sortQuotes() {
-        const sortBy = document.getElementById("sortQuotes").value;
+function showRandomQuote() {
+  const index = Math.floor(Math.random() * quotesData.length);
+  const entry = quotesData[index];
 
-        let sortedData = [...quotesData]; // Eine Kopie der Daten erstellen, um das Original nicht zu verändern
+  let authors = entry.person?.map(p => `${p.name} (${p.gender || "?"})`).join(", ") ?? "Unbekannt";
 
-        if (sortBy === "alphabet") {
-            sortedData.sort((a, b) => {
-                const nameA = (a.person && a.person[0] && a.person[0].name) || "";
-                const nameB = (b.person && b.person[0] && b.person[0].name) || "";
-                return nameA.localeCompare(nameB);
-            });
-        } else if (sortBy === "year") {
-            sortedData.sort((a, b) => {
-                const yearA = a.year ? parseInt(a.year) : 0;
-                const yearB = b.year ? parseInt(b.year) : 0;
-                return yearA - yearB;
-            });
-        }
+  let gndHTML = entry.GND
+    ? (Array.isArray(entry.GND)
+        ? entry.GND.map(id => `<a href="https://d-nb.info/gnd/${id}" target="_blank">${id}</a>`).join(", ")
+        : `<a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND}</a>`)
+    : "N/A";
 
-        displayQuotes(sortedData);
-    }
+  let wikidataHTML = entry.WikiID
+    ? (Array.isArray(entry.WikiID)
+        ? entry.WikiID.map(id => `<a href="https://www.wikidata.org/wiki/${id}" target="_blank">${id}</a>`).join(", ")
+        : `<a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID}</a>`)
+    : "N/A";
 
-    function displayQuotes(data) {
-        const container = document.getElementById("quotes-container");
-        container.innerHTML = "";
+  const blueskyText = `${entry.quote} – ${authors} (${entry.year || "?"}) #whatisactivism`;
+  const encodedBlueskyText = encodeURIComponent(blueskyText);
+  const blueskyLink = `https://bsky.app/compose?text=${encodedBlueskyText}`;
 
-        data.forEach(entry => {
-            const card = document.createElement("div");
-            card.className = "card";
+  const quoteHTML = `
+    <h3 style="margin-top: 0; color: #d19f00; font-size: 0.7rem;">Random Quote</h3>
+    <strong>${authors} (${entry.year || "?"})</strong><br>
+    <em>"${entry.quote}"</em>
+    <p>🌐 ${entry.language} | 🏳 ${entry.country || "?"}</p>
+    <p>🧾 GND: ${gndHTML}</p>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png"
+         style="width:16px;height:16px;vertical-align:middle;margin-right:5px;"> WikiData: ${wikidataHTML}</p>
+    <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
+    <p><img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png"
+         style="width:16px;height:16px;vertical-align:middle;margin-right:5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
+  `;
 
-            let authors = entry.person && entry.person.length 
-                ? entry.person.map(p => `${p.name} (${p.gender || "unknown"})`).join(", ") 
-                : "unknown";
+  const quoteBox = document.getElementById("featured-quote");
+  quoteBox.innerHTML = quoteHTML;
+  quoteBox.classList.remove("hidden");
 
-            card.innerHTML = `
-                <strong>${authors} (${entry.year || "unknown"})</strong>
-                <em style="font-size: 0.85rem;">"${entry.quote}"</em>
-                <p>🌐 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-                <p>🧾 GND: ${entry.GND ? (Array.isArray(entry.GND) ? entry.GND.map(id => `<a href="https://d-nb.info/gnd/${id}" target="_blank">${id}</a>`).join(", ") : `<a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND}</a>`) : "N/A"}</p>
-                <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/30px-Wikidata-logo.svg.png" alt="Wikidata Logo" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> WikiData: ${entry.WikiID ? (Array.isArray(entry.WikiID) ? entry.WikiID.map(id => `<a href="https://www.wikidata.org/wiki/${id}" target="_blank">${id}</a>`).join(", ") : `<a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID}</a>`) : "N/A"}</p>
-                <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
-                <p><img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png" alt="Zotero Logo" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 5px;"> Zotero Source: <span id="zotero-link-${entry.id}">loading...</span></p>
-            `;
-            container.appendChild(card);
-            if (entry.zotero_key) fetchZoteroData(entry.id, entry.zotero_key);
-        });
-    }
+  if (entry.zotero_key) fetchZoteroData(entry.id, entry.zotero_key);
+}
 
-    async function fetchZoteroData(entryId, zoteroId) {
-        const groupID = "5261383";  // Zotero-Gruppen-ID
-        try {
-            const response = await fetch(`https://api.zotero.org/groups/${groupID}/items/${zoteroId}?format=json`);
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            const data = await response.json();
-            const title = data.data.title || "Unknown Source";
-            const zoteroLink = `https://www.zotero.org/groups/${groupID}/items/${zoteroId}`;
-            
-            document.getElementById(`zotero-link-${entryId}`).innerHTML = `<a href='${zoteroLink}' target='_blank'>${title}</a>`;
-        } catch (error) {
-            console.error("Error fetching Zotero data:", error);
-            document.getElementById(`zotero-link-${entryId}`).textContent = "Error loading Zotero data";
-        }
-        
-    }
-
-    loadYAML();
+loadYAML();
 </script>
 </body>
 </html>
