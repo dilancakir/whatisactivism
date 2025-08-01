@@ -1965,3 +1965,17 @@
     her with a platform from which she achieved recognition for herself 
     and Afro-Germans, and allowed her to be attuned to what Lorde termed 'connected differences.'
   bibliographical_info: "p. 75"
+- id: quote_110
+  GND: 104398352X
+  WikiID: Q19959231
+  country: Germany
+  zotero_key: 5LYICBZJ
+  language: Deutsch
+  person:
+    - name: Czollek, Max
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Ein Aktivismus ohne Reflexion der eigenen Verstrickung ist bestenfalls naiv, schlimmstenfalls Grundlage dafür, anderen ihre Schuld vorzuwerfen.
+  bibliographical_info: "(last accessed 01.08.2025)"
