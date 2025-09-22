@@ -2145,5 +2145,36 @@
       gender_provenece: inferred
   year: 2025.0
   quote: >
-    Academic activism challenges the notion that academics should adopt a detached and supposedly ‘neutral’ and ‘objective’ stance towards social realities. It rejects the idea that academics should solely study and analyse these realities without actively driving or implementing change in the world. It posits, instead, that academics bear an advantage – if not a responsibility – to employ their knowledge and expertise in non-academic projects that aim to improve life and society.
+    Academic activism challenges the notion that academics should adopt a detached and supposedly ‘neutral’ and ‘objective’ stance towards social realities. It rejects the idea that academics should solely study and analyse these realities without actively driving or implementing change in the world. It posits, instead, that academics bear an advantage – if not a responsibility – to employ their knowledge and expertise in non-academic projects that aim to improve life and society. Academic activism encompasses more than just the question of neutrality. One must not necessarily subscribe to sociologist <a href="https://www.wikidata.org/wiki/Q9387" target="_blank">Max Weber's</a> neutrality in scholarship or pedagogy.
   bibliographical_info: "p. 74"
+- id: quote_118
+  GND:
+    - N.N.
+    - N.N.
+    - N.N.
+    - N.N.
+  WikiID:
+    - N.N.
+    - N.N.
+    - Q91222427
+    - N.N.
+  country: Netherlands
+  zotero_key: 6JR2Z2LW
+  language: English
+  person:
+    - name: Rhabari, Landa
+      gender: f
+      gender_provenece: inferred
+    - name: Kramer, Dion
+      gender: m
+      gender_provenece: inferred
+    - name: Deserno, Marie
+      gender: f
+      gender_provenece: inferred
+    - name: Tse, Tommy
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Academic activism will, therefore, not be possible if academic freedom is not guaranteed.
+  bibliographical_info: "p. 75"
