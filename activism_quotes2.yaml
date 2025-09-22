@@ -2033,7 +2033,7 @@
   quote: >
     Situated in the institutionalized world of academia, scholar-activism is a form of academic practice or role akin to other forms of academic engagement with society.
   bibliographical_info: "p. 2"
-- id: quote_113
+- id: quote_114
   GND:
     - N.N.
     - 1240593627
@@ -2059,3 +2059,29 @@
   quote: >
     Although a diverse and rather disconnected literature is emerging, spanning sociology, geography, management studies, and pedagogy, scholar-activism remains underexplored in empirically and theoretically well-grounded studies. While the increasing use of terms like scholar-activism, academic activism or researcher activism signals the rise of a novel phenomenon, the debate about the politics-science connection is far from new. Since the 1920s, the relationship between intellectuals and political interests or movements has drawn the attention of social scientists across various disciplines
   bibliographical_info: "p. 2"
+- id: quote_115
+  GND:
+    - N.N.
+    - 1240593627
+    - 1300417285
+  WikiID:
+    - N.N.
+    - N.N.
+    - N.N.
+  country: Sweden
+  zotero_key: 6JR2Z2LW
+  language: English
+  person:
+    - name: Farzana Bashiri
+      gender: f
+      gender_provenece: inferred
+    - name: Eugenia Perez Vico
+      gender: f
+      gender_provenece: inferred
+    - name: Anders Hylmö
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    We identified three distinct forms in which scholar-activism is enacted in the literature: activist research, teaching, and collaborations. Yet these forms are interrelated, and at times, they overlap, as the boundaries of research, learning, and organizing become blurry in scholar-activism
+  bibliographical_info: "p. 6"
