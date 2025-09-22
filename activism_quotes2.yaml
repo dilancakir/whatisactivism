@@ -1970,7 +1970,7 @@
   WikiID: Q19959231
   country: Germany
   zotero_key: 5LYICBZJ
-  language: Deutsch
+  language: German
   person:
     - name: Czollek, Max
       gender: m
@@ -1984,7 +1984,7 @@
   WikiID: Q1432084
   country: Germany
   zotero_key: IY8CLXYP
-  language: Deutsch
+  language: German
   person:
     - name: Ullrich, Wolfgang
       gender: m
@@ -1993,3 +1993,43 @@
   quote: >
     Die frohe Botschaft jedenfalls lautet, zugespitzt, dass nach dem bildungsbürgerlich-elitären Terror autonomer Kunst nunmehr Aktivismus und Giftshop sich zusammengetan haben, um in einer Versöhnung von weitreichender Inklusion und Konsum der Kunst endlich wieder handfeste Gebrauchswertereignisse von der Knuffigkeit eines Art Toys bis zur Restitution gestohlener Kolonialkunst an die Urheberkulturen zu bescheren.
   bibliographical_info: "(last accessed 08.08.2025)"
+- id: quote_112
+  GND: 1283036533
+  WikiID: Q114514742
+  country: Germany
+  zotero_key: Z3LY7UQU
+  language: German
+  person:
+    - name: Sahebi, Gilda
+      gender: f
+      gender_provenece: inferred
+  year: 2022.0
+  quote: >
+    Sogar die <a href="https://www.wikidata.org/wiki/Q39080194" target="_blank">FDP-Bildungsministerin</a> kritisierte den Vorgang: "Es darf nicht in der Hand von Aktivisten liegen, welche Positionen gehört werden dürfen und welche nicht", so die <a href="https://www.wikidata.org/wiki/Q39080194" target="_blank">Politikerin</a> gegenüber der Bild-Zeitung.
+  bibliographical_info: "p. 13"
+- id: quote_113
+  GND:
+    - N.N.
+    - 1240593627
+    - 1300417285
+  WikiID:
+    - N.N.
+    - N.N.
+    - N.N.
+  country: Sweden
+  zotero_key: 6JR2Z2LW
+  language: English
+  person:
+    - name: Farzana Bashiri
+      gender: f
+      gender_provenece: inferred
+    - name: Eugenia Perez Vico
+      gender: f
+      gender_provenece: inferred
+    - name: Anders Hylmö
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Situated in the institutionalized world of academia, scholar-activism is a form of academic practice or role akin to other forms of academic engagement with society.
+  bibliographical_info: "p. 2"
