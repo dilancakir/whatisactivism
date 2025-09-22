@@ -2178,3 +2178,24 @@
   quote: >
     Academic activism will, therefore, not be possible if academic freedom is not guaranteed. [...] A discussion on academic activism is incomplete without considering the institutional development of the modern university.
   bibliographical_info: "p. 75"
+- id: quote_119
+  GND:
+    - 139693602
+    - N.N.
+  WikiID:
+    - Q1228125
+    - N.N.
+  country: UK
+  zotero_key: P5BERW8Y
+  language: English
+  person:
+    - name: Wiemann, Dirk
+      gender: m
+      gender_provenece: inferred
+    - name: Poduval, Satish Kumar
+      gender: m
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Oddly enough, however, the very term “literary activism” has been embraced and even virtually claimed as a brand name by some of the most unlikely candidates, namely a loose affiliation of writers and critics around the novelist/essayist <a href="https://www.wikidata.org/wiki/Q472352" target="_blank">Amit Chaudhuri</a> and the literary critic <a href="https://www.wikidata.org/wiki/Q5261784" target="_blank">Derek Attridge</a>, both of whom are prominent advocates of a strictly aestheticist approach to literature. In <a href="https://www.wikidata.org/wiki/Q472352" target="_blank">Chaudhuri's</a> manifestos, “literary activism” figures as a shorthand for secession from the literary market and a return to the pristine domain of self-determined literary value that, ultimately, as Attridge reiterates, resides in the inexplicable and ineffable.
+  bibliographical_info: "p. 4"
