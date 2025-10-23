@@ -2213,3 +2213,17 @@
   quote: >
     And then I would like to turn to a consideration of vulnerability as a form of activism, or as that which is in sense mobilized in forms of resistance.
   bibliographical_info: "p. 123"
+- id: quote_121
+  GND: 120286785
+  WikiID: Q88158
+  country: Germany
+  zotero_key: 8QML66ZJ
+  language: German
+  person:
+    - name: Klöckner, Julia
+      gender: f
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Man kann mit Argumenten arbeiten. Und wenn man selber nicht mehr and die Macht des eigenen Arguments glaubt, dann wird man entweder laut, wird unverschämt oder macht irgendwelche aktivistischen Aktionen, was es ja auch gibt in diesem Parlament."
+  bibliographical_info: "minute 2:20"
