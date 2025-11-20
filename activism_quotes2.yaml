@@ -2248,3 +2248,24 @@
   quote: >
     Dass eine Gegenüberstellung von Politik und Kunst, Engagement und Autonomie weder fruchtbringend noch haltbar ist, hat die rege Auseinandersetzung mit literarischen, künstlerischen und aktivistischen Praktiken der letzten Jahre deutlich gezeigt.
   bibliographical_info: "p. 13"
+- id: quote_123
+  GND:
+    - 1140142526
+    - 1182462626
+  WikiID:
+    - Q136871832
+    - Q136872744
+  country: Germany
+  zotero_key: 4ANMESRB
+  language: German
+  person:
+    - name: Eusterschulte, Birgit
+      gender: f
+      gender_provenece: inferred
+    - name: Krüger, Christian
+      gender: m
+      gender_provenece: inferred
+  year: 2022.0
+  quote: >
+    Aktivistische und politische Kunst, sozialengagierte, partizipative und intervenierende Praktiken, Social Arts und Community Arts, künstlerische Forschung und Bildungsarbeit sind nur einige Namen für jene Praktiken, mit denen Künstlerinnen und Künstler jenseits der vermeintlichen Grenzen der Künste in gesellschaftliche Arbeitsfelder vordringen und in diese produktiv, verändernd oder – um mit Žmijewski zu sprechen – pragmatisch eingreifen.
+  bibliographical_info: "p. 9"
