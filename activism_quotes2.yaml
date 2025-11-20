@@ -2227,3 +2227,24 @@
   quote: >
     Man kann mit Argumenten arbeiten. Und wenn man selber nicht mehr an die Macht des eigenen Arguments glaubt, dann wird man entweder laut, wird unverschämt oder macht irgendwelche aktivistischen Aktionen, was es ja auch gibt in diesem Parlament.
   bibliographical_info: "minute 16:05"
+- id: quote_122
+  GND:
+    - 1321206429
+    - 1080873317
+  WikiID:
+    - Q136863715
+    - Q136868375
+  country: Germany
+  zotero_key: 74YINEM6
+  language: German
+  person:
+    - name: Bausch, Barbara
+      gender: f
+      gender_provenece: inferred
+    - name: Weber, Julia
+      gender: f
+      gender_provenece: inferred
+  year: 2025.0
+  quote: >
+    Dass eine Gegenüberstellung von Politik und Kunst, Engagement und Autonomie weder fruchtbringend noch haltbar ist, hat die rege Auseinandersetzung mit literarischen, künstlerischen und aktivistischen Praktiken der letzten Jahre deutlich gezeigt.
+  bibliographical_info: "p. 13"
