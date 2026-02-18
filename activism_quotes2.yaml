@@ -2269,3 +2269,83 @@
   quote: >
     Aktivistische und politische Kunst, sozialengagierte, partizipative und intervenierende Praktiken, Social Arts und Community Arts, künstlerische Forschung und Bildungsarbeit sind nur einige Namen für jene Praktiken, mit denen Künstlerinnen und Künstler jenseits der vermeintlichen Grenzen der Künste in gesellschaftliche Arbeitsfelder vordringen und in diese produktiv, verändernd oder – um mit <a href="https://www.wikidata.org/wiki/Q477322" target="_blank">Žmijewski</a> zu sprechen – pragmatisch eingreifen.
   bibliographical_info: "p. 9"
+- id: quote_124
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    When I hear the word 'feminist', I hear activism.
+  bibliographical_info: "p. 217"
+- id: quote_125
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    The feminist killjoy as activist is right there, marching for our lives.
+  bibliographical_info: "p. 217"
+- id: quote_126
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    From feminism we learn that activism is not restricted to one domain; it can be what we do at home, at work, on the streets.
+  bibliographical_info: "p. 218"
+- id: quote_127
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    I will make use of my survival tips because thinking about killjoy activism is another way of thinking about the project of feminist survival.
+  bibliographical_info: "p. 220"
+- id: quote_128
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    So much activist work is the work of exposure: we expose the violence that is hidden by shiny happy diversity: the violence of the elevation of the family as a social norm, the couple form, reproductivity as the basis of a good life.
+  bibliographical_info: "p. 220-221"
