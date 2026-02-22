@@ -2349,3 +2349,19 @@
   quote: >
     So much activist work is the work of exposure: we expose the violence that is hidden by shiny happy diversity: the violence of the elevation of the family as a social norm, the couple form, reproductivity as the basis of a good life.
   bibliographical_info: "p. 220-221"
+- id: quote_129
+  GND:
+    - 141594683
+  WikiID:
+    - Q15437208
+  country: UK
+  zotero_key: ESKUS58T
+  language: English
+  person:
+    - name: Ahmed, Sara
+      gender: f
+      gender_provenece: inferred
+  year: 2023.0
+  quote: >
+    In thinking of the feminist killjoy as an activist, I am giving her a queer history.
+  bibliographical_info: "p. 222"
