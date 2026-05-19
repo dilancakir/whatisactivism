@@ -2381,3 +2381,19 @@
   quote: >
     Should political activists employ literary studies to achieve their ends? The answer to this question is surely that there are many more effective ways to achieve political ends than writing about literature (or writing literary works, for that matter). Literary studies would seem to be a feeble instrument for this purpose.
   bibliographical_info: "p. 2"
+- id: quote_131
+  GND:
+    - 1367659000
+  WikiID:
+    - N.A.
+  country: Germany
+  zotero_key: H5FQ6ZBJ
+  language: German
+  person:
+    - name: Fallis, Deborah
+      gender: f
+      gender_provenece: inferred
+  year: 2026.0
+  quote: >
+    Die Verletzbarkeit von rassifizierten Personen muss also nicht per se mit einem passiven Opferstatus verbunden sein, sondern kann in selbstermächtigenden und widerständigen Aktivismus umgewandelt werden.
+  bibliographical_info: "p. 46"
