@@ -2365,3 +2365,19 @@
   quote: >
     In thinking of the feminist killjoy as an activist, I am giving her a queer history.
   bibliographical_info: "p. 222"
+- id: quote_130
+  GND:
+    - 129566837
+  WikiID:
+    - Q5261784
+  country: UK
+  zotero_key: KL8D5ZWY
+  language: English
+  person:
+    - name: Attridge, Derek
+      gender: m
+      gender_provenece: inferred
+  year: 2026.0
+  quote: >
+    Should political activists employ literary studies to achieve their ends? The answer to this question is surely that there are many more effective ways to achieve political ends than writing about literature (or writing literary works, for that matter). Literary studies would seem to be a feeble instrument for this purpose.
+  bibliographical_info: "p. 2"
