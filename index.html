@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
+
     <style>
       body {
         font-family: "IBM Plex Mono", monospace;
@@ -105,7 +106,6 @@
         display: none;
       }
 
-      /* 📱 Mobile layout fix */
       @media (max-width: 600px) {
         .filter-container {
           flex-direction: column;
@@ -191,16 +191,195 @@
 
     <script>
       var quotesData = [];
+      var currentData = [];
+      var zoteroTitles = {};
+      var groupID = "5261383";
+
+      function safeText(value, fallback = "N/A") {
+        return value === undefined || value === null || value === ""
+          ? fallback
+          : value;
+      }
+
+      function makeSafeId(value) {
+        return String(value || "")
+          .replace(/[^a-zA-Z0-9_-]/g, "-")
+          .replace(/-+/g, "-");
+      }
+
+      function extractZoteroKey(value) {
+        if (!value) return "";
+
+        var text = String(value).trim();
+
+        var urlMatch = text.match(/\/items\/([A-Z0-9]{8})/i);
+        if (urlMatch) return urlMatch[1].toUpperCase();
+
+        var itemKeyMatch = text.match(/[?&]itemKey=([A-Z0-9]{8})/i);
+        if (itemKeyMatch) return itemKeyMatch[1].toUpperCase();
+
+        var keyMatch = text.match(/[A-Z0-9]{8}/i);
+        if (keyMatch) return keyMatch[0].toUpperCase();
+
+        return "";
+      }
+
+      function getUniqueId(entry, index, prefix) {
+        var key = extractZoteroKey(entry.zotero_key);
+        if (entry.id) return prefix + "-" + makeSafeId(entry.id) + "-" + index;
+        if (key) return prefix + "-zotero-" + key + "-" + index;
+        return prefix + "-index-" + index;
+      }
+
+      function chunkArray(array, size) {
+        var chunks = [];
+        for (var i = 0; i < array.length; i += size) {
+          chunks.push(array.slice(i, i + size));
+        }
+        return chunks;
+      }
+
+      async function fetchZoteroItemsByKeys(keys) {
+        var uniqueKeys = [...new Set(keys.filter(Boolean))];
+        var chunks = chunkArray(uniqueKeys, 50);
+        var allItems = [];
+
+        for (var chunk of chunks) {
+          var url =
+            "https://api.zotero.org/groups/" +
+            groupID +
+            "/items?itemKey=" +
+            chunk.join(",") +
+            "&format=json&include=data";
+
+          var response = await fetch(url, {
+            headers: {
+              "Zotero-API-Version": "3",
+            },
+          });
+
+          if (!response.ok) {
+            console.warn("Zotero batch failed:", response.status, chunk);
+            continue;
+          }
+
+          var items = await response.json();
+          allItems = allItems.concat(items);
+        }
+
+        return allItems;
+      }
+
+      async function loadZoteroTitlesForData(data) {
+        var originalKeys = data
+          .map((entry) => extractZoteroKey(entry.zotero_key))
+          .filter(Boolean);
+
+        var items = await fetchZoteroItemsByKeys(originalKeys);
+
+        var parentKeys = [];
+
+        items.forEach((item) => {
+          var key = item?.data?.key;
+          var title =
+            item?.data?.title ||
+            item?.data?.bookTitle ||
+            item?.data?.publicationTitle ||
+            item?.data?.shortTitle ||
+            "";
+
+          if (key && title) {
+            zoteroTitles[key] = {
+              title: title,
+              key: key,
+            };
+          }
+
+          if (
+            item?.data?.parentItem &&
+            (item?.data?.itemType === "attachment" ||
+              item?.data?.itemType === "note" ||
+              item?.data?.itemType === "annotation")
+          ) {
+            parentKeys.push(item.data.parentItem);
+          }
+        });
+
+        if (parentKeys.length) {
+          var parentItems = await fetchZoteroItemsByKeys(parentKeys);
+
+          parentItems.forEach((parentItem) => {
+            var parentKey = parentItem?.data?.key;
+            var parentTitle =
+              parentItem?.data?.title ||
+              parentItem?.data?.bookTitle ||
+              parentItem?.data?.publicationTitle ||
+              parentItem?.data?.shortTitle ||
+              "";
+
+            if (!parentKey || !parentTitle) return;
+
+            items.forEach((childItem) => {
+              if (childItem?.data?.parentItem === parentKey) {
+                var childKey = childItem?.data?.key;
+                if (childKey) {
+                  zoteroTitles[childKey] = {
+                    title: parentTitle,
+                    key: parentKey,
+                  };
+                }
+              }
+            });
+
+            zoteroTitles[parentKey] = {
+              title: parentTitle,
+              key: parentKey,
+            };
+          });
+        }
+
+        updateVisibleZoteroLinks();
+      }
+
+      function updateVisibleZoteroLinks() {
+        document.querySelectorAll("[data-zotero-key]").forEach((span) => {
+          var originalKey = span.getAttribute("data-zotero-key");
+          var cleanKey = extractZoteroKey(originalKey);
+
+          if (!cleanKey) {
+            span.textContent = "No Zotero key";
+            return;
+          }
+
+          var info = zoteroTitles[cleanKey];
+
+          if (!info || !info.title) {
+            span.textContent = "Zotero title not found";
+            return;
+          }
+
+          var link =
+            "https://www.zotero.org/groups/" + groupID + "/items/" + info.key;
+
+          span.innerHTML =
+            '<a href="' + link + '" target="_blank">' + info.title + "</a>";
+        });
+      }
 
       function loadYAML() {
         fetch("activism_quotes2.yaml")
           .then((r) => r.text())
           .then((text) => {
             quotesData = jsyaml.load(text) || [];
+            currentData = quotesData.slice();
+
             populateFilters();
-            displayQuotes(quotesData);
+            displayQuotes(currentData);
+
             document.getElementById("quote-count").textContent =
               "Database currently contains " + quotesData.length + " quotes.";
+
+            loadZoteroTitlesForData(quotesData);
           })
           .catch((err) => console.log("Error loading YAML file:", err));
       }
@@ -209,41 +388,56 @@
         var languageSelect = document.getElementById("language");
         var countrySelect = document.getElementById("country");
 
+        languageSelect.innerHTML = '<option value="">select language</option>';
+        countrySelect.innerHTML = '<option value="">🏳 select country</option>';
+
         var languages = [
           ...new Set(quotesData.map((q) => q.language).filter(Boolean)),
-        ];
+        ].sort();
+
         var countries = [
           ...new Set(quotesData.map((q) => q.country).filter(Boolean)),
-        ];
+        ].sort();
 
-        languages.forEach(
-          (l) =>
-            (languageSelect.innerHTML += `<option value="${l}">${l}</option>`),
-        );
-        countries.forEach(
-          (c) =>
-            (countrySelect.innerHTML += `<option value="${c}">${c}</option>`),
-        );
+        languages.forEach((l) => {
+          var option = document.createElement("option");
+          option.value = l;
+          option.textContent = l;
+          languageSelect.appendChild(option);
+        });
+
+        countries.forEach((c) => {
+          var option = document.createElement("option");
+          option.value = c;
+          option.textContent = c;
+          countrySelect.appendChild(option);
+        });
       }
 
-      /* ------------------------------
-   FIXED SEARCH FUNCTION
---------------------------------*/
       function filterQuotes() {
-        var search = document.getElementById("search").value.toLowerCase();
+        var search = document
+          .getElementById("search")
+          .value.toLowerCase()
+          .trim();
         var lang = document.getElementById("language").value;
         var country = document.getElementById("country").value;
 
-        var result = [];
+        currentData = quotesData.filter((entry) => {
+          var quote = safeText(entry.quote, "").toLowerCase();
+          var bibliographical = safeText(
+            entry.bibliographical_info,
+            "",
+          ).toLowerCase();
 
-        for (var entry of quotesData) {
-          var matchText = entry.quote.toLowerCase().includes(search);
+          var matchText =
+            search === "" ||
+            quote.includes(search) ||
+            bibliographical.includes(search);
 
-          if (entry.person) {
-            for (var p of entry.person) {
-              var name = p.name.toLowerCase();
+          if (entry.person && Array.isArray(entry.person)) {
+            entry.person.forEach((p) => {
+              var name = safeText(p.name, "").toLowerCase();
 
-              // "Nachname, Vorname" → "Vorname Nachname"
               var parts = name.split(",");
               var flipped =
                 parts.length === 2
@@ -253,26 +447,31 @@
               if (name.includes(search) || flipped.includes(search)) {
                 matchText = true;
               }
-            }
+            });
           }
 
           var matchLang = lang ? entry.language === lang : true;
           var matchCountry = country ? entry.country === country : true;
 
-          if (matchText && matchLang && matchCountry) {
-            result.push(entry);
-          }
-        }
+          return matchText && matchLang && matchCountry;
+        });
 
-        displayQuotes(result);
+        applySorting();
+        displayQuotes(currentData);
+        updateVisibleZoteroLinks();
       }
 
       function sortQuotes() {
+        applySorting();
+        displayQuotes(currentData);
+        updateVisibleZoteroLinks();
+      }
+
+      function applySorting() {
         var sortBy = document.getElementById("sortQuotes").value;
-        var sorted = quotesData.slice();
 
         if (sortBy === "alphabet") {
-          sorted.sort((a, b) => {
+          currentData.sort((a, b) => {
             var A = a.person?.[0]?.name || "";
             var B = b.person?.[0]?.name || "";
             return A.localeCompare(B);
@@ -280,97 +479,93 @@
         }
 
         if (sortBy === "year") {
-          sorted.sort((a, b) => (a.year || 0) - (b.year || 0));
+          currentData.sort((a, b) => {
+            var yearA = a.year || 999999;
+            var yearB = b.year || 999999;
+            return yearA - yearB;
+          });
         }
-
-        displayQuotes(sorted);
       }
 
-      /* =========================================================
-         NEU: Eine gemeinsame Render-Funktion für Card HTML
-         (damit Random Quote exakt gleich aussieht wie die Kacheln)
-      ========================================================= */
-      function renderQuoteHTML(entry, isFeatured) {
+      function renderQuoteHTML(entry, isFeatured, uniqueId) {
         var authors = "unknown";
-        if (entry.person?.length) {
+
+        if (
+          entry.person &&
+          Array.isArray(entry.person) &&
+          entry.person.length
+        ) {
           authors = entry.person
-            .map((p) => `${p.name} (${p.gender || "?"})`)
+            .map(
+              (p) =>
+                `${safeText(p.name, "unknown")} (${safeText(p.gender, "?")})`,
+            )
             .join(", ");
         }
 
         var gndHTML = entry.GND
-          ? `<a href='https://d-nb.info/gnd/${entry.GND}' target='_blank'>${entry.GND}</a>`
+          ? `<a href="https://d-nb.info/gnd/${entry.GND}" target="_blank">${entry.GND}</a>`
           : "N/A";
 
         var wdHTML = entry.WikiID
-          ? `<a href='https://www.wikidata.org/wiki/${entry.WikiID}' target='_blank'>${entry.WikiID}</a>`
+          ? `<a href="https://www.wikidata.org/wiki/${entry.WikiID}" target="_blank">${entry.WikiID}</a>`
           : "N/A";
 
+        var zoteroKey = extractZoteroKey(entry.zotero_key);
+
+        var zoteroHTML = zoteroKey
+          ? `<span id="zotero-link-${uniqueId}" data-zotero-key="${zoteroKey}">loading...</span>`
+          : `<span>No Zotero key</span>`;
+
         var headline = isFeatured
-          ? `<h3 style='margin-top:0;color:#d19f00;font-size:0.7rem;'>random quote</h3>`
+          ? `<h3 style="margin-top:0;color:#d19f00;font-size:0.7rem;">random quote</h3>`
           : "";
 
         return `
-          ${headline}
-          <strong>${authors} (${entry.year || "unknown"})</strong>
-          <em style='font-size: 0.85rem;'>“${entry.quote}”</em>
-          <p>🌐 ${entry.language} | 🏳 ${entry.country || "unknown"}</p>
-          <p>🧾 GND: ${gndHTML}</p>
-          <p><img src='https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikidata-logo.svg' style='width:16px;height:16px;vertical-align:middle;margin-right:5px;'> WikiData: ${wdHTML}</p>
-          <p>📖 Bibliographical Info: ${entry.bibliographical_info || "N/A"}</p>
-          <p><img src='https://www.zotero.org/support/_media/logo/zotero_16x16x32.png' style='width:16px;height:16px;vertical-align:middle;margin-right:5px;'>
-            Zotero Source: <span id='zotero-link-${entry.id}'>loading...</span>
-          </p>
-        `;
+        ${headline}
+        <strong>${authors} (${safeText(entry.year, "unknown")})</strong>
+        <em style="font-size: 0.85rem;">“${safeText(entry.quote, "")}”</em>
+        <p>🌐 ${safeText(entry.language, "unknown")} | 🏳 ${safeText(entry.country, "unknown")}</p>
+        <p>🧾 GND: ${gndHTML}</p>
+        <p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Wikidata-logo.svg" style="width:16px;height:16px;vertical-align:middle;margin-right:5px;">
+          WikiData: ${wdHTML}
+        </p>
+        <p>📖 Bibliographical Info: ${safeText(entry.bibliographical_info, "N/A")}</p>
+        <p>
+          <img src="https://www.zotero.org/support/_media/logo/zotero_16x16x32.png" style="width:16px;height:16px;vertical-align:middle;margin-right:5px;">
+          Zotero Source: ${zoteroHTML}
+        </p>
+      `;
       }
 
       function displayQuotes(data) {
         var container = document.getElementById("quotes-container");
         container.innerHTML = "";
 
-        data.forEach((entry) => {
+        data.forEach((entry, index) => {
+          var uniqueId = getUniqueId(entry, index, "card");
+
           var card = document.createElement("div");
           card.className = "card";
-
-          // nutzt jetzt die gemeinsame Render-Funktion
-          card.innerHTML = renderQuoteHTML(entry, false);
+          card.innerHTML = renderQuoteHTML(entry, false, uniqueId);
 
           container.appendChild(card);
-
-          if (entry.zotero_key) fetchZoteroData(entry.id, entry.zotero_key);
         });
       }
 
-      function fetchZoteroData(entryId, zoteroKey) {
-        var groupID = "5261383";
-        fetch(
-          `https://api.zotero.org/groups/${groupID}/items/${zoteroKey}?format=json`,
-        )
-          .then((r) => r.json())
-          .then((data) => {
-            var title = data.data.title || "Zotero Item";
-            var link = `https://www.zotero.org/groups/${groupID}/items/${zoteroKey}`;
-            document.getElementById(`zotero-link-${entryId}`).innerHTML =
-              `<a href="${link}" target="_blank">${title}</a>`;
-          })
-          .catch(() => {
-            document.getElementById(`zotero-link-${entryId}`).textContent =
-              "Zotero Item";
-          });
-      }
-
       function showRandomQuote() {
-        var entry = quotesData[Math.floor(Math.random() * quotesData.length)];
+        if (!quotesData.length) return;
+
+        var randomIndex = Math.floor(Math.random() * quotesData.length);
+        var entry = quotesData[randomIndex];
+        var uniqueId = getUniqueId(entry, randomIndex, "random");
 
         var box = document.getElementById("featured-quote");
-
-        // Random Quote zeigt jetzt ALLE Angaben wie die Kacheln
-        box.innerHTML = renderQuoteHTML(entry, true);
-
+        box.innerHTML = renderQuoteHTML(entry, true, uniqueId);
         box.classList.remove("hidden");
 
-        // auch bei Random Quote Zotero laden (wie bei den Kacheln)
-        if (entry.zotero_key) fetchZoteroData(entry.id, entry.zotero_key);
+        updateVisibleZoteroLinks();
       }
 
       loadYAML();
