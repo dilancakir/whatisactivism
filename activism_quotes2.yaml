@@ -2429,7 +2429,7 @@
   quote: >
     Das Lesen von möglichst breitgefächerter Literatur mit Achtsamkeit und Hingabe ist selbst eine Form von Aktivismus, von der ich mir wünschen würde, dass sie sich größtmöglich, pandemisch ausbreitet.
   bibliographical_info: "p. 26"
-- id: quote_133´4
+- id: quote_134
   GND:
     - 121616193
   WikiID:
@@ -2445,3 +2445,19 @@
   quote: >
     Der Frieden geht - ebenso wie seine Aufhebung - aus subjektiven Willensakten hervor - so die Vorstellung der in der Friedensbewegung tätigen Aktivisten.
   bibliographical_info: "p. 14"
+- id: quote_135
+  GND:
+    - N.N.
+  WikiID:
+    - N.N.
+  country: Germany
+  zotero_key: ZYDIH4FB
+  language: English
+  person:
+    - name: Bek, Mine Gencel
+      gender: f
+      gender_provenece: inferred
+  year: 2023
+  quote: >
+    Academics mainly mention their list of publications more than their courses while sometimes remaining unengaged with the world of activism or often attaching the issue only as a research topic.
+  bibliographical_info: "p. 125"
