@@ -2461,3 +2461,19 @@
   quote: >
     Academics mainly mention their list of publications more than their courses while sometimes remaining unengaged with the world of activism or often attaching the issue only as a research topic.
   bibliographical_info: "p. 125"
+- id: quote_136
+  GND:
+    - 137143109
+  WikiID:
+    - Q41620928
+  country: Netherlands
+  zotero_key: 48P8R2BC
+  language: English
+  person:
+    - name: Klandermans, Bert
+      gender: m
+      gender_provenece: inferred
+  year: 2015
+  quote: >
+    Activists work hard to create moral outrage and anger and to provide a target against which these can be vented. They must weave together a moral, cognitive, and emotional package.
+  bibliographical_info: "p. 224"
