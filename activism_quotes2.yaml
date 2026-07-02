@@ -2477,3 +2477,19 @@
   quote: >
     Activists work hard to create moral outrage and anger and to provide a target against which these can be vented. They must weave together a moral, cognitive, and emotional package.
   bibliographical_info: "p. 224"
+- id: quote_137
+  GND:
+    - 137143109
+  WikiID:
+    - Q41620928
+  country: Netherlands
+  zotero_key: 48P8R2BC
+  language: English
+  person:
+    - name: Klandermans, Bert
+      gender: m
+      gender_provenece: inferred
+  year: 2015
+  quote: >
+    Action mobilization concerns the transformation of sympathizers into activists. Indeed, activating sympathizers is difficult enough let alone turning people into sympathizers. Therefore, action mobilization campaigns tend to concentrate on transforming sympathizers into participants.
+  bibliographical_info: "p. 227"
