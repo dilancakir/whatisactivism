@@ -2514,3 +2514,24 @@
   quote: >
     Moreover, the internet and social media have changed the collective action repertoire even further, for example, think of post-it activism and clicktivism. The underlying motivational dynamics of these digital repertoires of activism are hotly debated in the literature [...].
   bibliographical_info: "p. 7"
+- id: quote_139
+  GND:
+    - 1045323861
+    - 137143109
+  WikiID:
+    - Q58236971
+    - Q41620928
+  country: Netherlands
+  zotero_key: 79D8FQGM
+  language: English
+  person:
+    - name: Van Stekelenburg, Jacquelien
+      gender: f
+      gender_provenece: inferred
+    - name: Klandermans, Bert
+      gender: m
+      gender_provenece: inferred
+  year: 2023
+  quote: >
+    People often go from one activity to another, sometimes from one movement to another, and in so doing build activist careers.
+  bibliographical_info: "p. 13"
