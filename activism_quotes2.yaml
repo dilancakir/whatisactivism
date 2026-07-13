@@ -2551,3 +2551,19 @@
   quote: >
     Ich denke bei dem Begriff "Aktivismus" zuerst an Menschen, die keinee Wahl haben und im Zweifel bereit sind, ein echtes Risiko einzugehen. Menschen, die durch ihren Mut und ihre Taten in Geschichtsbücher eingegangen sind. Menschen, die Konsequenz für ihren Widerstand auf sich genommen und dadurch die Welt nachhaltig verändert haben.
   bibliographical_info: "p. 204"
+- id: quote_141
+  GND:
+    - 1053052936
+  WikiID:
+    - Q116008083
+  country: Sweden
+  zotero_key: S9M77P8B
+  language: English
+  person:
+    - name: Dahlberg, Leif
+      gender: m
+      gender_provenece: inferred
+  year: 2025
+  quote: >
+    It is sometimes argued that artivism, like civil disobedience, should be ‘disturbing’. But not all direct actions—legal or not—are disturbing or uncivil, and the same would be the case of artivist actions. At the same time, the ‘disturbing’ element in artivism can also be aesthetic, in that art often is challenging and upsetting.
+  bibliographical_info: "p. 47"
