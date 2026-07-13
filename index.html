@@ -392,11 +392,19 @@
         countrySelect.innerHTML = '<option value="">🏳 select country</option>';
 
         var languages = [
-          ...new Set(quotesData.map((q) => q.language).filter(Boolean)),
+          ...new Set(
+            quotesData
+              .map((q) => String(q.language || "").trim())
+              .filter(Boolean),
+          ),
         ].sort();
 
         var countries = [
-          ...new Set(quotesData.map((q) => q.country).filter(Boolean)),
+          ...new Set(
+            quotesData
+              .map((q) => String(q.country || "").trim())
+              .filter(Boolean),
+          ),
         ].sort();
 
         languages.forEach((l) => {
@@ -419,14 +427,14 @@
           .getElementById("search")
           .value.toLowerCase()
           .trim();
-        var lang = document.getElementById("language").value;
-        var country = document.getElementById("country").value;
+
+        var lang = document.getElementById("language").value.trim();
+        var country = document.getElementById("country").value.trim();
 
         currentData = quotesData.filter((entry) => {
-          var quote = safeText(entry.quote, "").toLowerCase();
-          var bibliographical = safeText(
-            entry.bibliographical_info,
-            "",
+          var quote = String(entry.quote || "").toLowerCase();
+          var bibliographical = String(
+            entry.bibliographical_info || "",
           ).toLowerCase();
 
           var matchText =
@@ -436,7 +444,7 @@
 
           if (entry.person && Array.isArray(entry.person)) {
             entry.person.forEach((p) => {
-              var name = safeText(p.name, "").toLowerCase();
+              var name = String(p.name || "").toLowerCase();
 
               var parts = name.split(",");
               var flipped =
@@ -450,8 +458,11 @@
             });
           }
 
-          var matchLang = lang ? entry.language === lang : true;
-          var matchCountry = country ? entry.country === country : true;
+          var entryLanguage = String(entry.language || "").trim();
+          var entryCountry = String(entry.country || "").trim();
+
+          var matchLang = lang === "" || entryLanguage === lang;
+          var matchCountry = country === "" || entryCountry === country;
 
           return matchText && matchLang && matchCountry;
         });
