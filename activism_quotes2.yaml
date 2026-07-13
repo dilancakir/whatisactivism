@@ -2535,3 +2535,19 @@
   quote: >
     People often go from one activity to another, sometimes from one movement to another, and in so doing build activist careers.
   bibliographical_info: "p. 13"
+- id: quote_140
+  GND:
+    - 1401032869
+  WikiID:
+    - Q139622048
+  country: Germany
+  zotero_key: SN7WI68N
+  language: German
+  person:
+    - name: Muttardi, Aljosha
+      gender: m
+      gender_provenece: inferred
+  year: 2026
+  quote: >
+    Ich denke bei dem Begriff "Aktivismus" zuerst an Menschen, die keinee Wahl haben und im Zweifel bereit sind, ein echtes Risiko einzugehen. Menschen, die durch ihren Mut und ihre Taten in Geschichtsbücher eingegangen sind. Menschen, die Konsequenz für ihren Widerstand auf sich genommen und dadurch die Welt nachhaltig verändert haben.
+  bibliographical_info: "p. 204"
