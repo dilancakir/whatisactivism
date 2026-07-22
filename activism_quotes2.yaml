@@ -2581,12 +2581,12 @@
       gender_provenece: inferred
   year: 2025
   quote: >
-    Tezer Özlü [...] sehr wichtige Autorin dieser Zeit [...]. [...] und dann ist es eine sehr klare politische Positionierung, was sich nicht übersetzt in irgendwie aktivistische Texte, wobei ich das Wort aktivistisch hier gar nicht negativ nutzen will. Also was sich nicht übersetzt in Texte, die primär mit einem politischen Ziel geschrieben werden. Die aber politisch sind aufgrud der Positionierung ihrer Autorinnen.
+    <a href="https://www.wikidata.org/wiki/Q2408128" target="_blank">Tezer Özlü</a> [...] sehr wichtige Autorin dieser Zeit [...] und dann ist es eine sehr klare politische Positionierung, was sich nicht übersetzt in irgendwie aktivistische Texte, wobei ich das Wort aktivistisch hier gar nicht negativ nutzen will. Also was sich nicht übersetzt in Texte, die primär mit einem politischen Ziel geschrieben werden. Die aber politisch sind aufgrud der Positionierung ihrer Autorinnen.
   bibliographical_info: "min. 28:40"
 - id: quote_143
-  GND: 
+  GND:
     - 118551132
-  WikiID: 
+  WikiID:
     - Q66458
   country: Germany
   zotero_key: GDJTE5AZ
@@ -2595,8 +2595,23 @@
     - name: Hiller, Kurt
       gender: m
       gender_provenece: inferred
-  year: 2025
+  year: 1917
   quote: >
     Der Aktivist ist kein Feind der Kunst; er weist ihr im Gesamtbau der Kultur sogar einen viel hoheren Rang zu als das 1’art pour Part -Volk der verflossenen Ära [...].
   bibliographical_info: "p. 90"
-
+- id: quote_144
+  GND:
+    - 118551132
+  WikiID:
+    - Q66458
+  country: Germany
+  zotero_key: GDJTE5AZ
+  language: German
+  person:
+    - name: Hiller, Kurt
+      gender: m
+      gender_provenece: inferred
+  year: 1917
+  quote: >
+    Im Novemberheft der "Neuen Rundschau" knüpft <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">Thomas Mann</a> an die Würdigung einer bibliophilen Ausgabe des Eichendorffschen Taugenichts polemische Betrachtungen über eine Bewegung, die, unter Führung <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Manns</a> und anderer, seit etwa 1910 in Deutschland da ist, von akademischer Pathetik gelegentlich als Neu-Idealismus bezeichnet wird, sonst als Voluntarismus, Politizismus oder Aktivismus, und, so sehr ihr Kernwille in den einzelnen Vertretem differenziert, doch dies als ihre oberste Norm wohl durchweg anerkennt: Umgestaltung der Welt nach dem Befehl der Idee.
+  bibliographical_info: "p. 88"
