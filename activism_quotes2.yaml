@@ -2615,3 +2615,19 @@
   quote: >
     Im Novemberheft der "Neuen Rundschau" knüpft <a href="https://www.wikidata.org/wiki/Q37030" target="_blank">Thomas Mann</a> an die Würdigung einer bibliophilen Ausgabe des Eichendorffschen Taugenichts polemische Betrachtungen über eine Bewegung, die, unter Führung <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Manns</a> und anderer, seit etwa 1910 in Deutschland da ist, von akademischer Pathetik gelegentlich als Neu-Idealismus bezeichnet wird, sonst als Voluntarismus, Politizismus oder Aktivismus, und, so sehr ihr Kernwille in den einzelnen Vertretem differenziert, doch dies als ihre oberste Norm wohl durchweg anerkennt: Umgestaltung der Welt nach dem Befehl der Idee.
   bibliographical_info: "p. 88"
+- id: quote_145
+  GND:
+    - 12077061X
+  WikiID:
+    - Q1504934
+  country: Germany
+  zotero_key: DTEW4RIS
+  language: German
+  person:
+    - name: Jäger, Georg
+      gender: m
+      gender_provenece: inferred
+  year: 2000
+  quote: >
+    Der Aktivismus, »die handlungstheoretische Variante des Expressionismus«, vollzog »den Schritt von der Utopie zur Politik, vom >Geist< zur >Tat<« und glaubte von der Kunst und Literatur aus eine gesellschaftspolitische Neuorientierung erreichen zu können.
+  bibliographical_info: "p. 16"
