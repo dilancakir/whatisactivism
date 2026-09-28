@@ -2631,3 +2631,19 @@
   quote: >
     Der Aktivismus, »die handlungstheoretische Variante des Expressionismus«, vollzog »den Schritt von der Utopie zur Politik, vom >Geist< zur >Tat<« und glaubte von der Kunst und Literatur aus eine gesellschaftspolitische Neuorientierung erreichen zu können.
   bibliographical_info: "p. 16"
+- id: quote_146
+  GND:
+    - 116470925
+  WikiID:
+    - Q1737940
+  country: Germany
+  zotero_key: 4C59LHRF
+  language: German
+  person:
+    - name: Emmerich, Georg
+      gender: m
+      gender_provenece: inferred
+  year: 2001
+  quote: >
+    Es geht auch um die Frage, was die Schriftsteller im Zeitraum 1945 bis 2000 denn noch taten, wenn sie nicht gerade dichteten. Nun, sie mischten sich bekanntlich ein in Belange von Gesellschaft und Zeitgeschehe&#x6E;, oder, mit dem Essaytitel des Expressionisten und Aktivisten <a href="https://www.wikidata.org/wiki/Q1874926" target="_blank">Ludwig Rubiner</a> aus dem Jahre 1912 zu sprechen (der sich dabei bewundernd auf <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a> bezieht): »Der Dichter greift in die Politik«. Gewiß, das hatte es schon immer gegeben, von <a href="https://www.wikidata.org/wiki/Q44385" target="_blank">Walther von der Vogelweide</a> bis zu <a href="https://www.wikidata.org/wiki/Q58062" target="_blank">Georg Forster</a> und von <a href="https://www.wikidata.org/wiki/Q77107" target="_blank">Ulrich von Hutten</a> bis zu <a href="https://www.wikidata.org/wiki/Q154014" target="_blank">Georg Büchner</a>. Insbesondere Jakobinismus und Vormärz sind Epochen, in denen sich Schriftsteller programmatisch als politische, operativ wirkende Publizisten verstehen. Und doch ist erst das zwanzigste Jahrhundert die Zeit des permanenten und unauflöslichen Verhaktseins von ästhetischer Produktion und politischem Engagement, von literarischer Autorschaft und öffentlicher Intellektuellenrolle.
+  bibliographical_info: "p. 28"
