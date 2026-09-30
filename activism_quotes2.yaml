@@ -2663,3 +2663,19 @@
   quote: >
     Ob man wie <a href="https://www.wikidata.org/wiki/Q76357" target="_blank">Habermas</a> die unpolitischen Dichterfürsten, die Mandarine der Wissenschaft, die linksradikalen Aktivisten, die parteipolitisch engagierten kommunistischen Intellektuellen und schließlich die Rechtsintellektuellen oder wie <a href="https://www.wikidata.org/wiki/Q1522953" target="_blank">Sontheimer</a> die engagierten linken Intellektuellen (<a href="https://www.wikidata.org/wiki/Q76480" target="_blank">H. Mann</a>), die Gemäßigten und Liberalen (<a href="https://www.wikidata.org/wiki/Q2594" target="_blank">Th. Heuss</a>), die Vernunftrepublikaner (<a href="https://www.wikidata.org/wiki/Q66147" target="_blank">F. Meinecke</a>) und die Jungkonservativen unterscheidet, ändert an der Sache wenig. Übergänge von einem Lager zum anderen, geheime Querverbindungen und subtile Mischungen werden damit nicht erfaßt.
   bibliographical_info: "p. 40-41"
+- id: quote_148
+  GND:
+    - 1103704273
+  WikiID:
+    - Q95763755
+  country: Germany
+  zotero_key: XJALG2AM
+  language: German
+  person:
+    - name: Stark, Michael
+      gender: m
+      gender_provenece: inferred
+  year: 2000
+  quote: >
+    In Deutschland waren es Autoren aus dem Umkreis des literarischen Expressionismus und Aktivismus, die sich auf das französische Vorbild beriefen und es als innovativ präsent hielten: >Intellektuelle< sei »nicht ein zur beliebigen Verfügung stehendes Schlagwort, sondern die Bezeichnung für eine geschichtliche Erscheinung«, wandte <a href="https://www.wikidata.org/wiki/Q69322" target="_blank">Rene Schikkele</a> gegen die schon bald einsetzende Zerfaserung des Intellektuellen-Diskurses ein und hob auf den parteiunabhängigen Status der dreyfusistischen Opposition ab: »Es war eine Partei geistiger Freischärler. Die Partei der Unprofessionellen oder gar Parteilosen, hochherzig empfindender und radikal denkender Bürger, die vor allem geistige Ziele verfolgten.« Vom anti-modernen Kulturgebaren des Wilhelminismus gereizt, fühlte sich die revoltierende Literatengeneration durch Mentoren wie <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a> bestätigt, dessen vielbeachteter Essay Geist und Tat das programmatische Diktum enthielt: »Der Faust- und Autoritätsmensch muß der Feind sein. Ein Intellektueller, der sich an die Herrenkaste heranmacht, begeht Verrat am Geist. Denn der Geist ist nichts Erhaltendes und gibt kein Vorrecht.«
+  bibliographical_info: "p. 57"
