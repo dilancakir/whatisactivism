@@ -2711,3 +2711,19 @@
   quote: >
     Von der Überlegenheit und Langeweile des dekadenten, dandyhaften Ästhetismus zur Rhetorik des Aktivismus und der ihn propagierenden »ideelichen Kunst«; vom selbstbildenden Individualismus zum weltverbessernden ethisch-politischen Engagement; vom reformistischen Liberalismus innerhalb des bestehenden Systems zum aristokratischen Sozialismus bzw. revolutionären Utopismus, der sich vornahm, das bestehende System qualitativ zu verändern.
   bibliographical_info: "p. 473"
+- id: quote_151
+  GND:
+    - 118544209
+  WikiID:
+    - Q76357
+  country: Germany
+  zotero_key: XLIBPNE4
+  language: German
+  person:
+    - name: Habermas, Jürgen
+      gender: m
+      gender_provenece: inferred
+  year: 1986
+  quote: >
+    Diese Aktivisten teilen mit den unpolitischen Dichterfürsten und mit den Mandarinen der Wissenschaft den bildungselitären Anspruch aufs Höhere, während sie mit den Realpolitikern die falsche Annahme teilen, daß politisches Engagement für den Intellektuellen heißen müsse, im Kampf der politischen Parteien eine eigene Machtposition zu erringen und im politischen Betrieb selbst eine Funktion zu übernehmen.
+  bibliographical_info: "p. 457"
