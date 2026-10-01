@@ -2681,6 +2681,22 @@
   bibliographical_info: "p. 57"
 - id: quote_149
   GND:
+    - 1103704273
+  WikiID:
+    - Q95763755
+  country: Germany
+  zotero_key: XJALG2AM
+  language: German
+  person:
+    - name: Stark, Michael
+      gender: m
+      gender_provenece: inferred
+  year: 2000
+  quote: >
+    Fraglos war die Betonung des hohen Anteils jüdischer Autoren an Expressionismus,literarischem Aktivismus und unter den Linksintellektuellen der Weimarer Republik seinerzeit vor allem eine Strategie, verbreitete Vorbehalte gegen moderne Kunst und engagierte Literatur für antisemitische Agitation zu nutzen.
+  bibliographical_info: "p. 63"
+- id: quote_150
+  GND:
     - N.N.
   WikiID:
     - N.N.
