@@ -2789,5 +2789,36 @@
       gender_provenece: inferred
   year: 2024
   quote: >
-    Der Dichterin, Arbeiterin, Arbeitsmigrantin und politischen Aktivistin <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Semra Ertan</a> wurde in den letzten Jahren durch journalistische Berichte, museale Ausstellungen und wissenschaftliche Erwähnungen (vgl. <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> 2023: 6) vermehrt Aufmerksamkeit geschenkt. [...] Die <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">„dichtende Arbeiterin“</a> (ebd.) kontextualisiert in ihren Texten Wut als aktivistisches Mittel und Gemeinschaft als Ort, an dem Gleichgesinnte erstere produktiv nutzen können..
+    Der Dichterin, Arbeiterin, Arbeitsmigrantin und politischen Aktivistin <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Semra Ertan</a> wurde in den letzten Jahren durch journalistische Berichte, museale Ausstellungen und wissenschaftliche Erwähnungen (vgl. <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> 2023: 6) vermehrt Aufmerksamkeit geschenkt. [...] Die <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">„dichtende Arbeiterin“</a> (ebd.) kontextualisiert in ihren Texten Wut als aktivistisches Mittel und Gemeinschaft als Ort, an dem Gleichgesinnte erstere produktiv nutzen können.
   bibliographical_info: "p. 58"
+- id: quote_156
+  GND:
+    - N.N.
+    - 1061551040
+    - 1355519586
+    - 172178665
+  WikiID:
+    - Q136450503
+    - Q95188934
+    - N.N.
+    - Q133518209
+  country: Germany
+  zotero_key: W8I3MX5U
+  language: German
+  person:
+    - name: Choukri, Meryem
+      gender: f
+      gender_provenece: inferred
+    - name: Bilir-Meier, Cana
+      gender: f
+      gender_provenece: inferred
+    - name: Dean, Jasmin
+      gender: f
+      gender_provenece: inferred
+    - name: Kalpaka, Annita
+      gender: f
+      gender_provenece: inferred
+  year: 2026
+  quote: >
+    Über <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> wurde gesprochen, doch zugleich blieb sie unsichtbar oder stumm. In den Darstellungen wurde sie häufig auf bestimmte Zuschreibungen reduziert: als Frau, als Alevitin, als Muslimin, als türkeistämmige Migrantin arabischer Herkunft und Aktivistin.
+  bibliographical_info: "p. 181"
