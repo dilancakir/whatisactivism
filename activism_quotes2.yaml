@@ -2793,29 +2793,14 @@
   bibliographical_info: "p. 58"
 - id: quote_156
   GND:
-    - N.N.
     - 1061551040
-    - 1355519586
-    - 172178665
   WikiID:
-    - Q136450503
     - Q95188934
-    - N.N.
-    - Q133518209
   country: Germany
   zotero_key: W8I3MX5U
   language: German
   person:
-    - name: Choukri, Meryem
-      gender: f
-      gender_provenece: inferred
     - name: Bilir-Meier, Cana
-      gender: f
-      gender_provenece: inferred
-    - name: Dean, Jasmin
-      gender: f
-      gender_provenece: inferred
-    - name: Kalpaka, Annita
       gender: f
       gender_provenece: inferred
   year: 2026
