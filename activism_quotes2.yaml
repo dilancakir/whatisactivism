@@ -2807,3 +2807,19 @@
   quote: >
     Über <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> wurde gesprochen, doch zugleich blieb sie unsichtbar oder stumm. In den Darstellungen wurde sie häufig auf bestimmte Zuschreibungen reduziert: als Frau, als Alevitin, als Muslimin, als türkeistämmige Migrantin arabischer Herkunft und Aktivistin. Doch <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Semra Ertan</a> hat sich durch die Poesie und durch ihren Aktivismus immer gegen diese Zuschreibungen gewehrt. Ihr Widerstand und ihr Blick auf das Leben sind ein Teil von Erfahrungen vieler Arbeitsmigrant:innen und ich frage mich oft, wie viele andere Denker:innen es noch gegeben hätte, wenn ihnen die Teilhabe nicht verweigert worden wäre?
   bibliographical_info: "p. 181"
+- id: quote_157
+  GND:
+    - 1061551040
+  WikiID:
+    - Q95188934
+  country: Germany
+  zotero_key: W8I3MX5U
+  language: German
+  person:
+    - name: Bilir-Meier, Cana
+      gender: f
+      gender_provenece: inferred
+  year: 2026
+  quote: >
+    Identitäten nach <a href="https://www.wikidata.org/wiki/Q3109110" target="_blank">Anzaldúa</a> und <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> sind im Widerspruch zueinander. Das inspiriert mich bis heute – ebenso wie viele Aktivist:innen und Denker:innen vor uns, die Geschichte geschrieben haben und uns noch immer Kraft geben.
+  bibliographical_info: "p. 182"
