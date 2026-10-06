@@ -2743,3 +2743,19 @@
   quote: >
     Zu <a href="https://www.wikidata.org/wiki/Q2173136" target="_blank">Rudolf Kayser</a>, dem Lektor des Fischer Verlags und Mitbegründer einer der bekanntesten deutschen Intellektuellenorganisationen, des »Aktivismus«, ergaben sich sogar enge familiäre Bindungen durch dessen Heirat mit <a href="https://www.wikidata.org/wiki/Q937" target="_blank">Einsteins</a> Adoptivtochter <a href="https://d-nb.info/gnd/1025300947" target="_blank">Ilse</a> 1926. Diese Schriftsteller, Künstler und Publizisten galten bereits in den 20er Jahren als prototypische linke Intellektuelle und <a href="https://www.wikidata.org/wiki/Q76480" target="_blank">Heinrich Mann</a> geradezu als eine moralische Institution.
   bibliographical_info: "p. 78"
+- id: quote_153
+  GND:
+    - 123876931
+  WikiID:
+    - Q95213230
+  country: Germany
+  zotero_key: DZ8FRHIP
+  language: German
+  person:
+    - name: Thomas, Tanja
+      gender: f
+      gender_provenece: inferred
+  year: 2025
+  quote: >
+    Solcherart Theoretisierungen laden ein, Erinnerungspraxen als politische Interventionen in den Mittelpunkt zu rücken; so plädiert etwa Karina Horsti 2019 für einen ‚archival activism‘ im Sinne einer Beförderung kosmopolitischer Solidarität.
+  bibliographical_info: "p. 257"
