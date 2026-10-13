@@ -2823,3 +2823,19 @@
   quote: >
     Identitäten nach <a href="https://www.wikidata.org/wiki/Q3109110" target="_blank">Anzaldúa</a> und <a href="https://www.wikidata.org/wiki/Q1295380" target="_blank">Ertan</a> sind im Widerspruch zueinander. Das inspiriert mich bis heute – ebenso wie viele Aktivist:innen und Denker:innen vor uns, die Geschichte geschrieben haben und uns noch immer Kraft geben.
   bibliographical_info: "p. 182"
+- id: quote_158
+  GND:
+    - 1060526697
+  WikiID:
+    - Q47308129
+  country: USA
+  zotero_key: BL5N49NE
+  language: English
+  person:
+    - name: Bargu, Banu
+      gender: f
+      gender_provenece: inferred
+  year: 2026
+  quote: >
+    Even though we know that <a href="https://www.wikidata.org/wiki/Q44272" target="_blank">Foucault’s</a> own activism came at a time when political prisoners in French prisons (especially imprisoned Maoist militants) staged hunger strikes and joined other prisoners in multiple acts of resistance in the early 1970s, Foucault does not reveal to us whether the prisoners who occasion his work are motivated by specifically political crimes and carry out resistance for political causes or whether they are political by virtue of their reaction to the machinery of power functioning through the limitation of transgressive social action.
+  bibliographical_info: "p. 59"
