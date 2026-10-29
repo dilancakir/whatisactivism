@@ -2839,3 +2839,19 @@
   quote: >
     Even though we know that <a href="https://www.wikidata.org/wiki/Q44272" target="_blank">Foucault’s</a> own activism came at a time when political prisoners in French prisons (especially imprisoned Maoist militants) staged hunger strikes and joined other prisoners in multiple acts of resistance in the early 1970s, <a href="https://www.wikidata.org/wiki/Q44272" target="_blank">Foucault</a> does not reveal to us whether the prisoners who occasion his work are motivated by specifically political crimes and carry out resistance for political causes or whether they are political by virtue of their reaction to the machinery of power functioning through the limitation of transgressive social action.
   bibliographical_info: "p. 59"
+- id: quote_15
+  GND:
+    - 116470925
+  WikiID:
+    - Q1737940
+  country: Germany
+  zotero_key:
+  language: German
+  person:
+    - name: Emmerich, Georg
+      gender: m
+      gender_provenece: inferred
+  year: 2000
+  quote: >
+    Überblickt man die ersten zwanzig Jahre der ostdeutschen Sonderexistenz von 1945 bis etwa 1965, dann muß man feststellen, daß die übergroße Mehrzahl der Schriftsteller gerade aus der von mir so genannten >zweiten Generation die ihr angetragene Rolle als Erzieher der noch nachhinkenden Volksmassen auf dem Weg zum Endziel Sozialismus, als sozialistisches Gewissen willig annahm und sich ihrer volkspädagogischen, »ganz ausgesprochen sozialaktivistischen« Aufgabe <a href="https://www.wikidata.org/wiki/Q61627" target="_blank">(Uwe Johnson)</a> mit Hingabe widmete.
+  bibliographical_info: "p. 278-279"
