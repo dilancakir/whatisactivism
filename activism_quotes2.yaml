@@ -2897,3 +2897,24 @@
   quote: >
     Letztlich ging es <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a>, wie der Mehrzahl der Aktivisten, nicht um eine Realisierung konkreter Ziele im Bereich der Politik, sondern um eine Entdifferenzierung der Bereiche von politischer Praxis und geistiger bzw. ethischer Auseinandersetzung, nämlich um eine Subsumtion der Politik unter die - freilich nie kodifizierten - Regeln des Geistes:
   bibliographical_info: "p. 96"
+- id: quote_162
+  GND:
+    - 1055751742
+    - 120756730
+  WikiID:
+    - Q139156070
+    - Q69018604
+  country: Germany
+  zotero_key: 2WGWHZR7
+  language: German
+  person:
+    - name: Christa, Hempel-Küter
+      gender: f
+      gender_provenece: inferred
+    - name: Müller, Hans-Harald
+      gender: m
+      gender_provenece: inferred
+  year: 1997
+  quote: >
+    <a href="https://www.wikidata.org/wiki/Q76440" target="_blank">Eisner</a>, ein aktivistischer Schriftsteller und Politiker, der Kontakte zur Arbeiterklasse besaß und für seine pazifistische Uberzeugung im Gefängnis gesessen hatte, entsprach im Frühjahr 1918 <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Tollers</a> Idealbild des geistigen Revolutionärs eher als der akademische Gelehrte <a href="https://www.wikidata.org/wiki/Q9387" target="_blank">Max Weber</a> und löste diesen als Idol ab. Auf einem der aktivistischen Kongresse in Berlin, die unter dem Motto 'Arbeiter der Faust und der Stirn vereinigt Euch' stattfand, soll <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a>, der sich <a href="https://www.wikidata.org/wiki/Q76440" target="_blank">Eisner</a> angeschlossen hatte, seinen ersten öffentlichen Auftritt gehabt haben.
+  bibliographical_info: "p. 98"
