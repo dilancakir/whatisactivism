@@ -2918,3 +2918,24 @@
   quote: >
     <a href="https://www.wikidata.org/wiki/Q76440" target="_blank">Eisner</a>, ein aktivistischer Schriftsteller und Politiker, der Kontakte zur Arbeiterklasse besaß und für seine pazifistische Uberzeugung im Gefängnis gesessen hatte, entsprach im Frühjahr 1918 <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Tollers</a> Idealbild des geistigen Revolutionärs eher als der akademische Gelehrte <a href="https://www.wikidata.org/wiki/Q9387" target="_blank">Max Weber</a> und löste diesen als Idol ab. Auf einem der aktivistischen Kongresse in Berlin, die unter dem Motto 'Arbeiter der Faust und der Stirn vereinigt Euch' stattfand, soll <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a>, der sich <a href="https://www.wikidata.org/wiki/Q76440" target="_blank">Eisner</a> angeschlossen hatte, seinen ersten öffentlichen Auftritt gehabt haben.
   bibliographical_info: "p. 98"
+- id: quote_163
+  GND:
+    - 1055751742
+    - 120756730
+  WikiID:
+    - Q139156070
+    - Q69018604
+  country: Germany
+  zotero_key: 2WGWHZR7
+  language: German
+  person:
+    - name: Christa, Hempel-Küter
+      gender: f
+      gender_provenece: inferred
+    - name: Müller, Hans-Harald
+      gender: m
+      gender_provenece: inferred
+  year: 1997
+  quote: >
+    Zur Charakterisierung des für <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a> und geistesverwandte Aktivisten spezifischen Konzepts von >Politisierung< scheint es uns von entscheidender Bedeutung, daß die Grundlage für den >politischen< »Aufruf an das deutsche Volk« eine literarische Skizze bildete: auch dieser Umgang mit Textsorten ist ein wichtiges Indiz dafür, daß <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a> glaubte, das Feld der Politik den Kommunikationsregeln der literarischen Auseinandersetzung schlicht subsumieren zu können.
+  bibliographical_info: "p. 99"
