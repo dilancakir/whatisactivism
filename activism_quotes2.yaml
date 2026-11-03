@@ -2939,3 +2939,19 @@
   quote: >
     Zur Charakterisierung des für <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a> und geistesverwandte Aktivisten spezifischen Konzepts von >Politisierung< scheint es uns von entscheidender Bedeutung, daß die Grundlage für den >politischen< »Aufruf an das deutsche Volk« eine literarische Skizze bildete: auch dieser Umgang mit Textsorten ist ein wichtiges Indiz dafür, daß <a href="https://www.wikidata.org/wiki/Q57266" target="_blank">Toller</a> glaubte, das Feld der Politik den Kommunikationsregeln der literarischen Auseinandersetzung schlicht subsumieren zu können.
   bibliographical_info: "p. 99"
+- id: quote_164
+  GND:
+    - 120861917
+  WikiID:
+    - Q93414291
+  country: Germany
+  zotero_key: Y4EAHCXB
+  language: German
+  person:
+    - name: Hanuschek, Sven
+      gender: m
+      gender_provenece: inferred
+  year: 2000
+  quote: >
+    <a href="https://www.wikidata.org/wiki/Q78494" target="_blank">Seine</a> Abrechnung mit dem eigenen »roten Jahrzehnt« erschien 1949 (dt. 1950) in dem Band »Ein Gott der keiner war«, zusammen mit den antikommunistischen Erinnerungen anderer Apostaten, der »Aktivisten« <a href="https://www.wikidata.org/wiki/Q168431" target="_blank">Ignazio Silone</a> und<a href="https://www.wikidata.org/wiki/Q47484" target="_blank">Andre Gide</a>  und der »gläubigen Jünger« <a href="https://www.wikidata.org/wiki/Q319820" target="_blank">Richard Wright</a>, <a href="https://www.wikidata.org/wiki/Q1248043" target="_blank">Louis Fischer</a> und <a href="https://www.wikidata.org/wiki/Q448764" target="_blank">Stephen Spender</a>. <a href="https://www.wikidata.org/wiki/Q78494" target="_blank">Koestlers</a> Beitrag - sein Verfasser wird in der Sammlung ebenfalls unter die »Aktivisten« gezählt - ist als Auskopplung unter dem Titel »Das rote Jahrzehnt« erneut 1991 erschienen [...].
+  bibliographical_info: "p. 286"
