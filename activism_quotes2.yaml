@@ -2955,3 +2955,19 @@
   quote: >
     <a href="https://www.wikidata.org/wiki/Q78494" target="_blank">Seine</a> Abrechnung mit dem eigenen »roten Jahrzehnt« erschien 1949 (dt. 1950) in dem Band »Ein Gott der keiner war«, zusammen mit den antikommunistischen Erinnerungen anderer Apostaten, der »Aktivisten« <a href="https://www.wikidata.org/wiki/Q168431" target="_blank">Ignazio Silone</a> und<a href="https://www.wikidata.org/wiki/Q47484" target="_blank">Andre Gide</a>  und der »gläubigen Jünger« <a href="https://www.wikidata.org/wiki/Q319820" target="_blank">Richard Wright</a>, <a href="https://www.wikidata.org/wiki/Q1248043" target="_blank">Louis Fischer</a> und <a href="https://www.wikidata.org/wiki/Q448764" target="_blank">Stephen Spender</a>. <a href="https://www.wikidata.org/wiki/Q78494" target="_blank">Koestlers</a> Beitrag - sein Verfasser wird in der Sammlung ebenfalls unter die »Aktivisten« gezählt - ist als Auskopplung unter dem Titel »Das rote Jahrzehnt« erneut 1991 erschienen [...].
   bibliographical_info: "p. 286"
+- id: quote_165
+  GND:
+    - 135943337
+  WikiID:
+    - Q2020415
+  country: Austria
+  zotero_key: WHZWZ78X
+  language: English
+  person:
+    - name: Marchant, Oliver
+      gender: m
+      gender_provenece: inferred
+  year: 2019
+  quote: >
+    Activist art practices are geared toward the political practices of organization, agitation, and propaganda—practices, that is, of immersing oneself into the muddy waters of social struggle. Therefore, what contemporary artists and activists implicity claim runs counter to the spontaneous ideology of the art field. Their claim is very simple: the less art is political, the less it is political. If one wants to increase art’s politicality, one has to forge a passage toward politics. Not toward the representation or mimicry of politics, but toward politics as a social practice with its own protocols that are not, and cannot be, entirely congruent with art as defined by the functionaries of the art field. Activist practices within the art field teach us this simple lesson: Art is political when it is political. It is not when it is not.
+  bibliographical_info: "p. 14"
